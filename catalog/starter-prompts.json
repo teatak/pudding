@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "camera_canvas_scene",
+      "capabilities": ["camera", "canvas"],
+      "labels": {
+        "zh-CN": "拍张照，放到画布上",
+        "zh-TW": "拍張照，放到畫布上",
+        "en": "Take a photo and put it on the canvas"
+      },
+      "prompts": {
+        "zh-CN": "调用相机拍一张照片，识别画面里的主要对象和场景，并把照片和三条要点放到画布上。",
+        "zh-TW": "呼叫相機拍一張照片，識別畫面裡的主要物件和場景，並把照片和三條重點放到畫布上。",
+        "en": "Take a photo with the camera, identify the main objects and scene, and place the photo plus three key points on the canvas."
+      }
+    },
+    {
+      "id": "quantum_mechanics_explainer",
+      "capabilities": ["canvas"],
+      "labels": {
+        "zh-CN": "解释量子力学",
+        "zh-TW": "解釋量子力學",
+        "en": "Explain quantum mechanics"
+      },
+      "prompts": {
+        "zh-CN": "用适合初学者的方式解释量子力学：先给一个直观类比，再解释叠加、测量和纠缠三个概念，最后用一个小表格总结。",
+        "zh-TW": "用適合初學者的方式解釋量子力學：先給一個直觀比喻，再解釋疊加、測量和糾纏三個概念，最後用一個小表格總結。",
+        "en": "Explain quantum mechanics for beginners: start with an intuitive analogy, then explain superposition, measurement, and entanglement, and finish with a small summary table."
+      }
+    },
+    {
+      "id": "beginner_sci_fi_books",
+      "capabilities": ["canvas"],
+      "labels": {
+        "zh-CN": "推荐 5 本入门科幻小说",
+        "zh-TW": "推薦 5 本入門科幻小說",
+        "en": "Recommend 5 sci-fi books for beginners"
+      },
+      "prompts": {
+        "zh-CN": "推荐 5 本适合入门读者的科幻小说，并用表格列出书名、作者、适合入门的理由和阅读气质。",
+        "zh-TW": "推薦 5 本適合入門讀者的科幻小說，並用表格列出書名、作者、適合入門的理由和閱讀氣質。",
+        "en": "Recommend 5 sci-fi novels for beginners, and present them in a table with title, author, why it is beginner-friendly, and reading vibe."
+      }
+    },
+    {
+      "id": "world_cup_canvas_table",
+      "capabilities": ["browser", "canvas"],
+      "labels": {
+        "zh-CN": "世界杯赛程做成表格",
+        "zh-TW": "世界盃賽程做成表格",
+        "en": "Make a World Cup schedule table"
+      },
+      "prompts": {
+        "zh-CN": "打开 FIFA 世界杯官方赛程页面，读取 2026 世界杯最新赛程和比分，并在画布上创建表格，包含日期、球队、阶段、比分或开球时间。",
+        "zh-TW": "打開 FIFA 世界盃官方賽程頁面，讀取 2026 世界盃最新賽程和比分，並在畫布上建立表格，包含日期、球隊、階段、比分或開球時間。",
+        "en": "Open the official FIFA World Cup schedule page, read the latest 2026 World Cup fixtures and scores, and create a canvas table with date, teams, stage, score or kickoff time."
+      }
+    }
+  ]
+}
