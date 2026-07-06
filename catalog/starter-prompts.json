@@ -47,9 +47,9 @@
       "id": "world_cup_canvas_table",
       "capabilities": ["browser", "canvas"],
       "labels": {
-        "zh-CN": "世界杯赛程放到画布上",
-        "zh-TW": "世界盃賽程放到畫布上",
-        "en": "Put the World Cup schedule on the canvas"
+        "zh-CN": "查一下世界杯赛程",
+        "zh-TW": "查一下世界盃賽程",
+        "en": "Look up the World Cup schedule"
       },
       "prompts": {
         "zh-CN": "查找 2026 世界杯赛程和最新比分，并在画布上用适合浏览的 grid 或 timeline 展示，突出日期、球队、阶段、比分或开球时间。",
