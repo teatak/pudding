@@ -47,14 +47,14 @@
       "id": "world_cup_canvas_table",
       "capabilities": ["browser", "canvas"],
       "labels": {
-        "zh-CN": "世界杯赛程做成表格",
-        "zh-TW": "世界盃賽程做成表格",
-        "en": "Make a World Cup schedule table"
+        "zh-CN": "世界杯赛程放到画布上",
+        "zh-TW": "世界盃賽程放到畫布上",
+        "en": "Put the World Cup schedule on the canvas"
       },
       "prompts": {
-        "zh-CN": "打开 FIFA 世界杯官方赛程页面，读取 2026 世界杯最新赛程和比分，并在画布上创建表格，包含日期、球队、阶段、比分或开球时间。",
-        "zh-TW": "打開 FIFA 世界盃官方賽程頁面，讀取 2026 世界盃最新賽程和比分，並在畫布上建立表格，包含日期、球隊、階段、比分或開球時間。",
-        "en": "Open the official FIFA World Cup schedule page, read the latest 2026 World Cup fixtures and scores, and create a canvas table with date, teams, stage, score or kickoff time."
+        "zh-CN": "查找 2026 世界杯赛程和最新比分，并在画布上用适合浏览的 grid 或 timeline 展示，突出日期、球队、阶段、比分或开球时间。",
+        "zh-TW": "查找 2026 世界盃賽程和最新比分，並在畫布上用適合瀏覽的 grid 或 timeline 展示，突出日期、球隊、階段、比分或開球時間。",
+        "en": "Find the 2026 World Cup schedule and latest scores, then show them on the canvas as an easy-to-browse grid or timeline, highlighting date, teams, stage, score or kickoff time."
       }
     }
   ]
