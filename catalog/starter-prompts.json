@@ -10,9 +10,9 @@
         "en": "Take a photo and put it on the canvas"
       },
       "prompts": {
-        "zh-CN": "调用相机拍一张照片，识别画面里的主要对象和场景，并把照片和三条要点放到画布上。",
-        "zh-TW": "呼叫相機拍一張照片，識別畫面裡的主要物件和場景，並把照片和三條重點放到畫布上。",
-        "en": "Take a photo with the camera, identify the main objects and scene, and place the photo plus three key points on the canvas."
+        "zh-CN": "调用相机拍一张照片，识别画面里的主要对象和场景，并把照片放到画布上。",
+        "zh-TW": "呼叫相機拍一張照片，識別畫面裡的主要物件和場景，並把照片放到畫布上。",
+        "en": "Take a photo with the camera, identify the main objects and scene, and place the photo on the canvas."
       }
     },
     {
