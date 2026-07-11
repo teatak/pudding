@@ -1,81 +1,85 @@
 # Pudding
 
-Pudding is a desktop AI workspace that brings chat, a shared canvas, widgets, skills, and voice features into one app.
+Pudding is a local-first desktop AI workspace for conversations that need more than a chat window. Work with
+models, keep useful results on a shared canvas, and use browser, widget, skill, and voice capabilities without
+breaking the flow of a session.
 
-[中文说明](./README.zh-CN.md)
+[中文说明](./README.zh-CN.md) · [Download the latest release](https://github.com/teatak/pudding/releases/latest)
 
-## Status
+> Pudding is currently an early preview. The public repository hosts product information, release downloads, and
+> the starter catalog. Source code is not public yet.
 
-Pudding is currently an early preview. The public repository is used for product information and release downloads. Source code is not publicly available yet.
+## Highlights
 
-The first preview release focuses on macOS. APIs, data formats, and runtime packaging may still change before a stable release.
-
-## What You Can Do
-
-- Chat with configured model providers and local model services.
-- Keep useful results on a shared canvas while the conversation continues.
-- Create, open, install, and manage widgets from Blocks.
-- Use skills to extend Pudding with task-specific workflows.
-- Reference endpoints, skills, widgets, and workspace files from the composer.
-- Use optional voice features such as dictation, voice dialogue, and speech playback.
-
-## Model Providers
-
-Pudding uses the model providers you configure, including OpenAI-compatible APIs, OpenRouter, DeepSeek, Gemini, Ollama, and other compatible services.
-
-Model credentials and provider settings are configured inside the app.
+- **Multi-session workspace**: keep independent conversations and project context available side by side.
+- **Shared canvas**: preserve documents, tables, images, widgets, browser pages, and other useful results.
+- **Tools that stay visible**: work with the built-in browser, terminal, camera, desktop capture, and installed apps.
+- **Extensible workflows**: use widgets, skills, MCP tools, and app integrations for task-specific work.
+- **Flexible model access**: connect OpenAI-compatible APIs, OpenRouter, DeepSeek, Gemini, Ollama, and other
+  compatible services.
+- **Optional voice features**: use dictation, voice dialogue, and speech playback when the required runtime is
+  installed.
 
 ## Install
 
-Download the latest macOS build from [Releases](https://github.com/teatak/pudding/releases).
+The current preview targets macOS on Apple silicon.
 
-For first-time installation, use the DMG package:
+1. Download `Pudding-<version>-arm64.dmg` from [Releases](https://github.com/teatak/pudding/releases/latest).
+2. Open the DMG and drag `Pudding.app` into **Applications**.
+3. Open Pudding.
 
-1. Download `Pudding_<version>_darwin_arm64.dmg`.
-2. Open the DMG.
-3. Drag `Pudding.app` into Applications.
-4. Launch Pudding.
+### First launch on macOS
 
-The preview build may not be signed or notarized yet. If macOS blocks the first launch, open it from Finder with Right Click -> Open.
+Current preview builds use ad-hoc signing and are not notarized by Apple. If macOS blocks Pudding with an
+"Apple cannot verify" message:
+
+1. Try to open Pudding once, then dismiss the warning.
+2. Open **System Settings > Privacy & Security**.
+3. In **Security**, find Pudding and click **Open Anyway**.
+4. Authenticate and confirm **Open**.
+
+The **Open Anyway** option is normally available for about one hour after the blocked launch. Only override
+Gatekeeper for a build downloaded from this repository. See
+[Apple's instructions](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac/26)
+for details.
+
+## Local Data
+
+Pudding keeps application state, configuration, the local database, and installed runtime assets on your Mac:
+
+```text
+~/.pudding   # app data, configuration, database, runtime assets, and cache
+~/pudding    # default workspace for user files
+```
+
+Model requests are sent to the provider you select. Provider credentials and model profiles are configured inside
+Pudding.
 
 ## Voice Runtime
 
-Voice features require additional runtime assets. When you first enable dictation, voice dialogue, or speech playback, Pudding will prompt you to install the required resources under:
+Voice features use optional runtime assets stored under `~/.pudding/runtime`. Pudding prompts before installing
+them, so the desktop package does not need to bundle large speech models by default. Voice assets are published
+separately under the `runtime-v1` release.
 
-```text
-~/.pudding/runtime
-```
+## Widgets and Skills
 
-The app package does not bundle large voice runtime assets by default. Runtime assets are distributed separately through the `runtime-v1` release.
+- **Widgets** are reusable canvas experiences installed from Widget Hub, imported from packages, or saved from
+  canvas content.
+- **Skills** provide task-specific instructions and workflows that can be reused across sessions.
+- **Preview content** created during a conversation remains temporary until you choose to keep or install it.
 
-## Data Locations
+## Releases and Updates
 
-Pudding uses two main local locations:
-
-```text
-~/.pudding   # app data, configs, database, runtime assets, cache
-~/pudding    # default user workspace for files created or used with Pudding
-```
-
-## Widgets
-
-Pudding uses “widgets” for reusable canvas experiences.
-
-- Package widgets are installed from Widget Hub or imported from a widget package.
-- Snapshot widgets are saved from content created in the canvas.
-- Preview widgets are temporary drafts created during a conversation and can be installed by the user.
-
-## Releases
-
-App and runtime assets are versioned separately:
-
-- App releases use tags such as `v0.1.0`.
+- Desktop releases use tags such as `v0.1.1`.
 - Runtime assets use tags such as `runtime-v1`.
+- Unsigned preview builds use manual updates: Pudding can report a new version and open its release page, but it
+  will not silently replace the installed application.
 
-This keeps large runtime/model assets independent from frequent app updates.
+App and runtime releases remain separate so large speech assets do not need to be downloaded with every desktop
+update. Previous releases remain available for rollback.
 
 ## Source and License
 
-This repository currently provides release downloads and public product information. Source code is not publicly available yet.
-
-Binary distribution terms, model asset licenses, and third-party notices will be documented separately as the preview release is finalized.
+This repository currently provides public product information, release downloads, and catalog data. Binary
+distribution terms, model asset licenses, third-party notices, and source availability will be documented as the
+preview matures.
