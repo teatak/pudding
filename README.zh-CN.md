@@ -62,7 +62,7 @@
 ## 新会话内容
 
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存可点击的快捷提示词，用户选择后才会提交给当前模型。
-- [`catalog/user-messages.json`](./catalog/user-messages.json) 保存面向用户的简短提示语，只作为普通文字展示，绝不会写入输入框或发送给模型。
+- [`catalog/user-messages.json`](./catalog/user-messages.json) 保存新会话页的多语言主标题、可选副标题和外部链接。内容只在界面中展示，绝不会写入输入框或发送给模型，也不支持注入原始 HTML。
 
 布丁会定期读取这两个公开目录并缓存在本机，不上传用户行为。
 

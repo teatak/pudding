@@ -72,8 +72,9 @@ separately under the `runtime-v1` release.
 
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts that are submitted
   to the selected model when the user chooses one.
-- [`catalog/user-messages.json`](./catalog/user-messages.json) contains short, non-interactive product guidance.
-  These messages are displayed as plain text and are never inserted into the composer or sent to a model.
+- [`catalog/user-messages.json`](./catalog/user-messages.json) contains a localized title and optional subtitle for
+  the new-session screen, plus an optional external link. The content is displayed directly and is never inserted
+  into the composer or sent to a model. Raw HTML is not supported.
 
 Pudding periodically reads both public catalogs and caches them locally. It does not upload interaction data.
 
