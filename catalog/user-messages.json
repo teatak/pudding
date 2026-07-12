@@ -12,11 +12,6 @@
         "zh-CN": "嗨~ 今天想聊点什么？",
         "zh-TW": "嗨~ 今天想聊點什麼？",
         "en": "Hey, what's on your mind today?"
-      },
-      "subtitles": {
-        "zh-CN": "你可以把文件或文件夹直接拖进输入框，让布丁结合本地内容继续工作。",
-        "zh-TW": "你可以把檔案或資料夾直接拖進輸入框，讓布丁結合本機內容繼續工作。",
-        "en": "Drop files or folders into the composer to work with local context."
       }
     }
   ]
