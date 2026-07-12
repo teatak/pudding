@@ -68,11 +68,14 @@ separately under the `runtime-v1` release.
 - **Skills** provide task-specific instructions and workflows that can be reused across sessions.
 - **Preview content** created during a conversation remains temporary until you choose to keep or install it.
 
-## Recommendations
+## New-session Content
 
-Recommended prompts on the new-session screen come from
-[`catalog/starter-prompts.json`](./catalog/starter-prompts.json). Pudding periodically reads this public catalog
-and caches it locally. It does not upload interaction data or execute a recommendation until the user selects it.
+- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts that are submitted
+  to the selected model when the user chooses one.
+- [`catalog/user-messages.json`](./catalog/user-messages.json) contains short, non-interactive product guidance.
+  These messages are displayed as plain text and are never inserted into the composer or sent to a model.
+
+Pudding periodically reads both public catalogs and caches them locally. It does not upload interaction data.
 
 ## Releases and Updates
 

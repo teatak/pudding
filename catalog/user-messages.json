@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "refreshMinutes": 30,
+  "items": [
+    {
+      "id": "draft-local-files",
+      "placement": "draft",
+      "enabled": true,
+      "priority": 100,
+      "minAppVersion": "0.1.1",
+      "texts": {
+        "zh-CN": "你可以把文件或文件夹直接拖进输入框，让布丁结合本地内容继续工作。",
+        "zh-TW": "你可以把檔案或資料夾直接拖進輸入框，讓布丁結合本機內容繼續工作。",
+        "en": "Drop files or folders into the composer to work with local context."
+      }
+    }
+  ]
+}

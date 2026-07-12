@@ -59,10 +59,12 @@
 - **技能**提供可跨会话复用的任务说明和工作流程。
 - **预览内容**在对话中保持临时状态，只有在你主动保留或安装后才会成为长期内容。
 
-## 推荐内容
+## 新会话内容
 
-新会话页的推荐提示词由本仓库中的 [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 提供。
-布丁只会定期读取公开目录并缓存在本机，不上传用户行为，也不会自动执行推荐内容；只有用户主动点击后，内容才会进入输入框。
+- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存可点击的快捷提示词，用户选择后才会提交给当前模型。
+- [`catalog/user-messages.json`](./catalog/user-messages.json) 保存面向用户的简短提示语，只作为普通文字展示，绝不会写入输入框或发送给模型。
+
+布丁会定期读取这两个公开目录并缓存在本机，不上传用户行为。
 
 ## 发布与更新
 
