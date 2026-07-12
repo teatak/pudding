@@ -30,18 +30,8 @@ The current preview targets macOS on Apple silicon.
 
 ### First launch on macOS
 
-Current preview builds use ad-hoc signing and are not notarized by Apple. If macOS blocks Pudding with an
-"Apple cannot verify" message:
-
-1. Try to open Pudding once, then dismiss the warning.
-2. Open **System Settings > Privacy & Security**.
-3. In **Security**, find Pudding and click **Open Anyway**.
-4. Authenticate and confirm **Open**.
-
-The **Open Anyway** option is normally available for about one hour after the blocked launch. Only override
-Gatekeeper for a build downloaded from this repository. See
-[Apple's instructions](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac/26)
-for details.
+Current preview builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS
+may ask you to confirm that you want to open an application downloaded from the internet; choose **Open**.
 
 ## Local Data
 
@@ -82,8 +72,8 @@ Pudding periodically reads both public catalogs and caches them locally. It does
 
 - Desktop releases use tags such as `v0.1.1`.
 - Runtime assets use tags such as `runtime-v1`.
-- Unsigned preview builds use manual updates: Pudding can report a new version and open its release page, but it
-  will not silently replace the installed application.
+- Signed preview builds can download updates in the background. Installation only starts after the user chooses
+  **Restart to Update**; the latest DMG remains available as a manual fallback.
 
 App and runtime releases remain separate so large speech assets do not need to be downloaded with every desktop
 update. Previous releases remain available for rollback.
