@@ -68,6 +68,12 @@ separately under the `runtime-v1` release.
 - **Skills** provide task-specific instructions and workflows that can be reused across sessions.
 - **Preview content** created during a conversation remains temporary until you choose to keep or install it.
 
+## Recommendations
+
+Recommended prompts on the new-session screen come from
+[`catalog/starter-prompts.json`](./catalog/starter-prompts.json). Pudding periodically reads this public catalog
+and caches it locally. It does not upload interaction data or execute a recommendation until the user selects it.
+
 ## Releases and Updates
 
 - Desktop releases use tags such as `v0.1.1`.

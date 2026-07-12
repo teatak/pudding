@@ -1,8 +1,23 @@
 {
-  "version": 1,
+  "version": 2,
+  "channel": {
+    "id": "draft-recommendations",
+    "placement": "draft",
+    "enabled": true,
+    "titles": {
+      "zh-CN": "推荐",
+      "zh-TW": "推薦",
+      "en": "Recommended"
+    },
+    "maxItems": 4,
+    "refreshMinutes": 30
+  },
   "items": [
     {
       "id": "camera_canvas_scene",
+      "enabled": true,
+      "priority": 400,
+      "minAppVersion": "0.1.1",
       "capabilities": ["camera", "canvas"],
       "labels": {
         "zh-CN": "拍张照，放到画布上",
@@ -17,6 +32,9 @@
     },
     {
       "id": "quantum_mechanics_explainer",
+      "enabled": true,
+      "priority": 300,
+      "minAppVersion": "0.1.1",
       "capabilities": ["canvas"],
       "labels": {
         "zh-CN": "解释量子力学",
@@ -31,6 +49,9 @@
     },
     {
       "id": "beginner_sci_fi_books",
+      "enabled": true,
+      "priority": 200,
+      "minAppVersion": "0.1.1",
       "capabilities": ["canvas"],
       "labels": {
         "zh-CN": "推荐 5 本入门科幻小说",
@@ -45,6 +66,9 @@
     },
     {
       "id": "world_cup_canvas_table",
+      "enabled": true,
+      "priority": 100,
+      "minAppVersion": "0.1.1",
       "capabilities": ["browser", "canvas"],
       "labels": {
         "zh-CN": "查一下世界杯赛程",
