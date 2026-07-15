@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.6",
+  "tag": "v0.1.6",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.6",
+    "commit": "977ce4429646428e2ac9b31c89592d32cedba63d"
+  },
+  "releaseNotes": "### 新增\n\n- 重新打开 Pudding 时恢复上次使用的会话、项目或应用页面。\n\n### 改进\n\n- 改进 macOS 录音时的音频设备路由和切换稳定性。\n- 减少 Code 模式下重复的项目访问确认。\n- 统一画布、项目和浏览器工作区的标签及操作区样式，优化侧边栏信息密度。\n- 加强项目路径边界检查和发版资产追溯。\n\n### 数据安全\n\n本次更新不修改 SQLite schema，不执行数据库迁移，也不重建搜索索引。现有会话、消息、画布和\n项目内容不会被后台改写。",
+  "assets": [
+    {
+      "name": "Pudding-0.1.6-arm64.dmg",
+      "size": 180005652,
+      "sha256": "d085cb682eef7d32db3bb7e45708693fc12ca84035a169e5c70fe51b6a5534ef"
+    },
+    {
+      "name": "Pudding-0.1.6-arm64.dmg.blockmap",
+      "size": 189954,
+      "sha256": "a46dd498caa6cb555acf263e322f9fb5078fd05d0ab0487edad6b602dc55c032"
+    },
+    {
+      "name": "Pudding-0.1.6-arm64.zip",
+      "size": 179511583,
+      "sha256": "2ff4126318771662787ee0ab352dc8fffeb44aaf297e384a1bfdbd5ff87a530e"
+    },
+    {
+      "name": "Pudding-0.1.6-arm64.zip.blockmap",
+      "size": 187467,
+      "sha256": "a973a66683c71bdd3872eeff4f38cc09a542a88e9488d79540b7b6ccacf0fe57"
+    },
+    {
+      "name": "Pudding-0.1.6-x64.dmg",
+      "size": 180332073,
+      "sha256": "c8b334f007d7024f67984dcdfce425769e2f62ff6be41a5ff192669c49ec6b94"
+    },
+    {
+      "name": "Pudding-0.1.6-x64.dmg.blockmap",
+      "size": 188551,
+      "sha256": "477e4417157a043286f6b2180feb635907a737b4cbe551b3d7ddf1b30d0e039a"
+    },
+    {
+      "name": "Pudding-0.1.6-x64.zip",
+      "size": 179938672,
+      "sha256": "a77f20775c0a37ab37aeedf19d0da97edd410038cae933e1f7c2cdc2b190714c"
+    },
+    {
+      "name": "Pudding-0.1.6-x64.zip.blockmap",
+      "size": 188869,
+      "sha256": "6a42af9324d82885782538b3f3444d18fc0016a895aaaf7d59a847e5c9207d1e"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "2b5473b8ad596f1754f7513a0f4ba4f76ef29453044eadcb15a8c96d6939e684"
+    }
+  ]
+}
