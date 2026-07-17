@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.8",
+  "tag": "v0.1.8",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.8",
+    "commit": "4f02e8e13ba4f419d095ecbaf7ea0ce3152b605f"
+  },
+  "releaseNotes": "### Improvements\n\n- Refine light and dark themes with a consistent neutral grayscale palette across the desktop interface.\n- Improve sidebar group alignment, session spacing, mobile navigation sizing, and popover presentation.\n- Simplify workspace tabs and widget icons by removing unnecessary backgrounds, outlines, and visual noise.\n- Standardize canvas grid spacing, card surfaces, borders, shadows, and workspace backgrounds.\n- Simplify the `canvas_grid` tool contract so visual styling remains consistent and product-controlled.\n- Improve project editor line numbers, directory hierarchy guides, and unavailable Git states.\n\n### Data Safety\n\n- This update does not add a new database migration or rewrite existing sessions, messages, canvas items, or search data.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.8-arm64.dmg",
+      "size": 179902139,
+      "sha256": "fe6da524144d7a238c53edd4852c9224142bfbfb20471edc0d2fcca425ab4c38"
+    },
+    {
+      "name": "Pudding-0.1.8-arm64.dmg.blockmap",
+      "size": 188532,
+      "sha256": "4f8f413699893376a5ba9b8aeabb4a3152cf410399fe7fe7fcaa14cf90c171ae"
+    },
+    {
+      "name": "Pudding-0.1.8-arm64.zip",
+      "size": 179401708,
+      "sha256": "f6a122afcb2e675f99d0ad0f962d7c49ebb1dc0f4e84d81d9739df5a247e2f5e"
+    },
+    {
+      "name": "Pudding-0.1.8-arm64.zip.blockmap",
+      "size": 187394,
+      "sha256": "ccd286b8b9b62cc1ff795f2d82aa3ea8210fb9d576867ed7cb99a4ec10c27469"
+    },
+    {
+      "name": "Pudding-0.1.8-x64.dmg",
+      "size": 180220545,
+      "sha256": "e84997e14ffccb4be6a3bb1ea2c6b412e0c72e1c4bfec601ef18ef2d483af018"
+    },
+    {
+      "name": "Pudding-0.1.8-x64.dmg.blockmap",
+      "size": 191000,
+      "sha256": "a239eefa82e7332b235fe7051969430c485117d580581fc5213e181cd44b8df6"
+    },
+    {
+      "name": "Pudding-0.1.8-x64.zip",
+      "size": 179833449,
+      "sha256": "ff84b4086137ac99749027cebd4cdf01b744558fc338b74729d42249e4fc2493"
+    },
+    {
+      "name": "Pudding-0.1.8-x64.zip.blockmap",
+      "size": 189066,
+      "sha256": "48fd927eedd6b8e0ebdf19ab61d79f43a35f449cacfe8e5dd1a354c2c4924ea1"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "f507b7a8b031271545151952d2d0eefdf98c9068588fa9c6dabed8f6df48dd43"
+    }
+  ]
+}
