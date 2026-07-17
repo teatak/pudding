@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.10",
+  "tag": "v0.1.10",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.10",
+    "commit": "44c9d4b1a8f5eedd56045bec0a8abf8ca20b8be4"
+  },
+  "releaseNotes": "### Browser History\n\n- Keep a local browser history with search, per-entry deletion, and clear-all controls.\n- Show recent sites on new tabs for faster navigation.\n- Refresh page titles and favicons without creating duplicate visits.\n\n### Browser Windows\n\n- Open tab-like links as managed Pudding browser tabs with foreground and background activation support.\n- Support isolated native child windows for OAuth and sites that require standard `WindowProxy` behavior.\n- Preserve navigation referrers and expose recoverable page-load errors.\n\n### Security\n\n- Harden managed WebViews before attachment with sandboxing, context isolation, and a restricted persistent partition.\n- Block unmanaged WebView attachments, unsafe preload scripts, and unsupported external navigation schemes.\n\n### Data Migration\n\n- Upgrade the local database from schema v3 to v4 by adding the browser history table and recency index.\n- Preserve all existing sessions, messages, canvas items, browser tabs, and search data during migration.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.10-arm64.dmg",
+      "size": 179889239,
+      "sha256": "93ce722b69cf60359e035c1c7a99e9aff33f06ac2fa4c650d048977183550a5c"
+    },
+    {
+      "name": "Pudding-0.1.10-arm64.dmg.blockmap",
+      "size": 189023,
+      "sha256": "21ae861c6256f1b60ddcdb92acedb107d301a900d6c8a35952bae959c8315311"
+    },
+    {
+      "name": "Pudding-0.1.10-arm64.zip",
+      "size": 179420638,
+      "sha256": "ce0b7a105455ef9b391851f0f76870c1f0e232398a31b14867586a92d24ff504"
+    },
+    {
+      "name": "Pudding-0.1.10-arm64.zip.blockmap",
+      "size": 188224,
+      "sha256": "feeabdf2993fa91459e07b6e470623a70397b09e6f1a8a7a0f73ff178a571441"
+    },
+    {
+      "name": "Pudding-0.1.10-x64.dmg",
+      "size": 180238268,
+      "sha256": "143b635ac26814a41061cc360e55497c5b878898c5104ec34ba022ee39defe8d"
+    },
+    {
+      "name": "Pudding-0.1.10-x64.dmg.blockmap",
+      "size": 190943,
+      "sha256": "bd8f68347fd0b435bed675d21d7baee421edad205a55bae0ac0a780eeb78fe21"
+    },
+    {
+      "name": "Pudding-0.1.10-x64.zip",
+      "size": 179865493,
+      "sha256": "7687941db866fc93e4f6b24fbf5d25d97d93736fcabded538e26df8e8ae13cfc"
+    },
+    {
+      "name": "Pudding-0.1.10-x64.zip.blockmap",
+      "size": 189297,
+      "sha256": "ef756300f8772e98a6ae949d6f9262c2e9a32312db9bfb296133d1dd6e88b8b4"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "cb21a1d154e10a0ccda6c40bc8d0506a95a3a876e8ddc9af48b342aca612a4cd"
+    }
+  ]
+}
