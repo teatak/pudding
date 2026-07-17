@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.7",
+  "tag": "v0.1.7",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.7",
+    "commit": "2b715adb784a494e3ff262ecbb1efaf9074a0f4f"
+  },
+  "releaseNotes": "### Added\n\n- Review files added, modified, deleted, or renamed by a Code turn, with persistent multi-file diffs.\n- Save canvas widgets to a reusable library and open them in other sessions.\n- Import standard MCP server configurations as Apps and create validated local Apps directly from Pudding.\n\n### Improvements\n\n- Keep active and recently closed canvas windows isolated per session while preserving saved widget revisions and edits.\n- Simplify Skill creation with direct validation and unify MCP server management under Apps.\n- Improve Code mode temporary workspaces, local command discovery, forms, workspace controls, and audio device switching.\n- Improve daemon startup recovery, identity validation, and privacy-safe rotating logs.\n\n### Data Migration\n\n- Upgrade the SQLite schema from v1 to v3 to store turn file changes and session-scoped canvas state.\n- Create a database backup before migration and preserve legacy orphaned canvas items in Saved Widgets.\n- Existing sessions, messages, browser tabs, and search indexes are not rewritten.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.7-arm64.dmg",
+      "size": 179900145,
+      "sha256": "f06ad9c560bce65624508938413348dfbfc2c1aa07aea104acbcbac671c4f40f"
+    },
+    {
+      "name": "Pudding-0.1.7-arm64.dmg.blockmap",
+      "size": 188950,
+      "sha256": "076df0776615f8d4ea0d760018aedb86cf112607537551bbaa754fbcba58241c"
+    },
+    {
+      "name": "Pudding-0.1.7-arm64.zip",
+      "size": 179401984,
+      "sha256": "b2371bf28e0daf6cf1ea22cb5fc07b56b0017a55bda2a70a7eca369afc7dd7b4"
+    },
+    {
+      "name": "Pudding-0.1.7-arm64.zip.blockmap",
+      "size": 188238,
+      "sha256": "6f725c06f6b12f19786ee81064fb3a7368297a0e5d307674d7b3ee6986bee419"
+    },
+    {
+      "name": "Pudding-0.1.7-x64.dmg",
+      "size": 180223304,
+      "sha256": "9f7425e381927d80946faac9ead9f981ced99b9fb67a56666e56a452dd38dabd"
+    },
+    {
+      "name": "Pudding-0.1.7-x64.dmg.blockmap",
+      "size": 190989,
+      "sha256": "61288c3bb9002bc24b492c42e5fd943e9d28e84db361fb11ef363c4789bd96df"
+    },
+    {
+      "name": "Pudding-0.1.7-x64.zip",
+      "size": 179834286,
+      "sha256": "a6cea29a1daf3d8fc0c80ee7bb177a6e9b5a6722cdf94294a9561c1e3b094292"
+    },
+    {
+      "name": "Pudding-0.1.7-x64.zip.blockmap",
+      "size": 189264,
+      "sha256": "97a68375bf1e160045bdd776ed37884d906fc6ea8b2d8496a0e1f836b9c0073c"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "f45431bd8c7f9d39acd06245fcfc2410ec7f46a452b4a1b10d899c4b41d80a5c"
+    }
+  ]
+}
