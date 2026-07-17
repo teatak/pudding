@@ -1,11 +1,21 @@
 # 布丁
 
-布丁（Pudding）是一个 local-first 的桌面 AI 工作区，适合处理不止停留在聊天窗口里的任务。你可以一边与模型对话，
-一边把有价值的结果留在共享画布中，并自然地使用浏览器、小组件、技能和语音能力。
+[![布丁——桌面上的 AI 工作区](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
 
-[English](./README.md) · [下载最新版本](https://github.com/teatak/pudding/releases/latest)
+**在独立 AI 会话中完成网页研究、终端任务，并把有价值的结果留在共享画布上。** 每个会话保留自己的上下文；
+你可以接入自己的模型服务，工作区数据则保存在 Mac 本机。
+
+[**下载 Apple 芯片版本 →**](https://github.com/teatak/pudding/releases/latest) ·
+[查看真实工作流](#一个工作流一个工作区) · [English](./README.md)
 
 > 布丁目前处于早期预览阶段。这个公开仓库用于提供产品说明、发布包和初始目录，源码暂未公开。
+
+## 一个工作流，一个工作区
+
+让布丁使用内置浏览器研究主题，在需要时执行终端任务，再把有用结果整理成文档、表格、图片或小组件放到画布上。
+这些成果会持续显示在对话旁边，不再散落于其他标签页或被埋进聊天记录。
+
+![布丁会话在共享画布中生成发布清单和对比表](./assets/product/workspace-overview.jpg)
 
 ## 主要能力
 

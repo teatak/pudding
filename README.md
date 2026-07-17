@@ -1,13 +1,23 @@
 # Pudding
 
-Pudding is a local-first desktop AI workspace for conversations that need more than a chat window. Work with
-models, keep useful results on a shared canvas, and use browser, widget, skill, and voice capabilities without
-breaking the flow of a session.
+[![Pudding — your AI workspace on the desktop](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
 
-[中文说明](./README.zh-CN.md) · [Download the latest release](https://github.com/teatak/pudding/releases/latest)
+**Research with the browser, run terminal tasks, and keep useful results on a shared canvas—all inside independent
+AI sessions that keep their own context.** Bring your own model provider and keep your workspace data on your Mac.
+
+[**Download for Apple silicon →**](https://github.com/teatak/pudding/releases/latest) ·
+[See a real workflow](#one-workflow-one-workspace) · [中文说明](./README.zh-CN.md)
 
 > Pudding is currently an early preview. The public repository hosts product information, release downloads, and
 > the starter catalog. Source code is not public yet.
+
+## One workflow, one workspace
+
+Ask Pudding to research a topic with the built-in browser, use the terminal when needed, and turn the useful
+results into documents, tables, images, or widgets on the canvas. The work stays visible beside the conversation
+instead of disappearing into another tab or transcript.
+
+![A Pudding session producing a launch checklist and comparison table on the shared canvas](./assets/product/workspace-overview.jpg)
 
 ## Highlights
 
