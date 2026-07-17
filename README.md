@@ -5,7 +5,7 @@
 **Research with the browser, run terminal tasks, and keep useful results on a shared canvas—all inside independent
 AI sessions that keep their own context.** Bring your own model provider and keep your workspace data on your Mac.
 
-[**Download for Apple silicon →**](https://github.com/teatak/pudding/releases/latest) ·
+[**Download for macOS →**](https://github.com/teatak/pudding/releases/latest) ·
 [See a real workflow](#one-workflow-one-workspace) · [中文说明](./README.zh-CN.md)
 
 > Pudding is currently an early preview. The public repository hosts product information, release downloads, and
@@ -25,16 +25,18 @@ instead of disappearing into another tab or transcript.
 - **Shared canvas**: preserve documents, tables, images, widgets, browser pages, and other useful results.
 - **Tools that stay visible**: work with the built-in browser, terminal, camera, desktop capture, and installed apps.
 - **Extensible workflows**: use widgets, skills, MCP tools, and app integrations for task-specific work.
-- **Flexible model access**: connect OpenAI-compatible APIs, OpenRouter, DeepSeek, Gemini, Ollama, and other
-  compatible services.
+- **Flexible model access**: connect OpenAI, Anthropic, Gemini, DeepSeek, Qwen, MiMo, Moonshot/Kimi, Zhipu GLM,
+  OpenRouter, Ollama, and custom compatible endpoints.
 - **Optional voice features**: use dictation, voice dialogue, and speech playback when the required runtime is
   installed.
 
 ## Install
 
-The current preview targets macOS on Apple silicon.
+The current preview supports macOS on Apple silicon and Intel.
 
-1. Download `Pudding-<version>-arm64.dmg` from [Releases](https://github.com/teatak/pudding/releases/latest).
+1. Download the DMG for your Mac from [Releases](https://github.com/teatak/pudding/releases/latest):
+   - Apple silicon: `Pudding-<version>-arm64.dmg`
+   - Intel: `Pudding-<version>-x64.dmg`
 2. Open the DMG and drag `Pudding.app` into **Applications**.
 3. Open Pudding.
 
@@ -45,14 +47,15 @@ may ask you to confirm that you want to open an application downloaded from the 
 
 ## Local Data
 
-Pudding keeps application state, configuration, the local database, and installed runtime assets on your Mac:
+Pudding keeps application state, configuration, the local database, installed apps and skills, and optional
+runtime assets under:
 
 ```text
-~/.pudding   # app data, configuration, database, runtime assets, and cache
-~/pudding    # default workspace for user files
+~/.pudding
 ```
 
-Model requests are sent to the provider you select. Provider credentials and model profiles are configured inside
+Project files stay in the directories you choose; Pudding no longer assumes a fixed `~/pudding` workspace. Model
+requests are sent to the provider you select, and provider credentials and model profiles are configured inside
 Pudding.
 
 ## Voice Runtime
@@ -61,12 +64,11 @@ Voice features use optional runtime assets stored under `~/.pudding/runtime`. Pu
 them, so the desktop package does not need to bundle large speech models by default. Voice assets are published
 separately under the `runtime-v1` release.
 
-## Widgets and Skills
+## Apps, Widgets, and Skills
 
-- **Widgets** are reusable canvas experiences installed from Widget Hub, imported from packages, or saved from
-  canvas content.
+- **Apps** package reusable integrations, including REST, GraphQL, and MCP tools.
+- **Widgets** are interactive canvas results that can be kept in your favorites and reused across sessions.
 - **Skills** provide task-specific instructions and workflows that can be reused across sessions.
-- **Preview content** created during a conversation remains temporary until you choose to keep or install it.
 
 ## New-session Content
 
@@ -80,16 +82,15 @@ Pudding periodically reads both public catalogs and caches them locally. It does
 
 ## Releases and Updates
 
-- Desktop releases use tags such as `v0.1.1`.
-- Runtime assets use tags such as `runtime-v1`.
+- Desktop releases use `v<version>` tags.
+- Runtime assets use `runtime-v<version>` tags.
 - Signed preview builds can download updates in the background. Installation only starts after the user chooses
   **Restart to Update**; the latest DMG remains available as a manual fallback.
 
 App and runtime releases remain separate so large speech assets do not need to be downloaded with every desktop
 update. Previous releases remain available for rollback.
 
-## Source and License
+## Source and Distribution
 
-This repository currently provides public product information, release downloads, and catalog data. Binary
-distribution terms, model asset licenses, third-party notices, and source availability will be documented as the
-preview matures.
+This repository contains public product information, release metadata, downloads, and catalog data. Pudding's
+source code is not published in this repository.
