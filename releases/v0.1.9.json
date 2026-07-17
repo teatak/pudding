@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.9",
+  "tag": "v0.1.9",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.9",
+    "commit": "b38ccfb3651b0788dd84cd2bda8ac1a40040d31e"
+  },
+  "releaseNotes": "### Fixes\n\n- Prevent browser automation input from being delivered to the wrong window or composer.\n- Serialize browser click, type, and scroll actions to avoid overlapping input operations.\n- Restore the previous composer focus and selection after browser automation completes.\n- Stop keyboard input safely when the target WebView cannot be focused.\n- Keep the submitted address visible while navigation is pending instead of reverting to the previous URL.\n- Restore the current tab address after failed or aborted navigation.\n\n### Improvements\n\n- Use the browser's native CDP text insertion path for more reliable input across standard and rich-text fields.\n- Improve WebView focus coordination between Electron and the renderer.\n- Refine sidebar spacing, menu density, and dark-theme contrast.\n\n### Data Safety\n\n- This update does not add a database migration or rewrite existing sessions, messages, browser tabs, canvas items, or search data.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.9-arm64.dmg",
+      "size": 179897240,
+      "sha256": "4a3c2170a7e5076742fa56458499da17ef02fa3ef1db1e84c5b42a570c162b4c"
+    },
+    {
+      "name": "Pudding-0.1.9-arm64.dmg.blockmap",
+      "size": 188270,
+      "sha256": "d9723199e60681e853fa1fc0a57a152e0ed4f53a3adaf37b795c2659c7a22b9e"
+    },
+    {
+      "name": "Pudding-0.1.9-arm64.zip",
+      "size": 179400715,
+      "sha256": "a158a6894724430763f77cfaf161cf95cfc3bdd02b59a18d0ee14ca1b76aef6d"
+    },
+    {
+      "name": "Pudding-0.1.9-arm64.zip.blockmap",
+      "size": 187436,
+      "sha256": "92cfb608b05398b9db4fc84976111911b1a3e9d39ab1d0da7c5fc93f1132e243"
+    },
+    {
+      "name": "Pudding-0.1.9-x64.dmg",
+      "size": 180211825,
+      "sha256": "fd75e90f8a2068dc79f20ff844c479cb80b1feba9e8abb7c010c0f401340fd04"
+    },
+    {
+      "name": "Pudding-0.1.9-x64.dmg.blockmap",
+      "size": 189388,
+      "sha256": "ce0aaf90698e46645e9ac300ecf1cd7828a79fe54f7969f6e45cc0daa2352592"
+    },
+    {
+      "name": "Pudding-0.1.9-x64.zip",
+      "size": 179833645,
+      "sha256": "efa163fcb929df064f1b74f7ffba059e3fd4521752c1664abd35cc36048c7312"
+    },
+    {
+      "name": "Pudding-0.1.9-x64.zip.blockmap",
+      "size": 189049,
+      "sha256": "e9242addc1aeabe38315c0736af3de89912c8cba1b49f3eb299e4ba9d0eb2d33"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "ab3bfe18a9dac90611153c570ed5d487c5d0e8ff112fff7128043b4631fedf13"
+    }
+  ]
+}
