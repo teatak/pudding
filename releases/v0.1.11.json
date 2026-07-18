@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.11",
+  "tag": "v0.1.11",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.11",
+    "commit": "b41cfb363712fff23078011b68c9edb058ccce41"
+  },
+  "releaseNotes": "### App Connections\n\n- Configure connection-specific REST and GraphQL endpoint URLs for self-hosted services.\n- Inject custom connection fields into request headers, query parameters, or JSON bodies.\n- Exchange App credentials for cached access tokens when an integration requires token-based authentication.\n- Select stable or preview App releases with version-aware upgrade checks.\n\n### Browser Experience\n\n- Resolve and cache same-origin favicons through the Electron bridge with strict size limits.\n- Run targeted click, typing, and scrolling actions without stealing focus from the active workspace.\n\n### Workspace\n\n- Open projects as sortable workspace tabs that can be selected or closed like other resources.\n- Refine empty workspace, canvas library, and surface control layouts.\n\n### Data Compatibility\n\n- Keep the local database at schema v4 with no migration required.\n- Preserve all existing sessions, messages, canvas items, browser tabs, and browser history.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.11-arm64.dmg",
+      "size": 179958166,
+      "sha256": "29dd88c7ae0ea3dd8a48a7fcb926eb25048ce9ced51f1f55142b13d51c0d0bf9"
+    },
+    {
+      "name": "Pudding-0.1.11-arm64.dmg.blockmap",
+      "size": 190652,
+      "sha256": "1b0dcd9d2ac3f221ef9e2c567e6023bd3d1f6f98b49e78700fe2e460ef2da25c"
+    },
+    {
+      "name": "Pudding-0.1.11-arm64.zip",
+      "size": 179453449,
+      "sha256": "405c1a410a22b913d667736a2d0ea3081a605372f7c962773f7e91eb9d2fc77d"
+    },
+    {
+      "name": "Pudding-0.1.11-arm64.zip.blockmap",
+      "size": 188285,
+      "sha256": "b65b9d85ac1dbf91e9076e19172c686ace3bd8c66ce035627df36e6d39725794"
+    },
+    {
+      "name": "Pudding-0.1.11-x64.dmg",
+      "size": 180266527,
+      "sha256": "21a817a01836bd2c2b45edf81b55993f4e7ba7fb2c06a533b3c85b3a10aebf3f"
+    },
+    {
+      "name": "Pudding-0.1.11-x64.dmg.blockmap",
+      "size": 189045,
+      "sha256": "41c6ac431418b511536e28123b570eb4adf687974663e4dc30f871c1e9b01bf9"
+    },
+    {
+      "name": "Pudding-0.1.11-x64.zip",
+      "size": 179894389,
+      "sha256": "dddcf9b78981a752c2c787d0ebe73cacbcf81145b6a05454784f7958a45bac74"
+    },
+    {
+      "name": "Pudding-0.1.11-x64.zip.blockmap",
+      "size": 188914,
+      "sha256": "06c79ba58e8a9e964cfa4677987135dddc2c2eff38cfffb64c56fc31389ed033"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "e89ab543375d187ca2f21e511b0363d8f58e34d642b6c25e2b8011981b34a27e"
+    }
+  ]
+}
