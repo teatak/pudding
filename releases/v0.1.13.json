@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.13",
+  "tag": "v0.1.13",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.13",
+    "commit": "b62e71bf766cb34777e8d209c2743163e75faca3"
+  },
+  "releaseNotes": "### File Changes\n\n- Summarize each turn's edited files with aggregate additions and deletions directly in the transcript.\n- Expand or collapse longer file-change lists without leaving the conversation.\n\n### Project Workspace\n\n- Open historical turn diffs as first-class tabs inside the associated project workspace.\n- Locate the changed file in the project tree and expose the selected diff as visible session context.\n- Manage turn diff tabs with the same close, close others, and close right actions as project files.\n\n### Compatibility\n\n- Keep the existing standalone diff preview for sessions without an associated project.\n- Preserve the local database at schema v4 with no migration required.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.13-arm64.dmg",
+      "size": 179959492,
+      "sha256": "d78621c603a7312319ac2a540a7224280f5f1e9e2220f5902b28b3d4359b78a6"
+    },
+    {
+      "name": "Pudding-0.1.13-arm64.dmg.blockmap",
+      "size": 187385,
+      "sha256": "09b3c61f079ce67fd2636ddf2a3be7e04735ec6e32408c965e09770d8f3a3483"
+    },
+    {
+      "name": "Pudding-0.1.13-arm64.zip",
+      "size": 179459176,
+      "sha256": "de07dcc0e0a718b7b289f4a3e4037272a61284a8befd66b1feda023c5723cce5"
+    },
+    {
+      "name": "Pudding-0.1.13-arm64.zip.blockmap",
+      "size": 187698,
+      "sha256": "b66b0128fecbb8bfe100660df61461393930b50fd3f8c6e9c1da9667bba0a65c"
+    },
+    {
+      "name": "Pudding-0.1.13-x64.dmg",
+      "size": 180273167,
+      "sha256": "5a933ba96dd3a4b3cdb3801ec4761aad904dcb6125225703b78d6bb4cd560405"
+    },
+    {
+      "name": "Pudding-0.1.13-x64.dmg.blockmap",
+      "size": 192105,
+      "sha256": "208d9433c49b57923d9fb231a5cb7e52915e7131cdc360a3742db67aad68b0b8"
+    },
+    {
+      "name": "Pudding-0.1.13-x64.zip",
+      "size": 179898708,
+      "sha256": "796f233541db2656b41a433c88b564688de4676bdfacf36c79a5838a12f152a3"
+    },
+    {
+      "name": "Pudding-0.1.13-x64.zip.blockmap",
+      "size": 189056,
+      "sha256": "88b86967803de04fc3ae238e764d191c3a2b4883f5a3039ecccd647018f67081"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "9940be83f4edc3acc66b7f175b3eea3987f2825c80a384b785f284d6369f6adc"
+    }
+  ]
+}
