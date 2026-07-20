@@ -42,20 +42,6 @@
         "zh-TW": "推薦 5 本適合入門讀者的科幻小說，並用表格列出書名、作者、適合入門的理由和閱讀氣質。",
         "en": "Recommend 5 sci-fi novels for beginners, and present them in a table with title, author, why it is beginner-friendly, and reading vibe."
       }
-    },
-    {
-      "id": "world_cup_canvas_table",
-      "capabilities": ["browser", "canvas"],
-      "labels": {
-        "zh-CN": "查一下世界杯赛程",
-        "zh-TW": "查一下世界盃賽程",
-        "en": "Look up the World Cup schedule"
-      },
-      "prompts": {
-        "zh-CN": "查找 2026 世界杯赛程和最新比分，并在画布上用适合浏览的 grid 或 timeline 展示，突出日期、球队、阶段、比分或开球时间。",
-        "zh-TW": "查找 2026 世界盃賽程和最新比分，並在畫布上用適合瀏覽的 grid 或 timeline 展示，突出日期、球隊、階段、比分或開球時間。",
-        "en": "Find the 2026 World Cup schedule and latest scores, then show them on the canvas as an easy-to-browse grid or timeline, highlighting date, teams, stage, score or kickoff time."
-      }
     }
   ]
 }
