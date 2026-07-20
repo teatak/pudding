@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.14",
+  "tag": "v0.1.14",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.14",
+    "commit": "2466ada1e7cf81600096958915fa35fbad03a2cf"
+  },
+  "releaseNotes": "### Project Workspace\n\n- Search project file contents from the sidebar and jump directly to matching editor lines.\n- Include common hidden project configuration files while continuing to ignore generated and vendor directories.\n\n### Editor\n\n- Configure the editor font family, font size, and line height across files, diffs, and standalone previews.\n- Restore mention suggestions after the composer loses and regains focus.\n\n### Update Reliability\n\n- Recheck a downloaded update before installation and fetch a newer release when one is available.\n- Keep the previous downloaded update usable when the refresh fails and prevent duplicate install attempts.\n\n### Interface\n\n- Add pointer-responsive gaze and refined layered motion to the Pudding mascot.\n- Make desktop hover and focus feedback immediate while unifying menu outlines and shadows.\n\n### Compatibility\n\n- Preserve the local database at schema v4 with no migration required.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.14-arm64.dmg",
+      "size": 179971288,
+      "sha256": "2329a0bb5740ca1ca4e382c9a478f8b983668a52bef404a29e6464a0a5e0e6b1"
+    },
+    {
+      "name": "Pudding-0.1.14-arm64.dmg.blockmap",
+      "size": 189175,
+      "sha256": "fdb4e1010b13b35e0e75b07494de39a7d747c1ac7f58c04501d1696edfefa3d7"
+    },
+    {
+      "name": "Pudding-0.1.14-arm64.zip",
+      "size": 179466464,
+      "sha256": "0a748d94ee560dfae6238d16202da368c692b5919d7eff5ec2b6c4189ccd2c53"
+    },
+    {
+      "name": "Pudding-0.1.14-arm64.zip.blockmap",
+      "size": 188272,
+      "sha256": "eb3b4ac25f6b6c5685539a063ce0c1f0f0b328f7015a9991c477ce6b4d15923a"
+    },
+    {
+      "name": "Pudding-0.1.14-x64.dmg",
+      "size": 180328318,
+      "sha256": "311865c7d8056f72c4a6fd168363587063986c7114f57efbef2f6dc21c380415"
+    },
+    {
+      "name": "Pudding-0.1.14-x64.dmg.blockmap",
+      "size": 190564,
+      "sha256": "a915af60abcad1eb46bbdf5d666dec44c875bf2a1a8259eaed38bb096bfce2c5"
+    },
+    {
+      "name": "Pudding-0.1.14-x64.zip",
+      "size": 179908957,
+      "sha256": "f0d98d6685be9d247a36df779a7351f0e1df56783007135be3bbe9ed53f4edc6"
+    },
+    {
+      "name": "Pudding-0.1.14-x64.zip.blockmap",
+      "size": 188717,
+      "sha256": "0647b11417110091e658ee61fffe0ea5c683cfed336e32829248e5842bcb7d08"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "b6ed64f8f832eab6511da7a70b46d43572d85ad7900805b2e05fe3b47239ab50"
+    }
+  ]
+}
