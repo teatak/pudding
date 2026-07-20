@@ -1,6 +1,6 @@
-# 布丁
+# Pudding
 
-[![布丁——桌面上的 AI 工作区](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
+[![Pudding——桌面上的 AI 工作区](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
 
 **在独立 AI 会话中完成网页研究、终端任务，并把有价值的结果留在共享画布上。** 每个会话保留自己的上下文；
 你可以接入自己的模型服务，工作区数据则保存在 Mac 本机。
@@ -8,14 +8,14 @@
 [**下载 macOS 版本 →**](https://github.com/teatak/pudding/releases/latest) ·
 [查看真实工作流](#一个工作流一个工作区) · [English](./README.md)
 
-> 布丁目前处于早期预览阶段。这个公开仓库用于提供产品说明、发布包和初始目录，源码暂未公开。
+> Pudding 目前处于早期预览阶段。这个公开仓库用于提供产品说明、发布包和初始目录，源码暂未公开。
 
 ## 一个工作流，一个工作区
 
-让布丁使用内置浏览器研究主题，在需要时执行终端任务，再把有用结果整理成文档、表格、图片或小组件放到画布上。
+让 Pudding 使用内置浏览器研究主题，在需要时执行终端任务，再把有用结果整理成文档、表格、图片或小组件放到画布上。
 这些成果会持续显示在对话旁边，不再散落于其他标签页或被埋进聊天记录。
 
-![布丁会话在共享画布中生成发布清单和对比表](./assets/product/workspace-overview.jpg)
+![Pudding 会话在共享画布中生成发布清单和对比表](./assets/product/workspace-overview.jpg)
 
 ## 主要能力
 
@@ -35,7 +35,7 @@
    - Apple 芯片：`Pudding-<version>-arm64.dmg`
    - Intel 芯片：`Pudding-<version>-x64.dmg`
 2. 打开 DMG，将 `Pudding.app` 拖入“应用程序”。
-3. 打开布丁。
+3. 打开 Pudding。
 
 ### macOS 首次打开
 
@@ -43,18 +43,18 @@
 
 ## 本地数据
 
-布丁将应用状态、配置、本地数据库、已安装的应用与技能，以及可选运行资源保存在：
+Pudding 将应用状态、配置、本地数据库、已安装的应用与技能，以及可选运行资源保存在：
 
 ```text
 ~/.pudding
 ```
 
-项目文件仍保存在你选择的目录中；布丁不再默认使用固定的 `~/pudding` 工作目录。模型请求会发送到你选择的
-模型服务，模型凭据和模型配置均在布丁内管理。
+项目文件仍保存在你选择的目录中；Pudding 不再默认使用固定的 `~/pudding` 工作目录。模型请求会发送到你选择的
+模型服务，模型凭据和模型配置均在 Pudding 内管理。
 
 ## 语音运行资源
 
-语音功能使用保存在 `~/.pudding/runtime` 下的可选运行资源。布丁会在安装前提示，因此桌面安装包无需默认
+语音功能使用保存在 `~/.pudding/runtime` 下的可选运行资源。Pudding 会在安装前提示，因此桌面安装包无需默认
 携带体积较大的语音模型。语音资源通过独立的 `runtime-v1` Release 发布。
 
 ## 应用、小组件与技能
@@ -68,7 +68,7 @@
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存可点击的快捷提示词，用户选择后才会提交给当前模型。
 - [`catalog/user-messages.json`](./catalog/user-messages.json) 保存新会话页的多语言主标题、可选副标题和外部链接。内容只在界面中展示，绝不会写入输入框或发送给模型，也不支持注入原始 HTML。
 
-布丁会定期读取这两个公开目录并缓存在本机，不上传用户行为。
+Pudding 会定期读取这两个公开目录并缓存在本机，不上传用户行为。
 
 ## 发布与更新
 
