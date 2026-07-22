@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.16",
+  "tag": "v0.1.16",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.16",
+    "commit": "d42f874939c750064f6f773f7bc83f12f9ec2529"
+  },
+  "releaseNotes": "### Task Progress\n\n- Let long-running tasks publish an ordered plan with explicit pending, active, and completed steps.\n- Show the current step and overall progress above the Composer, with the full plan available on hover or focus.\n\n### Apps and Context\n\n- Unload Apps that are no longer relevant without uninstalling them or removing their connections.\n- Track loaded Apps in the model context to avoid redundant loads and keep later steps focused.\n- Include authorized project-root instructions automatically in Code mode while preserving path-scoped nested rules.\n\n### Project Workflows\n\n- Consolidate project file reading, root discovery, and patch workflows into a smaller, clearer tool set.\n- Improve project search, project lists, empty states, and result interactions.\n\n### Transcript and Composer\n\n- Simplify code tool details and file-change presentation in the transcript.\n- Refine the Composer recording state with clearer borders, masks, and gradients.\n\n### Release Reliability\n\n- Recover GitHub draft releases that temporarily receive an `untagged-*` placeholder after asset upload.\n- Make real WebView pointer-click smoke tests deterministic by activating the test window explicitly.\n\n### Compatibility\n\n- Preserve the local database at schema v4 with no migration, data rewrite, index rebuild, or backup required.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.16-arm64.dmg",
+      "size": 180156868,
+      "sha256": "69f3b33da0a4a2dbaf1dc3c6defd6111d2628b2a4e9141c874d57bca16460959"
+    },
+    {
+      "name": "Pudding-0.1.16-arm64.dmg.blockmap",
+      "size": 189265,
+      "sha256": "f07bb3208918356158aa05d45af152ad713220ec8f60f627022cd0fdf33109c1"
+    },
+    {
+      "name": "Pudding-0.1.16-arm64.zip",
+      "size": 179666983,
+      "sha256": "f0dd50bcce88db6431ebbea7db088a5939c9a78404f0525bbc6a6228057aa305"
+    },
+    {
+      "name": "Pudding-0.1.16-arm64.zip.blockmap",
+      "size": 187656,
+      "sha256": "c805a239ec9655ca9986ac2eb3cf201729977569cfea5cfffc4aad1744b7d559"
+    },
+    {
+      "name": "Pudding-0.1.16-x64.dmg",
+      "size": 180520583,
+      "sha256": "cadda1e224165bc344f73bb5c041bae1f5468496e8ce61ea703202780a2b6323"
+    },
+    {
+      "name": "Pudding-0.1.16-x64.dmg.blockmap",
+      "size": 188770,
+      "sha256": "69dbacda06e76f8e928262933bff342250710af7c3c18e8f546c79aa59642bb7"
+    },
+    {
+      "name": "Pudding-0.1.16-x64.zip",
+      "size": 180130347,
+      "sha256": "3afe825c9492fea29fe15b7550602d00e7472b4f9d15c7f8e88f0ab2a8b4f6eb"
+    },
+    {
+      "name": "Pudding-0.1.16-x64.zip.blockmap",
+      "size": 189321,
+      "sha256": "f7df5c3f4359ed98c0b2ceb605a3a5448b065e76dc4e0b079bfeed2f51664340"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "fbea8d2e452ad8bdbe72230c5e4372df074a9b42599dc194e2a569c3b84a49d8"
+    }
+  ]
+}
