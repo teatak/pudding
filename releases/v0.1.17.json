@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.17",
+  "tag": "v0.1.17",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.17",
+    "commit": "bb10260b55c099eb737f083edf7d7032739db01e"
+  },
+  "releaseNotes": "### Markdown Editing\n\n- Edit Markdown files directly in a live rich-text surface powered by Vditor.\n- Preserve keyboard saving, external file synchronization, location reveals, and selection references.\n- Match the active language and color theme while loading editor resources only when needed.\n\n### Transcript Scrolling\n\n- Keep live transcripts attached to the latest output when the viewport or Composer changes size.\n- Preserve the reader's position when they intentionally browse earlier messages.\n\n### Interface Refinements\n\n- Refresh task progress icons, session App controls, project file details, and workspace tab colors.\n- Remove unused CodeMirror and Lezer dependencies left by the editor transition.\n\n### Compatibility\n\n- Preserve the local database at schema v4 with no migration, data rewrite, index rebuild, or backup required.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.17-arm64.dmg",
+      "size": 180841812,
+      "sha256": "914bdfa39fbe2969d1bb26c7e67869dfa44f47fe19d21df87d6a1fe3a2881eec"
+    },
+    {
+      "name": "Pudding-0.1.17-arm64.dmg.blockmap",
+      "size": 190079,
+      "sha256": "6568a8a38c74d9416bec1e62216af15dd01a3fc48a9c45a12d62894b63ddd79b"
+    },
+    {
+      "name": "Pudding-0.1.17-arm64.zip",
+      "size": 180354610,
+      "sha256": "8654c9c0fc49a48acd12b18348f70987e049bc7d97726568fb9a8547685a994a"
+    },
+    {
+      "name": "Pudding-0.1.17-arm64.zip.blockmap",
+      "size": 188824,
+      "sha256": "5882f5f068850f0c99abf0ff4d35222347f4b1a8754b79c90ba4f34c8c3df09f"
+    },
+    {
+      "name": "Pudding-0.1.17-x64.dmg",
+      "size": 181214580,
+      "sha256": "276988525f6191ff7cad588f1c729396587a33a0d983de3b661a96622b80412e"
+    },
+    {
+      "name": "Pudding-0.1.17-x64.dmg.blockmap",
+      "size": 190030,
+      "sha256": "44a484b14adcda58dcc14c4a2dbf6366bf55489e8f1e151fce349e3483b5947e"
+    },
+    {
+      "name": "Pudding-0.1.17-x64.zip",
+      "size": 180844334,
+      "sha256": "f1fd97f7570f5628ba16cf976212dd153aed965150c6bf2034a52f7ba3258faf"
+    },
+    {
+      "name": "Pudding-0.1.17-x64.zip.blockmap",
+      "size": 190922,
+      "sha256": "5974c15c759d6226c8ffb82b1df7e05300f3b6707efda2e6a7dfffad0a4dec89"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "454d0f9917f82b0004aa378a665232da461d504743b0357fc4b5d3c4da7e4ca5"
+    }
+  ]
+}
