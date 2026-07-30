@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.19",
+  "tag": "v0.1.19",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.19",
+    "commit": "6ef9e7c0518b946abcaa9b93c7fdbd63e2eb79e9"
+  },
+  "releaseNotes": "### Provider Continuity\n\n- Preserve native reasoning, signatures, and tool-call state across Anthropic, Google, and OpenAI Responses calls.\n- Keep provider continuation data hidden from public message payloads while retaining canonical context continuity.\n- Improve provider message grouping, request estimation, and state-only tool-loop handling.\n\n### Development Workflows\n\n- Capture a filtered login-shell environment once so command tools can find the user's development toolchain reliably.\n- Track structured file mutations by exact target instead of scanning entire project roots.\n- Distinguish structured file edits from command-observed changes in turn file summaries.\n\n### Apps and OAuth\n\n- Separate built-in and installed Apps with clearer installation state and package-aware icon caching.\n- Refine OAuth transactions, provider routing, legacy callback compatibility, and installation handoff.\n- Unify project creation, renaming, and multi-directory editing in one drag-and-drop form.\n\n### Interface and Brand\n\n- Refresh reasoning controls, transcript folding, session navigation, file changes, voice loading, and editor language support.\n- Centralize icons and interaction states for more consistent hover, active, and sizing behavior.\n- Unify Pudding branding across the app icon, tray, web assets, OpenGraph imagery, and DMG.\n\n### Reliability and Compatibility\n\n- Upgrade the local database from schema v5 to v6 with an automatic pre-migration backup.\n- Preserve existing sessions, messages, turns, projects, and indexes without canonical rewrites or rebuilds.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.19-arm64.dmg",
+      "size": 181576933,
+      "sha256": "c2bda2f433c0a5b0e1666f0d28a276a17ee81025c27f82917dd7230dc9d63f95"
+    },
+    {
+      "name": "Pudding-0.1.19-arm64.dmg.blockmap",
+      "size": 190687,
+      "sha256": "edb5ddc074e6a259043e665ad16d0b163d9dad1f0f73fe866e8578d53d934456"
+    },
+    {
+      "name": "Pudding-0.1.19-arm64.zip",
+      "size": 180986471,
+      "sha256": "4d250d99fcc39cb50326ef2fb36548820dde9affc8609aafb5f7444d8031bdac"
+    },
+    {
+      "name": "Pudding-0.1.19-arm64.zip.blockmap",
+      "size": 188304,
+      "sha256": "ee6e9e259117328a3d11cf5c96d02ac4ac6a83aeb28b2db08473fd6fbfccce47"
+    },
+    {
+      "name": "Pudding-0.1.19-x64.dmg",
+      "size": 181968485,
+      "sha256": "e1c137f046e6d48cd03eaf07ec80192fe810ae842e2a726dde99dc7efcb1f5cc"
+    },
+    {
+      "name": "Pudding-0.1.19-x64.dmg.blockmap",
+      "size": 191940,
+      "sha256": "eecfeb939ee623cd0fbfe583b3142077fc2c647a4235114c5ad993f4cdde9a93"
+    },
+    {
+      "name": "Pudding-0.1.19-x64.zip",
+      "size": 181501042,
+      "sha256": "91af7f8ae9a2206d15e429ece8f31ee3c13c2de5d3183604f8467bc95df6383e"
+    },
+    {
+      "name": "Pudding-0.1.19-x64.zip.blockmap",
+      "size": 191713,
+      "sha256": "89d7c335ef6bc0c70acef5e2f183239230f5bbc5408a2b4aeae2ed5096741d11"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "4f6330984a0ba26691477a1dcf98fb6874e86396700e50f89e201030351e0959"
+    }
+  ]
+}
