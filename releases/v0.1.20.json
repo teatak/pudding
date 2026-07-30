@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.20",
+  "tag": "v0.1.20",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.20",
+    "commit": "bef395f3961acd6058dcb0ad9550a94c2785e649"
+  },
+  "releaseNotes": "### Transcript and Tool Details\n\n- Preserve explicit open and closed transcript disclosure states across streaming and canonical updates.\n- Keep compacted tool steps stable with persistent tool-call keys as groups change shape.\n- Remember raw tool input and output disclosure state alongside the parent tool entry.\n\n### Models and Projects\n\n- Apply model and reasoning changes optimistically with rollback and background reconciliation.\n- Improve model picker sizing, labels, accessibility hints, and close behavior.\n- Allow projects without directories and refine project sorting controls.\n\n### Apps and Interface\n\n- Invalidate cached App packages by content hash when package contents change.\n- Standardize Select popovers, scrolling controls, toast layout, and interaction states.\n- Make Composer turn progress more compact with clearer completed and in-progress states.\n- Use consistent compact `k` and `m` units for context token counts.\n- Update Radix UI, Lucide, and shadcn dependencies while removing duplicate package declarations.\n\n### Reliability and Compatibility\n\n- Keep the SQLite schema at v6 with no migration, data rewrite, or index rebuild.\n- Preserve existing sessions, projects, Apps, connections, Skills, canvas items, and browser addresses.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.20-arm64.dmg",
+      "size": 181551791,
+      "sha256": "81534a83a5ad6abe742335481ffef3fb3b7a6b1a8eccd7f5acdbf0bfc72aaca5"
+    },
+    {
+      "name": "Pudding-0.1.20-arm64.dmg.blockmap",
+      "size": 191235,
+      "sha256": "29b900f18bff9f76ff2b70305b20b79c5d6a83ca796408d921980f351850356a"
+    },
+    {
+      "name": "Pudding-0.1.20-arm64.zip",
+      "size": 180988878,
+      "sha256": "2bf543152c832abac0620244c9f823c96c0b73b26ba1e12d43dd66d92c5463e6"
+    },
+    {
+      "name": "Pudding-0.1.20-arm64.zip.blockmap",
+      "size": 188846,
+      "sha256": "ee18f636fecc5faa02bdc03f02e4e90f5cd2a4485fd76d40c35183b3614436e0"
+    },
+    {
+      "name": "Pudding-0.1.20-x64.dmg",
+      "size": 182025369,
+      "sha256": "a168f30ff25965f407df965b64d37b0f046bb300ceb902d8e7535de0e00ab9b4"
+    },
+    {
+      "name": "Pudding-0.1.20-x64.dmg.blockmap",
+      "size": 191119,
+      "sha256": "0f318f93e5f0e5ddb09a7a9f28d7fc7b1ebd412975fb252bc596670b7a568bbb"
+    },
+    {
+      "name": "Pudding-0.1.20-x64.zip",
+      "size": 181504349,
+      "sha256": "15777ccc95728f3ec9ce764d7ae68a4dbcc0c35dec904c752d550393b6b36778"
+    },
+    {
+      "name": "Pudding-0.1.20-x64.zip.blockmap",
+      "size": 191627,
+      "sha256": "71cc1848a1edc7e211a879325f30651987daaaa3c66466194be85e2f046491e8"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "113620e68101af165888b4f63c79c61cd85780f6c0bcc4139899ce3fb07cb38d"
+    }
+  ]
+}
