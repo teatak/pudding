@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.21",
+  "tag": "v0.1.21",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.21",
+    "commit": "e4bf1c2fbc77568e8d19be81c0f3600c6f5b6805"
+  },
+  "releaseNotes": "### Projects and GitHub\n\n- Connect projects to GitHub App accounts and select a repository for project-scoped work.\n- Route project sessions through their preferred GitHub connection automatically.\n- Add project creation, name sorting, drag-to-reorder, empty projects, and activity-aware project lists.\n\n### Search and Transcript\n\n- Search the complete visible conversation with `Cmd/Ctrl+F` and navigate every matching message.\n- Persist and deduplicate attachments embedded in tool results, including automatically displayed camera photos.\n- Improve turn reveal transitions, IME layout stability, transcript spacing, and reliable bottom anchoring.\n\n### Workspace and OAuth\n\n- Refine workspace pane persistence, project empty states, terminal presentation, and sidebar interactions.\n- Add account-aware GitHub App authorization with token refresh, reauthorization, and repository discovery.\n- Preserve early OAuth callbacks and support separate release and development return protocols.\n\n### Reliability and Compatibility\n\n- Shut Electron down gracefully on termination signals and keep the BuzzHive preset name consistent.\n- Upgrade SQLite to schema v7 with an automatic pre-migration backup and no rewrite of existing user data.\n- Preserve existing sessions, projects, messages, canvas items, browser addresses, Apps, and connections.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.21-arm64.dmg",
+      "size": 181647267,
+      "sha256": "daa86c65a67360f365ac090a2895a7be77dca25fce454595dfe8178affa77c27"
+    },
+    {
+      "name": "Pudding-0.1.21-arm64.dmg.blockmap",
+      "size": 191618,
+      "sha256": "fcfce2c6d5deff5fa059e7cd1f8212ead088ae800c4f4f695c4578c9661e8beb"
+    },
+    {
+      "name": "Pudding-0.1.21-arm64.zip",
+      "size": 181067593,
+      "sha256": "ee7811b3c60c5ae4e213a8d86990c6f29ff0f40f1287dfbe64328bab5690d45b"
+    },
+    {
+      "name": "Pudding-0.1.21-arm64.zip.blockmap",
+      "size": 189829,
+      "sha256": "6980608f83eb293333b7bac7f69de7c87a275a66ce0842650f10dd746f212eb7"
+    },
+    {
+      "name": "Pudding-0.1.21-x64.dmg",
+      "size": 182069724,
+      "sha256": "424ad41aac472fd0ad70b60595b674e68af05e3cbfb0729f6a72138c5c5ec18e"
+    },
+    {
+      "name": "Pudding-0.1.21-x64.dmg.blockmap",
+      "size": 192310,
+      "sha256": "fc0f3f6eb0516ba558599450209c4388ee3782caf17f1e77a58f550adc0fb001"
+    },
+    {
+      "name": "Pudding-0.1.21-x64.zip",
+      "size": 181590563,
+      "sha256": "ebd7f13c19a0a6510cb1350bdc5afe7c886d0fa298d02230057782ab70172c1e"
+    },
+    {
+      "name": "Pudding-0.1.21-x64.zip.blockmap",
+      "size": 191913,
+      "sha256": "13962aadab38d99880e277ef5b6e48e6aac8a5f6a883cd831e247f761cee11b7"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "9f4ffe54b40c2401d5c42acd7b3babb22c8668c53c0813aea013a865c7a01646"
+    }
+  ]
+}
