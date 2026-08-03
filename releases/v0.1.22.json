@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.22",
+  "tag": "v0.1.22",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.22",
+    "commit": "065282667064d3855b3b94fd59f63b2e4c8fcfcf"
+  },
+  "releaseNotes": "### Code Tools and Reliability\n\n- Make project files, Git, and code intelligence tools always available as core Code mode capabilities.\n- Reconcile live tool-call overlays more reliably and preserve authoritative tool execution across runtime refreshes.\n- Track statically identifiable file mutations from foreground commands in turn file changes.\n\n### Models and Settings\n\n- Redesign provider creation and editing with clearer presets, protocol fields, model options, and validation.\n- Standardize reasoning effort across OpenAI, Anthropic, and Google models and remember model-level preferences.\n- Add General and Advanced voice settings, manual error refresh actions, and clearer settings organization.\n\n### Browser and Workspace\n\n- Reload the active browser WebContents directly while preserving its tab and component lifecycle.\n- Refine workspace tabs, empty states, browser history, session rail fades, and composer focus restoration.\n- Improve icon alignment, close-button visibility, responsive tab widths, and workspace illustration layout.\n\n### Data and Compatibility\n\n- Upgrade SQLite from schema v7 to v9 with an automatic pre-migration backup.\n- Remove the retired project App binding table and clean obsolete built-in App IDs from session settings.\n- Preserve existing messages, projects, turns, canvas items, browser history, search indexes, and other App selections.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.22-arm64.dmg",
+      "size": 181648742,
+      "sha256": "2fd5a7c5680d60c35afd0a1324276f7cad8c848c2291e04dcaf288c047509bf0"
+    },
+    {
+      "name": "Pudding-0.1.22-arm64.dmg.blockmap",
+      "size": 192645,
+      "sha256": "7a0514bed3f965711cdcb9b4b8491f4f4c764ae058626103c6085f655875dbd4"
+    },
+    {
+      "name": "Pudding-0.1.22-arm64.zip",
+      "size": 181061392,
+      "sha256": "e37f3d588d4de34b478c8409147acf1dd22295aae9634cd4f92035dc1961d158"
+    },
+    {
+      "name": "Pudding-0.1.22-arm64.zip.blockmap",
+      "size": 189418,
+      "sha256": "25a5f041f4bd1146318bf9b2bc7b28bd862f2dcc4b5cc5c124fc0a3a16d4c769"
+    },
+    {
+      "name": "Pudding-0.1.22-x64.dmg",
+      "size": 182065133,
+      "sha256": "36e4daab72e67b289eba43e6cddb8bd2f90737ebfc42a68b4e0b6b6ba4ab0e7f"
+    },
+    {
+      "name": "Pudding-0.1.22-x64.dmg.blockmap",
+      "size": 193386,
+      "sha256": "06fe1d18ac36b724969bfe3b6541ed44892d265c300c2b986a1d56602b2afbb9"
+    },
+    {
+      "name": "Pudding-0.1.22-x64.zip",
+      "size": 181583462,
+      "sha256": "a7f15d6820fc355467cf180977714c65f505d1aaa19ff36097d45005a9e0d706"
+    },
+    {
+      "name": "Pudding-0.1.22-x64.zip.blockmap",
+      "size": 191391,
+      "sha256": "c82b22b22be48774cfa4b2046ae2e26a7d160c20a3b4de16679c2791166f6c30"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "248e441ca085fde1345334563261123e0b49ec43ed85d93a14cdab1d6f12ba7b"
+    }
+  ]
+}
