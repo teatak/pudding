@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.23",
+  "tag": "v0.1.23",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.23",
+    "commit": "54bf30058d15976924aa59cc23e4f251f41fdade"
+  },
+  "releaseNotes": "### Browser and Passwords\n\n- Add encrypted browser password saving, updating, autofill, management, site exclusions, and Chrome CSV import.\n- Consolidate browser preload behavior and strengthen session, tab, origin, and live WebContents routing checks.\n- Add in-page find and browser options while refining workspace tab interactions.\n\n### Media and Agent Activity\n\n- Replace the image-only attachment reader with a unified media tool for supported images and audio.\n- Route session attachments and authorized Code mode files through one explicit media-reading contract.\n- Add a floating turn console that summarizes active analysis, tool progress, and file changes.\n\n### Sessions and Workspace\n\n- Synchronize project approval state from the authoritative session returned by the API.\n- Add Mermaid rendering and refine workspace tab closing, editor layout, and session audio controls.\n- Improve transcript activity grouping and active-turn presentation.\n\n### Data and Maintenance\n\n- Keep SQLite schema v9 and preserve all existing runtime data without migration in this release.\n- Remove older migration backups only after a future successful schema migration, retaining its verified backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.23-arm64.dmg",
+      "size": 182421281,
+      "sha256": "f4d120564356d38934db46a67053f412dd946c1ff6977a5ac99d55ab45396ae0"
+    },
+    {
+      "name": "Pudding-0.1.23-arm64.dmg.blockmap",
+      "size": 192188,
+      "sha256": "b3ac4e81a562e4412daddc252643ee341804f9709c071f1274acc9cff9da2926"
+    },
+    {
+      "name": "Pudding-0.1.23-arm64.zip",
+      "size": 181860065,
+      "sha256": "a53a7a2c4c978a81ce6523cb9e9c1a36d9e0b054377bb9012b202be70f8dd35c"
+    },
+    {
+      "name": "Pudding-0.1.23-arm64.zip.blockmap",
+      "size": 190579,
+      "sha256": "871b435d19b0359b3a9bfe59b0c71b33dc4d7801a6402d495c4d0dbe7d469a72"
+    },
+    {
+      "name": "Pudding-0.1.23-x64.dmg",
+      "size": 182890927,
+      "sha256": "02c4aec6782a28fabf8f1688a4059d20a4308d9eecb8e383ddd493bccaa41f83"
+    },
+    {
+      "name": "Pudding-0.1.23-x64.dmg.blockmap",
+      "size": 193879,
+      "sha256": "c11cc3f051fd511c92393c225de8ab312afc6dd911411ce201d00ccd6e7c5d06"
+    },
+    {
+      "name": "Pudding-0.1.23-x64.zip",
+      "size": 182396876,
+      "sha256": "4e70430f53a6dfd9fb0c890ae63aab0702587cb2af1fcc8acbc778b79fd14525"
+    },
+    {
+      "name": "Pudding-0.1.23-x64.zip.blockmap",
+      "size": 192510,
+      "sha256": "1dcf0ac87e370e1b369f97a01e055b935b1b23c17a0aa524cdb84e04015a4117"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "98d7b651b6abbb6ab48f8af2db980704f3f0c2cb8d73e6d5bd8d691d693834a3"
+    }
+  ]
+}
