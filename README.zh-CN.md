@@ -1,83 +1,114 @@
 # Pudding
 
-[![Pudding——桌面上的 AI 工作区](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
+<p align="center">
+  <strong>桌面上的 AI 工作区。</strong><br />
+  独立会话、共享画布、浏览器与终端工具，以及由你选择的模型。
+</p>
 
-**在独立 AI 会话中完成网页研究、终端任务，并把有价值的结果留在共享画布上。** 每个会话保留自己的上下文；
-你可以接入自己的模型服务，工作区数据则保存在 Mac 本机。
+<p align="center">
+  <a href="https://github.com/teatak/pudding/releases/latest"><strong>下载 macOS 版本</strong></a>
+  · <a href="https://x-t.top">官网</a>
+  · <a href="./README.md">English</a>
+</p>
 
-[**下载 macOS 版本 →**](https://github.com/teatak/pudding/releases/latest) ·
-[查看真实工作流](#一个工作流一个工作区) · [English](./README.md)
+[![下载 Pudding macOS 版本](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
 
-> Pudding 目前处于早期预览阶段。这个公开仓库用于提供产品说明、发布包和初始目录，源码暂未公开。
+<p align="center"><sub>macOS · Apple 芯片与 Intel · 早期预览</sub></p>
 
-## 一个工作流，一个工作区
+> **早期预览：**这个公开仓库用于分发 Pudding 安装包、产品资料和公开目录数据，应用源码未在这里发布。
 
-让 Pudding 使用内置浏览器研究主题，在需要时执行终端任务，再把有用结果整理成文档、表格、图片或小组件放到画布上。
-这些成果会持续显示在对话旁边，不再散落于其他标签页或被埋进聊天记录。
+## AI 工作不该只留下一段聊天记录
 
-![Pudding 会话在共享画布中生成发布清单和对比表](./assets/product/workspace-overview.jpg)
+聊天适合思考，但真正的工作很快会散落到浏览器标签、终端窗口、文件和长篇对话中。Pudding 把对话、工具和结果
+放在同一个桌面工作区里。
 
-## 主要能力
+| 1. 研究 | 2. 执行 | 3. 留下结果 |
+| --- | --- | --- |
+| 在浏览网页时持续保留任务上下文。 | 使用本地终端、项目目录和已连接的应用。 | 把有价值的输出整理成文档、表格、图片或可复用小组件，留在画布上。 |
 
-- **多会话工作区**：同时保留多个独立会话及其项目上下文。
-- **共享画布**：持续保留文档、表格、图片、小组件和浏览器页面等结果。
-- **可见的工具过程**：在画布中使用浏览器、终端、相机、桌面截取和已安装应用。
-- **可扩展工作流**：通过小组件、技能、MCP 工具和应用集成扩展特定任务。
-- **灵活的模型接入**：支持 OpenAI、Anthropic、Gemini、DeepSeek、Qwen、MiMo、Moonshot/Kimi、智谱 GLM、
-  OpenRouter、Ollama 以及自定义兼容接口。
-- **可选语音能力**：安装对应运行资源后，可使用听写、语音对话和原音播放。
+每个会话拥有自己的上下文，因此一个任务不会悄悄变成另一个任务的记忆。
 
-## 安装
+![真实的 Pudding 对话与画布工作区](./assets/product/workspace-overview.jpg)
 
-当前预览版本支持 Apple 芯片和 Intel 芯片的 macOS。
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./assets/product/launch-checklist.jpg" alt="Pudding 画布中的发布清单" />
+      <br /><strong>从资料研究到可执行文档</strong>
+    </td>
+    <td width="50%">
+      <img src="./assets/product/comparison-table.jpg" alt="Pudding 画布中的对比表" />
+      <br /><strong>从分散来源到结构化对比</strong>
+    </td>
+  </tr>
+</table>
 
-1. 从 [Releases](https://github.com/teatak/pudding/releases/latest) 下载适合你的 DMG：
-   - Apple 芯片：`Pudding-<version>-arm64.dmg`
-   - Intel 芯片：`Pudding-<version>-x64.dmg`
-2. 打开 DMG，将 `Pudding.app` 拖入“应用程序”。
-3. 打开 Pudding。
+## Pudding 提供什么
 
-### macOS 首次打开
+- **独立 AI 会话**：分别管理对话、项目、工具和上下文。
+- **对话旁的画布**：持续展示文档、表格、图片、浏览器页面和交互式小组件。
+- **桌面工具**：使用内置浏览器、终端、图像采集、语音和已安装应用。
+- **本地项目**：让会话在你明确选择的目录中工作。
+- **自选模型**：根据任务连接适合的模型服务和模型。
+- **可扩展工作流**：通过应用、小组件、技能和 MCP 工具扩展能力。
 
-当前预览包使用 Developer ID 证书签名并已通过 Apple 公证。首次启动时，macOS 可能会确认是否打开从互联网下载的应用，点击“打开”即可。
+## 下载与安装
 
-## 本地数据
+当前预览版本同时支持 Apple 芯片和 Intel 芯片的 macOS。
 
-Pudding 将应用状态、配置、本地数据库、已安装的应用与技能，以及可选运行资源保存在：
+| Mac | 安装包 |
+| --- | --- |
+| Apple 芯片 | `Pudding-<版本>-arm64.dmg` |
+| Intel | `Pudding-<版本>-x64.dmg` |
 
-```text
-~/.pudding
-```
+1. 从[最新 Release](https://github.com/teatak/pudding/releases/latest)下载对应的 DMG。
+2. 打开安装包，将 **Pudding.app** 拖入“应用程序”。
+3. 启动 Pudding。
 
-项目文件仍保存在你选择的目录中；Pudding 不再默认使用固定的 `~/pudding` 工作目录。模型请求会发送到你选择的
-模型服务，模型凭据和模型配置均在 Pudding 内管理。
+预览版本使用 Developer ID 证书签名，并已通过 Apple 公证。首次打开时，macOS 可能会确认是否运行从互联网下载的应用。
 
-## 语音运行资源
+## Local-first，以及清晰的数据边界
 
-语音功能使用保存在 `~/.pudding/runtime` 下的可选运行资源。Pudding 会在安装前提示，因此桌面安装包无需默认
-携带体积较大的语音模型。语音资源通过独立的 `runtime-v1` Release 发布。
+- Pudding 不要求注册 Pudding 账号。
+- 对话、设置、本地数据库、已安装应用与技能，以及可选运行资源保存在 `~/.pudding`。
+- 项目文件仍留在你选择的目录中。
+- 模型请求会发送到你配置的模型服务；Pudding 不会把云端模型包装成本地模型。
+- 公开的初始目录会缓存在本机，Pudding 不上传目录交互数据。
 
-## 应用、小组件与技能
+## 模型与扩展
+
+<details>
+  <summary><strong>模型服务</strong></summary>
+
+Pudding 可连接 OpenAI、Anthropic、Google Gemini、DeepSeek、Qwen、小米 MiMo、Moonshot/Kimi、智谱 GLM、
+OpenRouter、Ollama 以及自定义兼容接口。
+
+</details>
 
 - **应用**封装可复用的集成，包括 REST、GraphQL 和 MCP 工具。
-- **小组件**是画布中的交互式结果，可以收藏并在不同会话中复用。
-- **技能**提供可跨会话复用的任务说明和工作流程。
+- **小组件**是可收藏并复用的画布交互结果。
+- **技能**提供面向特定任务的说明与可重复工作流。
 
-## 新会话内容
+## 可选语音资源
 
-- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存可点击的快捷提示词，用户选择后才会提交给当前模型。
-- [`catalog/user-messages.json`](./catalog/user-messages.json) 保存新会话页的多语言主标题、可选副标题和外部链接。内容只在界面中展示，绝不会写入输入框或发送给模型，也不支持注入原始 HTML。
+听写、语音对话和语音播放使用保存在 `~/.pudding/runtime` 下的可选资源。Pudding 会在安装前提示，因此桌面安装包
+无需默认携带体积较大的语音模型。语音资源通过独立的 `runtime-v1` Release 发布。
 
-Pudding 会定期读取这两个公开目录并缓存在本机，不上传用户行为。
+## 仓库内容
 
-## 发布与更新
+这个仓库是 Pudding 的公开分发中心：
 
-- 桌面应用使用 `v<版本号>` 标签。
-- 运行资源使用 `runtime-v<版本号>` 标签。
-- 已签名的预览版本可以在后台下载更新，只有用户点击“重新启动以更新”后才会安装；最新版 DMG 仍可作为手动更新兜底。
+- 桌面版本使用 `v<版本>` 标签。
+- 语音运行资源使用 `runtime-v<版本>` 标签。
+- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存快捷提示词，只有用户选择后才会提交给模型。
+- [`catalog/user-messages.json`](./catalog/user-messages.json) 保存新会话页的多语言展示文案和可选外部链接；内容不会
+  写入输入框或发送给模型，也不支持原始 HTML。
 
-桌面应用和运行资源分开发布，避免每次应用更新都重复下载较大的语音资源。历史版本会继续保留，方便必要时回退。
+已签名的预览版本可以在后台下载更新，只有用户选择“重新启动以更新”后才会安装。最新版 DMG 仍可用于手动安装或回退。
 
-## 源码与分发
+---
 
-这个仓库包含公开产品说明、发布元数据、安装包和目录数据。Pudding 源码未在这个仓库中公开。
+<p align="center">
+  <a href="https://github.com/teatak/pudding/releases/latest"><strong>下载 Pudding</strong></a>
+  · <a href="https://x-t.top">x-t.top</a>
+</p>

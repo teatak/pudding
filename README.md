@@ -1,96 +1,120 @@
 # Pudding
 
-[![Pudding — your AI workspace on the desktop](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
+<p align="center">
+  <strong>Your AI workspace. On your desktop.</strong><br />
+  Independent sessions, a shared canvas, browser and terminal tools, and your choice of model.
+</p>
 
-**Research with the browser, run terminal tasks, and keep useful results on a shared canvas—all inside independent
-AI sessions that keep their own context.** Bring your own model provider and keep your workspace data on your Mac.
+<p align="center">
+  <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download for macOS</strong></a>
+  · <a href="https://x-t.top">Website</a>
+  · <a href="./README.zh-CN.md">中文</a>
+</p>
 
-[**Download for macOS →**](https://github.com/teatak/pudding/releases/latest) ·
-[See a real workflow](#one-workflow-one-workspace) · [中文说明](./README.zh-CN.md)
+[![Download Pudding for macOS](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
 
-> Pudding is currently an early preview. The public repository hosts product information, release downloads, and
-> the starter catalog. Source code is not public yet.
+<p align="center"><sub>macOS · Apple silicon and Intel · Early preview</sub></p>
 
-## One workflow, one workspace
+> **Early preview:** this public repository distributes Pudding releases, product information, and public catalog
+> data. The application source code is not published here.
 
-Ask Pudding to research a topic with the built-in browser, use the terminal when needed, and turn the useful
-results into documents, tables, images, or widgets on the canvas. The work stays visible beside the conversation
-instead of disappearing into another tab or transcript.
+## AI work should leave something useful behind
 
-![A Pudding session producing a launch checklist and comparison table on the shared canvas](./assets/product/workspace-overview.jpg)
+Chat is good for thinking, but real work quickly spreads across browser tabs, terminal windows, files, and long
+transcripts. Pudding keeps the conversation, tools, and results together in one desktop workspace.
 
-## Highlights
+| 1. Research | 2. Work | 3. Keep the result |
+| --- | --- | --- |
+| Browse the web without losing the task context. | Use local terminal tools, projects, and connected apps. | Turn useful output into documents, tables, images, and reusable widgets on the canvas. |
 
-- **Multi-session workspace**: keep independent conversations and project context available side by side.
-- **Shared canvas**: preserve documents, tables, images, widgets, browser pages, and other useful results.
-- **Tools that stay visible**: work with the built-in browser, terminal, camera, desktop capture, and installed apps.
-- **Extensible workflows**: use widgets, skills, MCP tools, and app integrations for task-specific work.
-- **Flexible model access**: connect OpenAI, Anthropic, Gemini, DeepSeek, Qwen, MiMo, Moonshot/Kimi, Zhipu GLM,
-  OpenRouter, Ollama, and custom compatible endpoints.
-- **Optional voice features**: use dictation, voice dialogue, and speech playback when the required runtime is
-  installed.
+Each session keeps its own context, so one task does not silently become another task's memory.
 
-## Install
+![A real Pudding workspace with a conversation and canvas results](./assets/product/workspace-overview.jpg)
 
-The current preview supports macOS on Apple silicon and Intel.
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./assets/product/launch-checklist.jpg" alt="A launch checklist kept on the Pudding canvas" />
+      <br /><strong>From research to an actionable document</strong>
+    </td>
+    <td width="50%">
+      <img src="./assets/product/comparison-table.jpg" alt="A comparison table kept on the Pudding canvas" />
+      <br /><strong>From scattered sources to a structured comparison</strong>
+    </td>
+  </tr>
+</table>
 
-1. Download the DMG for your Mac from [Releases](https://github.com/teatak/pudding/releases/latest):
-   - Apple silicon: `Pudding-<version>-arm64.dmg`
-   - Intel: `Pudding-<version>-x64.dmg`
-2. Open the DMG and drag `Pudding.app` into **Applications**.
-3. Open Pudding.
+## What Pudding gives you
 
-### First launch on macOS
+- **Independent AI sessions** — separate conversations, projects, tools, and context.
+- **A canvas beside the chat** — keep documents, tables, images, browser pages, and interactive widgets visible.
+- **Desktop tools** — work with the built-in browser, terminal, image capture, voice, and installed apps.
+- **Local projects** — let a session work with folders you explicitly choose.
+- **Bring your own model** — connect the provider and model that fit the task.
+- **Extensible workflows** — add apps, widgets, skills, and MCP tools without turning every task into a new product.
 
-Current preview builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS
-may ask you to confirm that you want to open an application downloaded from the internet; choose **Open**.
+## Download and install
 
-## Local Data
+The current preview supports macOS on both Apple silicon and Intel.
 
-Pudding keeps application state, configuration, the local database, installed apps and skills, and optional
-runtime assets under:
+| Mac | Download |
+| --- | --- |
+| Apple silicon | `Pudding-<version>-arm64.dmg` |
+| Intel | `Pudding-<version>-x64.dmg` |
 
-```text
-~/.pudding
-```
+1. Download the right DMG from [the latest release](https://github.com/teatak/pudding/releases/latest).
+2. Open it and drag **Pudding.app** into **Applications**.
+3. Launch Pudding.
 
-Project files stay in the directories you choose; Pudding no longer assumes a fixed `~/pudding` workspace. Model
-requests are sent to the provider you select, and provider credentials and model profiles are configured inside
-Pudding.
+Preview builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS may ask
+you to confirm that you want to open an application downloaded from the internet.
 
-## Voice Runtime
+## Local-first, with clear boundaries
 
-Voice features use optional runtime assets stored under `~/.pudding/runtime`. Pudding prompts before installing
-them, so the desktop package does not need to bundle large speech models by default. Voice assets are published
-separately under the `runtime-v1` release.
+- Pudding does not require a Pudding account.
+- Conversations, settings, the local database, installed apps and skills, and optional runtime assets live under
+  `~/.pudding`.
+- Project files stay in the folders you choose.
+- Model requests go to the provider you configure; Pudding does not pretend cloud models run locally.
+- Public starter catalogs are cached locally, and Pudding does not upload catalog interaction data.
 
-## Apps, Widgets, and Skills
+## Models and extensions
+
+<details>
+  <summary><strong>Model providers</strong></summary>
+
+Pudding can connect to OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen, Xiaomi MiMo, Moonshot/Kimi, Zhipu GLM,
+OpenRouter, Ollama, and custom compatible endpoints.
+
+</details>
 
 - **Apps** package reusable integrations, including REST, GraphQL, and MCP tools.
-- **Widgets** are interactive canvas results that can be kept in your favorites and reused across sessions.
-- **Skills** provide task-specific instructions and workflows that can be reused across sessions.
+- **Widgets** are interactive canvas results that can be saved as favorites and reused.
+- **Skills** provide task-specific instructions and repeatable workflows.
 
-## New-session Content
+## Optional voice runtime
 
-- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts that are submitted
-  to the selected model when the user chooses one.
-- [`catalog/user-messages.json`](./catalog/user-messages.json) contains a localized title and optional subtitle for
-  the new-session screen, plus an optional external link. The content is displayed directly and is never inserted
-  into the composer or sent to a model. Raw HTML is not supported.
+Dictation, voice dialogue, and speech playback use optional assets stored under `~/.pudding/runtime`. Pudding asks
+before installing them, so the desktop download does not need to bundle large speech models. Voice assets are
+published separately under the `runtime-v1` release.
 
-Pudding periodically reads both public catalogs and caches them locally. It does not upload interaction data.
+## Repository contents
 
-## Releases and Updates
+This repository is the public distribution hub for Pudding:
 
 - Desktop releases use `v<version>` tags.
-- Runtime assets use `runtime-v<version>` tags.
-- Signed preview builds can download updates in the background. Installation only starts after the user chooses
-  **Restart to Update**; the latest DMG remains available as a manual fallback.
+- Voice runtime assets use `runtime-v<version>` tags.
+- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts submitted only after
+  the user chooses one.
+- [`catalog/user-messages.json`](./catalog/user-messages.json) contains localized, display-only new-session copy and
+  an optional external link. It is never inserted into the composer or sent to a model. Raw HTML is not supported.
 
-App and runtime releases remain separate so large speech assets do not need to be downloaded with every desktop
-update. Previous releases remain available for rollback.
+Signed preview builds can download updates in the background. Installation starts only after the user chooses
+**Restart to Update**, and the latest DMG remains available for manual installation or rollback.
 
-## Source and Distribution
+---
 
-This repository contains public product information, release metadata, downloads, and catalog data. Pudding's
-source code is not published in this repository.
+<p align="center">
+  <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download Pudding</strong></a>
+  · <a href="https://x-t.top">x-t.top</a>
+</p>
