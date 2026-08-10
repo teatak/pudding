@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.24",
+  "tag": "v0.1.24",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.24",
+    "commit": "ab8b517b39c8dd619967b3d004c0a681d0035a69"
+  },
+  "releaseNotes": "### Browser Runtime\n\n- Keep managed browser runtimes alive across workspace and session presentation changes.\n- Coordinate visible, standby, and automation focus while synchronizing initial page titles and favicons.\n- Refine browser options, credential prompts, tabs, and workspace presentation.\n\n### Desktop Updates\n\n- Surface available versions before downloading and show progress after the user starts an update.\n- Install downloaded updates automatically when no turn is active, or immediately after the active turn finishes.\n- Preserve signed stable and preview update channels while stopping the daemon and browser bridge before installation.\n\n### Workspace Performance\n\n- Reduce layout work with targeted resize observation, pixel-based dock sizing, and memoized workspace surfaces.\n- Replace broad query invalidation and state synchronization with focused updates.\n- Refine resource menus, tabs, canvas controls, transcript activity, and the floating turn console.\n- Simplify reasoning-effort selection around the actual automatic value and refine the compact picker layout.\n\n### Data and Compatibility\n\n- Keep SQLite schema v9 and leave all existing runtime data untouched without migration or backup churn.\n- Preserve the existing app identity, data directory, session routing, and provider configuration contracts.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.24-arm64.dmg",
+      "size": 181545579,
+      "sha256": "26e70c2a467ebafeeca938858f812a012576bebd8279d06c520f2321df5ecd6b"
+    },
+    {
+      "name": "Pudding-0.1.24-arm64.dmg.blockmap",
+      "size": 191624,
+      "sha256": "0a03277f67ef5c2066aec8707c7f1a8f011fdced4a521aa55b2958dd1528180e"
+    },
+    {
+      "name": "Pudding-0.1.24-arm64.zip",
+      "size": 180950538,
+      "sha256": "22cfe4759f8dc8832703b72be04235c1e5fe2081ba21c63d3108aa473b9976e3"
+    },
+    {
+      "name": "Pudding-0.1.24-arm64.zip.blockmap",
+      "size": 189699,
+      "sha256": "8315590134caab1853fb237b3a75d97c39d8f92d92387e1d9aced11db2676304"
+    },
+    {
+      "name": "Pudding-0.1.24-x64.dmg",
+      "size": 181947929,
+      "sha256": "b3eaa8336a32883ddf0373a3795f1093ac042bdd8b64775b85732c285e4cb8fd"
+    },
+    {
+      "name": "Pudding-0.1.24-x64.dmg.blockmap",
+      "size": 191265,
+      "sha256": "c046998e3f38074ce09cfde2deca8da43c807fe7845846ed3eb364a7a632e651"
+    },
+    {
+      "name": "Pudding-0.1.24-x64.zip",
+      "size": 181468098,
+      "sha256": "e63b5e3f5ac6aa508605f00df0072850313d308fd8961d0b4a80767558b6a829"
+    },
+    {
+      "name": "Pudding-0.1.24-x64.zip.blockmap",
+      "size": 191797,
+      "sha256": "81168e0e2f84ae3b85bbe62f5c804435c32d233b8283e8ff7040dd503f8e4caa"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "0b784619ab6a46b08084a306d2b5568d9e0bc61e4cf5045df1c47fd769e3dcdd"
+    }
+  ]
+}
