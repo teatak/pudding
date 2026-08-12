@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.25",
+  "tag": "v0.1.25",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.25",
+    "commit": "441a341556633a1e2f9864fb7fce2dd554701785"
+  },
+  "releaseNotes": "### Session Archive\n\n- Archive sessions instead of deleting them immediately, with restore and permanent-delete controls in Settings.\n- Keep archived sessions for 30 days and automatically purge expired data while releasing active runtime resources promptly.\n- Keep archived sessions out of active lists, project activity ordering, and queued-work recovery.\n\n### Search and Navigation\n\n- Rank session search results across titles, projects, models, and matching messages.\n- Show message excerpts only when message content matches the query.\n- Add focused archived-session search and project-grouped management.\n\n### Composer and Workspace\n\n- Unify the floating composer layout, toolbar controls, reasoning picker, and workspace layout actions.\n- Remove redundant audio-control UI and simplify the surrounding component structure.\n\n### Packaging and Data\n\n- Guard Electron Builder configuration against dependency-version drift.\n- Migrate SQLite from schema v9 to v10 with a transactional archive column and index.\n- Preserve existing sessions and canonical content while retaining one migration backup for rollback recovery.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.25-arm64.dmg",
+      "size": 181327532,
+      "sha256": "63092191d05f022659b4a6d2fc95bae069df907aa87ac95c0a5725ddf3c45ce5"
+    },
+    {
+      "name": "Pudding-0.1.25-arm64.dmg.blockmap",
+      "size": 189243,
+      "sha256": "d4891065de350119d849bcd82990b13a05bdaeb38d8c2676296569eaa713de5e"
+    },
+    {
+      "name": "Pudding-0.1.25-arm64.zip",
+      "size": 180736945,
+      "sha256": "ea7ef319102a6e2e9b6780d32db95383fbe36fe85c5f1027cbfdb6f2d5044ce4"
+    },
+    {
+      "name": "Pudding-0.1.25-arm64.zip.blockmap",
+      "size": 191273,
+      "sha256": "f18a7a71dc4b2b6730f585ece95b36f668c5a39ca75e59404804793a5fffa3b8"
+    },
+    {
+      "name": "Pudding-0.1.25-x64.dmg",
+      "size": 181597778,
+      "sha256": "b20d8a2eff5841dcd0bfc94a3f2b5bb19c6563c8c5831bb8a0d03ebe66ca5438"
+    },
+    {
+      "name": "Pudding-0.1.25-x64.dmg.blockmap",
+      "size": 190260,
+      "sha256": "c4a1e4c8ea3a45efd6a4b1c92e855a426457ac0602557d2d5c5825898498720f"
+    },
+    {
+      "name": "Pudding-0.1.25-x64.zip",
+      "size": 181130761,
+      "sha256": "0ae2c321e9064172b7495d2913faf3a8a99dcf53a6c71f6396238256e50052c1"
+    },
+    {
+      "name": "Pudding-0.1.25-x64.zip.blockmap",
+      "size": 190442,
+      "sha256": "f3462d0fc97b7bef42a3c7e4d725f9e8e1a2b7ce3694140470223ed4126580eb"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "38455ccae22c01bd9e8d2900c0f7a7804e29c4320d53ec4868435177d259e239"
+    }
+  ]
+}
