@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.1.26",
+  "tag": "v0.1.26",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.1.26",
+    "commit": "8fda9e149538ec88fd4cdb5053ba7a04c6cf9e4a"
+  },
+  "releaseNotes": "### Session Navigation\n\n- Rebuild the session rail with clearer component boundaries and more reliable project, session, progress, collapse, and menu interactions.\n- Keep active session state and sidebar overlays stable while navigating complex project lists.\n\n### Conversation Performance\n\n- Virtualize long transcripts to improve rendering performance and scrolling stability.\n- Improve dynamic row measurement, expandable error details, and transcript positioning.\n\n### Workspace Layout\n\n- Preserve workspace sizing as a responsive split ratio instead of a fixed pixel width.\n- Simplify empty workspace, resource tab, and pane layout behavior across window sizes.\n\n### Terminal Experience\n\n- Replace the embedded terminal runtime with a direct action that opens the project directory in the system terminal.\n- Remove obsolete terminal APIs, process management, xterm dependencies, and persisted UI paths.\n\n### Data Safety\n\n- Keep SQLite at schema v10 with no migration, canonical data rewrite, index rebuild, or migration backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.1.26-arm64.dmg",
+      "size": 181200358,
+      "sha256": "7abbeef301b6f45e9f02582fef6aedc265988f0e9e9dc0b45434352ad7cb24a7"
+    },
+    {
+      "name": "Pudding-0.1.26-arm64.dmg.blockmap",
+      "size": 193130,
+      "sha256": "2d4be6e180dd17d3dc23b7c9311c13f06f12feb31f5098e24ff49e7d568419fe"
+    },
+    {
+      "name": "Pudding-0.1.26-arm64.zip",
+      "size": 180607763,
+      "sha256": "0a7655ef484862eb3adc06664589c68c2faa0fded78e51b20090d140941d407d"
+    },
+    {
+      "name": "Pudding-0.1.26-arm64.zip.blockmap",
+      "size": 190805,
+      "sha256": "a0b58bea95a0d88e3c5a45e683b303973dc265e95c6e792a31410e813979709c"
+    },
+    {
+      "name": "Pudding-0.1.26-x64.dmg",
+      "size": 181461516,
+      "sha256": "7ae884aa34ed296d74d4d93133121ba8c967ca501b10c6b38e255ee814f864cb"
+    },
+    {
+      "name": "Pudding-0.1.26-x64.dmg.blockmap",
+      "size": 190547,
+      "sha256": "bcf0f69eafb9e8f1596bb1105fd8eb16a7756f32c0e41df05e6a4d10c72c0c7f"
+    },
+    {
+      "name": "Pudding-0.1.26-x64.zip",
+      "size": 180997961,
+      "sha256": "b0fbdf2e47d24e28d2f4d98e2e1299e0c7ef693003678aa2126bb8510989b7dd"
+    },
+    {
+      "name": "Pudding-0.1.26-x64.zip.blockmap",
+      "size": 191182,
+      "sha256": "59d1e220dd75c024ce3f0c415026afe874fc3bdb03c9f1d0b52d9be852dea722"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "b26c91a5f5feda302acb71f7850c4167ad9f7eb2401665d1a8a58d297d876176"
+    }
+  ]
+}
