@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.0-beta.2",
+  "tag": "v0.2.0-beta.2",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.0-beta.2",
+    "commit": "5b2be3d4509a13a0c3e4f9a50a15f9678d7a5488"
+  },
+  "releaseNotes": "### Computer Use Permissions\n\n- Add just-in-time macOS permission guidance for Accessibility and Screen & System Audio Recording.\n- Resume the interrupted Computer Use operation automatically after the required permissions are granted.\n- Keep runtime guidance and desktop settings synchronized through one permission state source.\n\n### Reliability\n\n- Preserve structured permission ownership across the native helper, Electron bridge, daemon, and tool result.\n- Restart the helper only when macOS reports permission as granted but the helper still cannot use it.\n- Avoid opening System Settings after the native permission request has already succeeded.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.0-beta.2-arm64.dmg",
+      "size": 181588887,
+      "sha256": "29fbf201438ad508b38307437c993b9471534783ad834fdba1f2c410213acec9"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-arm64.dmg.blockmap",
+      "size": 192465,
+      "sha256": "a9729f2cc96d778736f518a9947819bc282efb9f2c4210a9c2c2925723f3e4e5"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-arm64.zip",
+      "size": 181011531,
+      "sha256": "3359f710b0ce99042ae630a22b8c5abf3fb96cd9e9b13c3292e7fb64e71d94f6"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-arm64.zip.blockmap",
+      "size": 191970,
+      "sha256": "122924d62e5f63962cc59ccd1fe88efffe7c3dfae7f291eecaea45b6d962c3cb"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-x64.dmg",
+      "size": 181921223,
+      "sha256": "a97857b837dc5349bbacc065ea11035334c9ae17332bc4a372fed2a3666fda98"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-x64.dmg.blockmap",
+      "size": 191415,
+      "sha256": "b5abd09ecaf3b7f4c6c1cd11926d9c7e54cbeffcf88fc81c8f4f69365414bbba"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-x64.zip",
+      "size": 181433379,
+      "sha256": "019b709aac26c76366dafa17af83df7e2133564dcdaa92e15d92fa69f482209e"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.2-x64.zip.blockmap",
+      "size": 190812,
+      "sha256": "9f66166dee284d3583707eecf9c1b3faac1867764b1698233d668b82d00161dd"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "20be03a8e25dde1e0a65fbb172829266298e16a911bbbd3594f9303a3d0671e2"
+    }
+  ]
+}
