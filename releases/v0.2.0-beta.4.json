@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.0-beta.4",
+  "tag": "v0.2.0-beta.4",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.0-beta.4",
+    "commit": "07021b5e641140b0764a693a7ba48b0d618edebc"
+  },
+  "releaseNotes": "### macOS Permissions\n\n- Request Accessibility and Screen & System Audio Recording through the native Computer Use permission flow.\n- Let users respond to the macOS authorization prompt without navigating to System Settings first.\n- Keep Camera and Microphone permission behavior unchanged.\n\n### Reliability\n\n- Preserve the existing Pudding and Computer Use Helper signing identities.\n- Keep the permission state source and update compatibility unchanged.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.0-beta.4-arm64.dmg",
+      "size": 181590624,
+      "sha256": "22be68b66c78cc63c0b9187ec3a8ef2127e3701885090da6b10961ac49dc3ca5"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-arm64.dmg.blockmap",
+      "size": 192782,
+      "sha256": "12d8cfd416a293f8899bd82dff75c54a6e6b516e04296ee8d938a89fe1105ed9"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-arm64.zip",
+      "size": 181011216,
+      "sha256": "ad858567921231e2f6fbc30d8e1af1a8283f6e3c0068ebf132e217dc91eaa432"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-arm64.zip.blockmap",
+      "size": 191580,
+      "sha256": "1b5b205585c9d7429132f0f925c4b4200256a02ad185d234bb0723935f00e3bd"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-x64.dmg",
+      "size": 181932884,
+      "sha256": "715a0ddc0f16906e466f51e4cbb0edb8645f9204519b5e021171e5f4a39d2620"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-x64.dmg.blockmap",
+      "size": 191507,
+      "sha256": "ec99ee79f1ffcdf5b3cf69f911f5b80ae3bb8ac1ca1b12251dd939cee4df81e4"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-x64.zip",
+      "size": 181432890,
+      "sha256": "daae4c9290d40f34bf8e24ea2c164d78d940b97eea32ad129f194cb361dfa28c"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.4-x64.zip.blockmap",
+      "size": 191415,
+      "sha256": "3eb46f81a20ac58148539a66704ea99b007d334ecf1a37399833003d20c93cde"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "5a1118819c117b0360e958daa69475d764a85f15e092cf3e0bf9e2cacf55a2a5"
+    }
+  ]
+}
