@@ -11,8 +11,6 @@
   · <a href="./README.zh-CN.md">中文</a>
 </p>
 
-[![Download Pudding for macOS](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
-
 <p align="center"><sub>macOS · Apple silicon and Intel · Early preview</sub></p>
 
 > **Early preview:** this public repository distributes Pudding releases, product information, and public catalog
@@ -28,21 +26,6 @@ transcripts. Pudding keeps the conversation, tools, and results together in one 
 | Browse the web without losing the task context. | Use local terminal tools, projects, and connected apps. | Turn useful output into documents, tables, images, and reusable widgets on the canvas. |
 
 Each session keeps its own context, so one task does not silently become another task's memory.
-
-![A real Pudding workspace with a conversation and canvas results](./assets/product/workspace-overview.jpg)
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="./assets/product/launch-checklist.jpg" alt="A launch checklist kept on the Pudding canvas" />
-      <br /><strong>From research to an actionable document</strong>
-    </td>
-    <td width="50%">
-      <img src="./assets/product/comparison-table.jpg" alt="A comparison table kept on the Pudding canvas" />
-      <br /><strong>From scattered sources to a structured comparison</strong>
-    </td>
-  </tr>
-</table>
 
 ## What Pudding gives you
 

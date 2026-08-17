@@ -11,8 +11,6 @@
   · <a href="./README.md">English</a>
 </p>
 
-[![下载 Pudding macOS 版本](./assets/product/hero.png)](https://github.com/teatak/pudding/releases/latest)
-
 <p align="center"><sub>macOS · Apple 芯片与 Intel · 早期预览</sub></p>
 
 > **早期预览：**这个公开仓库用于分发 Pudding 安装包、产品资料和公开目录数据，应用源码未在这里发布。
@@ -27,21 +25,6 @@
 | 在浏览网页时持续保留任务上下文。 | 使用本地终端、项目目录和已连接的应用。 | 把有价值的输出整理成文档、表格、图片或可复用小组件，留在画布上。 |
 
 每个会话拥有自己的上下文，因此一个任务不会悄悄变成另一个任务的记忆。
-
-![真实的 Pudding 对话与画布工作区](./assets/product/workspace-overview.jpg)
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="./assets/product/launch-checklist.jpg" alt="Pudding 画布中的发布清单" />
-      <br /><strong>从资料研究到可执行文档</strong>
-    </td>
-    <td width="50%">
-      <img src="./assets/product/comparison-table.jpg" alt="Pudding 画布中的对比表" />
-      <br /><strong>从分散来源到结构化对比</strong>
-    </td>
-  </tr>
-</table>
 
 ## Pudding 提供什么
 
