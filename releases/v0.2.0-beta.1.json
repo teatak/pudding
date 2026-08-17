@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.0-beta.1",
+  "tag": "v0.2.0-beta.1",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.0-beta.1",
+    "commit": "267091f714886bcf022f34844c3cfdd59c752c97"
+  },
+  "releaseNotes": "### Computer Use\n\n- Add a signed native macOS Computer Use helper with session-scoped app approval, app ownership, semantic Accessibility actions, screenshots, and guarded pointer input.\n- Add explicit Accessibility, Screen Recording, camera, and microphone permission management in desktop settings.\n\n### Session Workflows\n\n- Clone a conversation through any canonical message into an independent session with copied attachment ownership.\n- Keep transcript identity scoped to its session and refine clone, navigation, approval, and error interactions.\n\n### File Change Recovery\n\n- Capture complete text, binary, file type, mode, and digest snapshots for new turn file changes.\n- Support transactional undo and redo with state validation, conflict detection, and safe handling of legacy non-reversible records.\n\n### Desktop Packaging\n\n- Bundle the Computer Use helper for both Apple Silicon and Intel Macs with architecture, privacy, version, Team ID, and designated requirement verification.\n- Preserve the helper identity across preview updates and stop the helper cleanly before installing an update.\n\n### Data Migration\n\n- Migrate SQLite from schema v10 to v12 with session-owned Computer Use grants and file replay state while preserving canonical conversations.\n- Create one pre-migration database backup and retain only the newest successful migration backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.0-beta.1-arm64.dmg",
+      "size": 181600298,
+      "sha256": "05e02d47e3fe6801608386c4095975eeedc776b77b21d01b65e7869c351fb143"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-arm64.dmg.blockmap",
+      "size": 190637,
+      "sha256": "c02b6d784d6f391b02adba2e92d0a39f3f7d9fbf52a17c2213d0eac7b871265d"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-arm64.zip",
+      "size": 181006472,
+      "sha256": "034a310966ca8f9f5abd03ff52384a1e04cae5250eb4b068674e96cbe49b078d"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-arm64.zip.blockmap",
+      "size": 192035,
+      "sha256": "2b0be7d67e68f9806e24f8ee77e5afe26698c5c64e550f9202594efc695f21fc"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-x64.dmg",
+      "size": 181903276,
+      "sha256": "82e2fc0856d90e5593e305848c2378579c0557d3f3cd1f7ee0c8eb52bb27b7ae"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-x64.dmg.blockmap",
+      "size": 190893,
+      "sha256": "59a3bf022e23b80e65b3f1bbfe28d691dc9021d0a960027264efc1792f33fc2f"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-x64.zip",
+      "size": 181430613,
+      "sha256": "53757a612e5a31cd792792507352f2122dd67603f303c8beed7f60425e5e3faf"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.1-x64.zip.blockmap",
+      "size": 191764,
+      "sha256": "7506b72ba25ef379c2b04b47744398d194da4e29ecb67b2ac6b9142ef19d919a"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "3b3a3582be09e5fabf8999287d41ee8ce78c63ea4cceb030092e3152f432a9bc"
+    }
+  ]
+}
