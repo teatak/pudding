@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.0-beta.6",
+  "tag": "v0.2.0-beta.6",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.0-beta.6",
+    "commit": "d067eb82849e14e74a234ec168cf394adc338d52"
+  },
+  "releaseNotes": "### Computer Use\n\n- Use normalized window coordinates for pointer actions and remove screenshot-geometry coupling.\n- Support sequential semantic actions with stricter foreground, target-window, and interrupted-drag checks.\n- Keep element identities stable across layout movement and expose the active application identity in the interface.\n\n### Local Network Access\n\n- Add on-demand local-network access through an Electron-owned bridge while keeping the daemon loopback-only.\n- Add device pairing controls and a QR-based mobile access flow in Settings.\n\n### Permissions and Interface\n\n- Coalesce concurrent desktop permission refreshes and keep permission settings state synchronized.\n- Refine settings controls, sidebar states, session items, and transcript spacing.\n\n### Reliability\n\n- Align Computer Use pointer tests with the normalized coordinate protocol.\n- Keep schema v12, persisted data, signing identities, and preview update compatibility unchanged.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.0-beta.6-arm64.dmg",
+      "size": 181598220,
+      "sha256": "f87ac671de5576f2e3589bacb8b948b304fa0e6bea4fc4c49e8adae52ea551f6"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-arm64.dmg.blockmap",
+      "size": 192515,
+      "sha256": "f05bbfa0f1aa8938274178fbe88716e5a4d112197ab61e5454f5959cb1d7cd8d"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-arm64.zip",
+      "size": 181007286,
+      "sha256": "1759f95b37d7b391ef537f8c462537f638df805a64c5da90e14c84853ac7afd5"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-arm64.zip.blockmap",
+      "size": 191308,
+      "sha256": "881f074dc27c53efea222bf57c1581858e871ef484a304b66599e2db26e833a3"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-x64.dmg",
+      "size": 181905002,
+      "sha256": "b9695a8b3458acf6bb0f47e75047b1551717b3f60ea4f3b45e024edde0670cb2"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-x64.dmg.blockmap",
+      "size": 190479,
+      "sha256": "a5a99003f2ee338c65bbbba7c3250d027d585351ee51c6507fd5f33d2ad9e08c"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-x64.zip",
+      "size": 181426499,
+      "sha256": "4e4dcca7e1488eb4a03377d3ca5d03078ebdc08625311b722282376079078ad9"
+    },
+    {
+      "name": "Pudding-0.2.0-beta.6-x64.zip.blockmap",
+      "size": 191864,
+      "sha256": "f9097be03ab86c73de4ebb9c3b4482aa8fa233a6d3f0c461a5788133795ed740"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "a317e8f4f506024ca9b12a85fd9db0f04dd459bb94d79e4c9c41942ac7c16c32"
+    }
+  ]
+}
