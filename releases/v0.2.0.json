@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.0",
+  "tag": "v0.2.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.0",
+    "commit": "34a78530e552e6008b971e26af8f71f399daaf01"
+  },
+  "releaseNotes": "### Computer Use\n\n- Add a signed native macOS Computer Use helper with session-scoped app approval, ownership, semantic actions, screenshots, and guarded pointer input.\n- Use normalized window coordinates, stable element identities, and stricter foreground, target-window, and interrupted-drag validation.\n- Support sequential semantic actions and expose the active application identity in the interface.\n\n### Permissions\n\n- Add just-in-time guidance for Accessibility and Screen & System Audio Recording permissions.\n- Keep desktop settings and runtime permission state synchronized, and resume blocked Computer Use operations after authorization.\n- Preserve native Camera and Microphone authorization flows.\n\n### Sessions and File Recovery\n\n- Clone a conversation through any canonical message into an independent session with copied attachment ownership.\n- Capture complete text, binary, file type, mode, and digest snapshots for new turn file changes.\n- Support transactional undo and redo with conflict detection and safe handling of legacy non-reversible records.\n\n### Local Network Access\n\n- Add on-demand local-network access through an Electron-owned bridge while keeping the daemon loopback-only.\n- Add device pairing controls and a QR-based access flow in Settings.\n\n### Desktop Experience\n\n- Refine settings controls, sidebar and session states, approvals, errors, transcript layout, and desktop interactions.\n- Bundle and verify native components independently for Apple Silicon and Intel Macs.\n\n### Data Migration\n\n- Migrate SQLite from schema v10 to v12 while preserving canonical conversations, projects, canvas state, and browser history.\n- Create one pre-migration database backup and retain only the newest successful migration backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.0-arm64.dmg",
+      "size": 181597029,
+      "sha256": "d6d07eb721bb056328ce8837564955c663f028b722696a8337ee57319ee7ba56"
+    },
+    {
+      "name": "Pudding-0.2.0-arm64.dmg.blockmap",
+      "size": 192323,
+      "sha256": "99eb118ae1c7a4c19fa5b453eda6e8f9f6d986c4a271378e50e824f56888aabe"
+    },
+    {
+      "name": "Pudding-0.2.0-arm64.zip",
+      "size": 181007253,
+      "sha256": "3c14d35a4130f5f56b79139f2ca6dba1dad7d241e9b3fe012c47ceae4590fd39"
+    },
+    {
+      "name": "Pudding-0.2.0-arm64.zip.blockmap",
+      "size": 191754,
+      "sha256": "bb884ef6af48bd3b9c9d402edd33859b58d9b2c656c768477cf8e189dfa4f87d"
+    },
+    {
+      "name": "Pudding-0.2.0-x64.dmg",
+      "size": 181901304,
+      "sha256": "120571ae82d724096f2b71ae2d3ca8f3ae4bba1a738ece9d30a9ea4cc6a18a33"
+    },
+    {
+      "name": "Pudding-0.2.0-x64.dmg.blockmap",
+      "size": 190215,
+      "sha256": "caf980c16b07b975cb8311c80a8772cdbd8f141d7a22cc12fb6daceb5c1e7e1c"
+    },
+    {
+      "name": "Pudding-0.2.0-x64.zip",
+      "size": 181426415,
+      "sha256": "30408342d965e673046172c8e17208d52eea84a1a75c0716a4669d1d85022945"
+    },
+    {
+      "name": "Pudding-0.2.0-x64.zip.blockmap",
+      "size": 191455,
+      "sha256": "fb0eaa2d285a915e3638f7324bc609b4dafd1d17b771c141bf8674eaed05ebee"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "e6d2dfad0f4193d95bc6656720923742191356d0403bfd7ddfbcc1866cbc8a71"
+    }
+  ]
+}
