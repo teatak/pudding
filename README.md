@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Your AI workspace. On your desktop.</strong><br />
-  Independent sessions, a shared canvas, browser and terminal tools, and your choice of model.
+  Run independent AI sessions, work with local projects, and keep useful results beside the conversation.
 </p>
 
 <p align="center">
@@ -13,28 +13,72 @@
 
 <p align="center"><sub>macOS · Apple silicon and Intel · Early preview</sub></p>
 
+![Pudding feature overview](./assets/readme/01-welcome.png)
+
 > **Early preview:** this public repository distributes Pudding releases, product information, and public catalog
 > data. The application source code is not published here.
 
-## AI work should leave something useful behind
+## Features
 
-Chat is good for thinking, but real work quickly spreads across browser tabs, terminal windows, files, and long
-transcripts. Pudding keeps the conversation, tools, and results together in one desktop workspace.
+### Independent sessions
 
-| 1. Research | 2. Work | 3. Keep the result |
-| --- | --- | --- |
-| Browse the web without losing the task context. | Use local terminal tools, projects, and connected apps. | Turn useful output into documents, tables, images, and reusable widgets on the canvas. |
+Each chat is a separate workspace with its own conversation, project, tools, permissions, and live activity. Keep
+several tasks moving without one task silently becoming another task's context.
 
-Each session keeps its own context, so one task does not silently become another task's memory.
+- Create standalone chats or group them under projects.
+- Search previous sessions and archive work you no longer need in the sidebar.
+- Branch from an existing answer when you want to explore a different direction.
+- Choose the model and reasoning level for each task.
 
-## What Pudding gives you
+### AI work with visible results
 
-- **Independent AI sessions** — separate conversations, projects, tools, and context.
-- **A canvas beside the chat** — keep documents, tables, images, browser pages, and interactive widgets visible.
-- **Desktop tools** — work with the built-in browser, terminal, image capture, voice, and installed apps.
-- **Local projects** — let a session work with folders you explicitly choose.
-- **Bring your own model** — connect the provider and model that fit the task.
-- **Extensible workflows** — add apps, widgets, skills, and MCP tools without turning every task into a new product.
+Pudding can use tools, edit files, and keep the result visible beside the conversation. Tool activity is shown in
+the transcript, permission requests stay explicit, and file changes can be reviewed before you continue.
+
+![Pudding creating and reviewing a Markdown file](./assets/readme/02-agent-workflow.png)
+
+The workspace can hold file previews, diffs, browser pages, documents, tables, images, and reusable widgets. Useful
+work does not have to disappear into a long chat transcript.
+
+### Built-in browser and desktop tools
+
+Open a browser beside the chat so research and follow-up work stay in the same session. Pudding can also work with
+local terminal tools, capture images, use computer controls, and operate on project files after you grant access.
+
+![Pudding built-in browser beside an AI session](./assets/readme/03-built-in-browser.png)
+
+- Keep multiple workspace resources open as tabs.
+- Add browser pages and captured results without leaving the task.
+- Review local file changes in a dedicated diff view.
+- Cancel long-running model turns when the task changes.
+
+### Local projects
+
+Attach a folder only when a task needs it. Project files remain in the directory you choose, while each session
+keeps its own conversation and tool activity. Pudding asks for capability and directory access instead of assuming
+that every chat can read your computer.
+
+### Apps, skills, and MCP
+
+Built-in apps provide the browser, canvas, computer use, image capture, and authoring tools. Install optional apps
+for services such as GitHub and Gmail, connect MCP servers, or create reusable skills for repeatable workflows.
+
+![Pudding built-in, installed, and available apps](./assets/readme/04-apps.png)
+
+- **Apps** package reusable integrations, including REST, GraphQL, and MCP tools.
+- **Skills** provide task-specific instructions and repeatable workflows.
+- **Widgets** are interactive workspace results that can be saved as favorites and reused.
+
+### Bring your own model
+
+Connect OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen, Xiaomi MiMo, Moonshot/Kimi, Zhipu GLM, OpenRouter,
+Ollama, or a custom compatible endpoint. Model requests go to the provider you configure; Pudding does not claim
+that cloud models run locally.
+
+### Voice when you want it
+
+Pudding supports dictation, voice dialogue, and speech playback. Voice assets are optional downloads stored under
+`~/.pudding/runtime`, so the desktop installer does not need to bundle large speech models.
 
 ## Download and install
 
@@ -58,28 +102,8 @@ you to confirm that you want to open an application downloaded from the internet
 - Conversations, settings, the local database, installed apps and skills, and optional runtime assets live under
   `~/.pudding`.
 - Project files stay in the folders you choose.
-- Model requests go to the provider you configure; Pudding does not pretend cloud models run locally.
+- Model requests go only to the provider you configure.
 - Public starter catalogs are cached locally, and Pudding does not upload catalog interaction data.
-
-## Models and extensions
-
-<details>
-  <summary><strong>Model providers</strong></summary>
-
-Pudding can connect to OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen, Xiaomi MiMo, Moonshot/Kimi, Zhipu GLM,
-OpenRouter, Ollama, and custom compatible endpoints.
-
-</details>
-
-- **Apps** package reusable integrations, including REST, GraphQL, and MCP tools.
-- **Widgets** are interactive canvas results that can be saved as favorites and reused.
-- **Skills** provide task-specific instructions and repeatable workflows.
-
-## Optional voice runtime
-
-Dictation, voice dialogue, and speech playback use optional assets stored under `~/.pudding/runtime`. Pudding asks
-before installing them, so the desktop download does not need to bundle large speech models. Voice assets are
-published separately under the `runtime-v1` release.
 
 ## Repository contents
 
