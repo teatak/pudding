@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.1-beta.1",
+  "tag": "v0.2.1-beta.1",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.1-beta.1",
+    "commit": "f77f58e1eed8984439ee7c437b59abaa7d975cf6"
+  },
+  "releaseNotes": "### Audio Reliability\n\n- Prime wireless input routes with a short local cue before capture starts.\n- Verify capture startup asynchronously and recover silent device streams without blocking the interaction.\n- Restrict playback cancellation so unrelated sessions do not stop another active stream.\n\n### Browser Automation\n\n- Show a visible capture state while browser screenshots are prepared.\n- Display a bounded, downsampled screenshot preview after a successful automation capture.\n\n### Session Workspaces\n\n- Resolve project roots and existing temporary code directories through one session-scoped workspace service.\n- Let sessions without a project browse and edit their temporary workspace with an explicit temporary label.\n- Preserve workspace visibility independently for each session.\n\n### Desktop Experience\n\n- Refine project actions, session menus, file-change presentation, composer controls, and sidebar spacing.\n- Standardize compact icon actions and interaction states across the session rail.\n\n### Compatibility\n\n- Keep schema v12, canonical data, signing identities, update behavior, and downgrade boundaries unchanged.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.1-beta.1-arm64.dmg",
+      "size": 181666484,
+      "sha256": "e31747eb787fca248d9d3130d9e489647ceec1cbb04f26506153368581b4d26c"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-arm64.dmg.blockmap",
+      "size": 191374,
+      "sha256": "0313551dffc14772589d9a25f03cbff6dbf0a95280bd7639324347594d8a9c39"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-arm64.zip",
+      "size": 181084061,
+      "sha256": "6acf14ec8bc21de8e59b657a0bf84c63fc097c15413c06240d929b9ee0b4f1ba"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-arm64.zip.blockmap",
+      "size": 192086,
+      "sha256": "715900b2ac7760175eb45a3546b10e8c80c35d164116370d5ba8dbd370632566"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-x64.dmg",
+      "size": 181978388,
+      "sha256": "01bf837a66eb84a479292be480ca968a1667a402432803fd3f0c90176fc11bf8"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-x64.dmg.blockmap",
+      "size": 191979,
+      "sha256": "969d57883b583918f1f9fcc26f850cc48db545399ad858bd37003cdfd90eb706"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-x64.zip",
+      "size": 181504004,
+      "sha256": "ea91edb80a2d6d8aa88e0dbaf234951c681f305d90fd6f401fabbb459417733e"
+    },
+    {
+      "name": "Pudding-0.2.1-beta.1-x64.zip.blockmap",
+      "size": 191394,
+      "sha256": "4a1000b61166bf2e2a0e1cb3fc13e5ed88158e0f4e00ed7a7bb78f6840132d76"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "c8866f35502c5dba7f5ec8d450d33810bf59070c3ff95cf7d8960181f6de51a4"
+    }
+  ]
+}
