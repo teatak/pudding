@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.2",
+  "tag": "v0.2.2",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.2",
+    "commit": "20d64034793bb0f1de38942cf45e924e72784675"
+  },
+  "releaseNotes": "### Project Workspace\n\n- Replace the split project sidebar with focused Files, Search, and Git navigation.\n- Show Git change counts directly in the project navigation.\n- Standardize project tree spacing, file type icons, document previews, and file viewer behavior.\n- Hide macOS `.DS_Store` metadata from project trees.\n\n### Session Experience\n\n- Keep workspace visibility transitions scoped to the active session.\n- Refine session rail controls, active states, menus, and project approval controls.\n- Improve transcript spacing, assistant metadata transitions, attachments, and file-change presentation.\n- Standardize transcript activity icon sizing for consistent row alignment.\n\n### Browser and Desktop UI\n\n- Keep the browser find bar correctly layered with the persistent browser surface.\n- Refine browser toolbar, workspace menus, composer controls, and shared shell actions.\n- Standardize compact desktop action buttons and hover states across the application.\n\n### Compatibility\n\n- Keep schema v12, canonical data, permissions, signing identities, and update behavior unchanged.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.2-arm64.dmg",
+      "size": 181570770,
+      "sha256": "756304941e104982976bf1e71a22207b225d90d9b327c6e3009e00a4e4137b83"
+    },
+    {
+      "name": "Pudding-0.2.2-arm64.dmg.blockmap",
+      "size": 191083,
+      "sha256": "ad713306fc145d48f51134a8fc25c523c11a9acb2fe0c26bc174f7378fb61fdb"
+    },
+    {
+      "name": "Pudding-0.2.2-arm64.zip",
+      "size": 180997003,
+      "sha256": "240b2c990d9ad145fe5a0484e282e9a722cc9128e314f250d1bb02251f31e904"
+    },
+    {
+      "name": "Pudding-0.2.2-arm64.zip.blockmap",
+      "size": 191445,
+      "sha256": "4bf518722992ae47cbec1714a7dfb52e10199ca241629d612228f7423f02271a"
+    },
+    {
+      "name": "Pudding-0.2.2-x64.dmg",
+      "size": 181874874,
+      "sha256": "f4f4e006dd1b6830bd525c692c69b3b15c0bd0715503abf6c267feeece08bcad"
+    },
+    {
+      "name": "Pudding-0.2.2-x64.dmg.blockmap",
+      "size": 191296,
+      "sha256": "476470a52455cc5e8ca411907d7fb67447e81b1a3235822aa76fa7a1547a7a29"
+    },
+    {
+      "name": "Pudding-0.2.2-x64.zip",
+      "size": 181412688,
+      "sha256": "07337d268cc50922d510a48da3c4da48465c208f5f0ba03dd8464f49a89b0b60"
+    },
+    {
+      "name": "Pudding-0.2.2-x64.zip.blockmap",
+      "size": 191479,
+      "sha256": "1011efde9d7c8ae87b4950ad53f68e909a4cc0edad89b4c2f42822b5a5f6d5a7"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "4725b2bfb565cad20a1692b47eda14381f6b385138131a028e0208abadeb3c0f"
+    }
+  ]
+}
