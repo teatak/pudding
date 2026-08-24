@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.3",
+  "tag": "v0.2.3",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.3",
+    "commit": "ba856735c497ce5c38a3cd193471520cbe6afc70"
+  },
+  "releaseNotes": "### Project Workspace\n\n- Replace compact project activity icons with a clearer Files, Search, and Git switcher.\n- Add source editing, save conflict handling, and live preview refresh for SVG files.\n- Refine image zoom controls and project file preview actions.\n\n### Interface Polish\n\n- Separate primary action colors from informational status colors across light and dark themes.\n- Standardize spacing, borders, corners, and active states across sessions, composer controls, attachments, and dialogs.\n- Simplify project surfaces and settings sections for a quieter desktop layout.\n\n### Compatibility\n\n- Keep schema v12, canonical data, permissions, signing identities, and update behavior unchanged.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.3-arm64.dmg",
+      "size": 181585008,
+      "sha256": "778ba86837d351762f6e29e24f39cea0ada02ff180516583d33977c6ab09bf6b"
+    },
+    {
+      "name": "Pudding-0.2.3-arm64.dmg.blockmap",
+      "size": 191037,
+      "sha256": "f9ea6895c31fb2265895efde17a02266fbe8c16d198387fa1592f591d21ab95c"
+    },
+    {
+      "name": "Pudding-0.2.3-arm64.zip",
+      "size": 180998233,
+      "sha256": "2889449c6812c0aab994831ae33f32944a14a400708f7ecd90e6b8c299ffa053"
+    },
+    {
+      "name": "Pudding-0.2.3-arm64.zip.blockmap",
+      "size": 191250,
+      "sha256": "8017f21bed417cd75be84cb14c3a8465d81da6a9b6aac144fbe23b473f6755e9"
+    },
+    {
+      "name": "Pudding-0.2.3-x64.dmg",
+      "size": 181880183,
+      "sha256": "9fe811366d0a9bba8bbbb7b48f584e0052c71a52953729cdd796f4a5cb3335db"
+    },
+    {
+      "name": "Pudding-0.2.3-x64.dmg.blockmap",
+      "size": 190348,
+      "sha256": "1e57ebe6850fa8ee9733462fdccee1097731ed25fdf88f5016eda91f099e8ebd"
+    },
+    {
+      "name": "Pudding-0.2.3-x64.zip",
+      "size": 181413211,
+      "sha256": "b28b7666f76c645a74c643a9b7d3ba043e3d41fce46445dcd24ade50a16e71b1"
+    },
+    {
+      "name": "Pudding-0.2.3-x64.zip.blockmap",
+      "size": 190762,
+      "sha256": "8ba4ab3310cb21c8da44d0646a4ecc827231bd72f399b01cac71a5b4c8668181"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "f2f4712fe99bd511e05a33d67a20f4487794f478b0b89f5834aa7c0fd41fd831"
+    }
+  ]
+}
