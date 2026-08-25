@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.4",
+  "tag": "v0.2.4",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.4",
+    "commit": "3f833150ac6dd866306a1808c8e42d798c006bea"
+  },
+  "releaseNotes": "### Command Execution\n\n- Keep commands inside the project sandbox by default and require an explicit reason before host execution.\n- Return structured guidance when a command needs another project directory or host service.\n- Preserve command caches per project or session and improve Python user-tool discovery.\n\n### Usage and Context\n\n- Calibrate input-token estimates from the latest matching provider request in each session.\n- Prevent calibration data from one conversation from influencing another conversation.\n- Exclude native continuation payloads from context estimates.\n\n### Conversation Experience\n\n- Refine transcript metadata visibility, tool interaction grouping, file-change rows, and mention menu positioning.\n- Add the interactive mascot to the composer and redesign its metal depth, reflections, and facial details.\n- Show the target version directly when a new update is available.\n\n### Data and Compatibility\n\n- Migrate SQLite schema v12 to v13 while preserving canonical conversations, projects, turns, and usage totals.\n- Back up the database before migration and remove the obsolete shared calibration table.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.4-arm64.dmg",
+      "size": 181588443,
+      "sha256": "dfaa479c5df19a75bcfde36b5de7ca4f9c5fc17d47c88e3e2dea314aea2d5e4a"
+    },
+    {
+      "name": "Pudding-0.2.4-arm64.dmg.blockmap",
+      "size": 191774,
+      "sha256": "b1b7bdb0a9ef6db7998410d8b0c27ef504a61def3a1877ec5675ba65d349b453"
+    },
+    {
+      "name": "Pudding-0.2.4-arm64.zip",
+      "size": 181004926,
+      "sha256": "e87ba4760a554296d6ea628347a52e98dc06d48a63fd493792d6715050df77f6"
+    },
+    {
+      "name": "Pudding-0.2.4-arm64.zip.blockmap",
+      "size": 191990,
+      "sha256": "5513ee67cb1b269d2c887dcf7e4e7e49332442c71530ab82186338de60982a46"
+    },
+    {
+      "name": "Pudding-0.2.4-x64.dmg",
+      "size": 181907239,
+      "sha256": "8497e687267162227e7abaca48c653f702ef93748a807cfce2db993295780392"
+    },
+    {
+      "name": "Pudding-0.2.4-x64.dmg.blockmap",
+      "size": 191148,
+      "sha256": "eacbd73a32dbe7641db963ee2f87c71d5c7be97244f40f1634b0a1b44cc10cd9"
+    },
+    {
+      "name": "Pudding-0.2.4-x64.zip",
+      "size": 181423934,
+      "sha256": "aacdbd3905485b8528b5fbefbba1c6a0a2bfab6970c64866d55b97ef6b110b60"
+    },
+    {
+      "name": "Pudding-0.2.4-x64.zip.blockmap",
+      "size": 191574,
+      "sha256": "b254bc67b1a843ccc4018b9a8049f9195acc4cc3ae5affd7de9b9acefc188f62"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "9f2a8416db6c4faba06313ee4567ae0c437cf8e1f6f89dca4f2dc65aae9657e7"
+    }
+  ]
+}
