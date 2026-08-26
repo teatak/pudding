@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.7",
+  "tag": "v0.2.7",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.7",
+    "commit": "53d32893eb22bceb19eea30ae50d05495fdb777b"
+  },
+  "releaseNotes": "### Mascot Design\n\n- Add a dedicated body outline layer for a cleaner mascot silhouette.\n- Refine the face groove and screen edge for more consistent visual depth.\n\n### Theme Polish\n\n- Rebalance mascot body, metal shading, shell outline, and screen colors in light and dark themes.\n\n### Data and Compatibility\n\n- Keep SQLite schema v13 unchanged with no migration or canonical-data rewrite.\n- Preserve the existing permissions, signing, notarization, and automatic-update behavior.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.7-arm64.dmg",
+      "size": 181583846,
+      "sha256": "9ff6d7ed4c0a7ddde6bf714166ab7045a94a0bea43ff04b7974c4ad0a3677f18"
+    },
+    {
+      "name": "Pudding-0.2.7-arm64.dmg.blockmap",
+      "size": 191056,
+      "sha256": "6efdf1165cdf565fd128c720e2f350a96dc7dafc9060641bcc0322093c894e85"
+    },
+    {
+      "name": "Pudding-0.2.7-arm64.zip",
+      "size": 181011782,
+      "sha256": "5aa0881e59c909656d858431b385182b87889b4a9979fdcc952bf2209d59966c"
+    },
+    {
+      "name": "Pudding-0.2.7-arm64.zip.blockmap",
+      "size": 190774,
+      "sha256": "e97240d026fb3e390614715131c61ba3de65067043ece314c38133befdb1fdce"
+    },
+    {
+      "name": "Pudding-0.2.7-x64.dmg",
+      "size": 181901056,
+      "sha256": "f6389482c7b2fc8762420a9acd0db9d7892deb6b8afe776186df791af177f6d0"
+    },
+    {
+      "name": "Pudding-0.2.7-x64.dmg.blockmap",
+      "size": 191612,
+      "sha256": "de54055d4cc2e8a2db1c430b87acfa4aa86607bc06bb96c32c5d87a2a59b9bf6"
+    },
+    {
+      "name": "Pudding-0.2.7-x64.zip",
+      "size": 181429799,
+      "sha256": "084dd0c2e2fb031ebe8eef6f3c2fe0437f4805860843d94a74fe68189fe41f09"
+    },
+    {
+      "name": "Pudding-0.2.7-x64.zip.blockmap",
+      "size": 191595,
+      "sha256": "1597cb856969b532a33336a44550428773104df5ec1553a3fb75de4f3c41d0d3"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "eb6eda52af93f31e3c77354c5bfecba9ad6de15f61cbd935dd234c6e9b8bdd1d"
+    }
+  ]
+}
