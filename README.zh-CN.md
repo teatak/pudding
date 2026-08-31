@@ -1,7 +1,7 @@
 # Pudding
 
 <p align="center">
-  <strong>桌面上的 AI 工作区。</strong><br />
+  <strong>开源 macOS AI 工作区。</strong><br />
   运行彼此独立的 AI 会话、处理本地项目，并让有用结果始终留在对话旁边。
 </p>
 
@@ -94,7 +94,7 @@ Pudding 支持听写、语音对话和语音播放。语音资源是保存在 `~
 
 预览版本使用 Developer ID 证书签名，并已通过 Apple 公证。首次打开时，macOS 可能会确认是否运行从互联网下载的应用。
 
-## Local-first，以及清晰的数据边界
+## 数据保存在 Mac 上，边界清晰
 
 - Pudding 不要求注册 Pudding 账号。
 - 对话、设置、本地数据库、已安装应用与技能，以及可选运行资源保存在 `~/.pudding`。

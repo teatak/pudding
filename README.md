@@ -1,7 +1,7 @@
 # Pudding
 
 <p align="center">
-  <strong>Your AI workspace. On your desktop.</strong><br />
+  <strong>Open-source AI workspace for macOS.</strong><br />
   Run independent AI sessions, work with local projects, and keep useful results beside the conversation.
 </p>
 
@@ -97,7 +97,7 @@ The current preview supports macOS on both Apple silicon and Intel.
 Preview builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS may ask
 you to confirm that you want to open an application downloaded from the internet.
 
-## Local-first, with clear boundaries
+## Your data, with clear boundaries
 
 - Pudding does not require a Pudding account.
 - Conversations, settings, the local database, installed apps and skills, and optional runtime assets live under
