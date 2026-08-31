@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://github.com/teatak/pudding/releases/latest"><strong>下载 macOS 版本</strong></a>
   · <a href="https://x-t.top">官网</a>
+  · <a href="https://github.com/teatak/pudding-core">源码</a>
   · <a href="./README.md">English</a>
 </p>
 
@@ -15,7 +16,8 @@
 
 ![Pudding 功能总览](./assets/readme/01-welcome.png)
 
-> **早期预览：**这个公开仓库用于分发 Pudding 安装包、产品资料和公开目录数据，应用源码未在这里发布。
+> **早期预览：**这个仓库用于分发 Pudding 安装包、产品资料和公开目录数据。采用 AGPL 许可的应用源码发布在
+> [`teatak/pudding-core`](https://github.com/teatak/pudding-core)。
 
 ## 功能
 
@@ -104,6 +106,7 @@ Pudding 支持听写、语音对话和语音播放。语音资源是保存在 `~
 
 这个仓库是 Pudding 的公开分发中心：
 
+- 应用源码和开发工作位于 [`teatak/pudding-core`](https://github.com/teatak/pudding-core)。
 - 桌面版本使用 `v<版本>` 标签。
 - 语音运行资源使用 `runtime-v<版本>` 标签。
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存快捷提示词，只有用户选择后才会提交给模型。

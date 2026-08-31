@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download for macOS</strong></a>
   · <a href="https://x-t.top">Website</a>
+  · <a href="https://github.com/teatak/pudding-core">Source</a>
   · <a href="./README.zh-CN.md">中文</a>
 </p>
 
@@ -15,8 +16,8 @@
 
 ![Pudding feature overview](./assets/readme/01-welcome.png)
 
-> **Early preview:** this public repository distributes Pudding releases, product information, and public catalog
-> data. The application source code is not published here.
+> **Early preview:** this repository distributes Pudding releases, product information, and public catalog data.
+> The AGPL-licensed application source is published in [`teatak/pudding-core`](https://github.com/teatak/pudding-core).
 
 ## Features
 
@@ -109,6 +110,7 @@ you to confirm that you want to open an application downloaded from the internet
 
 This repository is the public distribution hub for Pudding:
 
+- Application source and development live in [`teatak/pudding-core`](https://github.com/teatak/pudding-core).
 - Desktop releases use `v<version>` tags.
 - Voice runtime assets use `runtime-v<version>` tags.
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts submitted only after
