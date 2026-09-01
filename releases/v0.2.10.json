@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.10",
+  "tag": "v0.2.10",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.10",
+    "commit": "062ca8e1490a4b35d4c6c72465edd13466ed411d"
+  },
+  "releaseNotes": "### Voice Input Simplification\n\n- Focus the voice runtime on microphone capture, AEC/NS, VAD, ASR transcription, and raw audio input.\n- Remove the legacy TTS providers, playback queue, sentence splitting, barge-in, and speaker output ownership.\n- Remove the deprecated audio output API and its desktop control while preserving session-scoped voice input.\n\n### Configuration and Compatibility\n\n- Simplify `audio.yaml` to the active driver, ASR, AEC, and NS settings.\n- Keep existing audio configuration files readable and drop obsolete TTS fields when the configuration is rewritten.\n- Keep SQLite schema v13 unchanged with no migration, backup, cleanup, or canonical-data rewrite.\n\n### Interface and Documentation\n\n- Refine the mascot scene rendering and interaction behavior while removing the superseded implementation.\n- Update the repository overview and supporting documentation around the current desktop product.\n\n### Security and Build Tooling\n\n- Update Browserslist and PostCSS selector parser to patched versions and clear the open dependency alerts.\n\n### Updates and Distribution\n\n- Preserve the existing automatic update protocol, app identity, permissions, signing, notarization, and stable-channel behavior.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.10-arm64.dmg",
+      "size": 183071744,
+      "sha256": "7dc7a019fa30c07648a232bea8a50ce3a8c1368344436679196515d904e80b0c"
+    },
+    {
+      "name": "Pudding-0.2.10-arm64.dmg.blockmap",
+      "size": 192860,
+      "sha256": "3f10c440e0ca80848706e1a9ee663b95647c755749dadbb3c9529060820e389e"
+    },
+    {
+      "name": "Pudding-0.2.10-arm64.zip",
+      "size": 182407399,
+      "sha256": "4c3603602fa9ada5a8d77327c26dfcb12cc20e6b3adf576fe435fa4ad348723a"
+    },
+    {
+      "name": "Pudding-0.2.10-arm64.zip.blockmap",
+      "size": 193598,
+      "sha256": "62cf0fd3e1513b89de4e2478e66e9a0b53b0a1f9fb4f13e458a35c1d71f533a7"
+    },
+    {
+      "name": "Pudding-0.2.10-x64.dmg",
+      "size": 183311373,
+      "sha256": "c75c4c6c8029a73de6024e2144df366fb710ef6e8a8178557e41ffa46551eb7f"
+    },
+    {
+      "name": "Pudding-0.2.10-x64.dmg.blockmap",
+      "size": 192814,
+      "sha256": "51e14190c8513f22d8aba38b226a846f8d0bee668b1bb8a01574fdccda0b4fb2"
+    },
+    {
+      "name": "Pudding-0.2.10-x64.zip",
+      "size": 182780218,
+      "sha256": "abecf900afe1636715bffb559ddc88e72c9462cedd93c500d453bf796a8ae5fc"
+    },
+    {
+      "name": "Pudding-0.2.10-x64.zip.blockmap",
+      "size": 193360,
+      "sha256": "522515c16f064b2ff2a5022998ed0a882fbd190230de85701fb5c35ff3e22876"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "32db8b3b562d59c5cddee474642635a8d3109cfb0e604dae2b1b093aafd75f9e"
+    }
+  ]
+}
