@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.9",
+  "tag": "v0.2.9",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.9",
+    "commit": "2ed86715ab4398b9dcbb19aaef11d0dc59937728"
+  },
+  "releaseNotes": "### Open Source Distribution\n\n- Publish the Pudding source under AGPL-3.0-only with contribution, security, conduct, and trademark policies.\n- Bundle the Pudding license, Electron and Chromium licenses, and generated third-party notices in every macOS package.\n- Verify legal notices in staged apps and the copies extracted from ZIP and DMG artifacts.\n\n### Security and Dependencies\n\n- Update go-git, x/sys, Wrangler, Cloudflare types, Monaco Editor, and affected transitive dependencies.\n- Add public CI, tracked-file secret scanning, and reproducible npm and pnpm toolchain versions.\n\n### Editor and Interface\n\n- Simplify Monaco Editor initialization and language registration for project files.\n- Add copy-state tooltips to transcript messages and refine blank browser-tab icon sizing.\n- Update in-app positioning to describe Pudding as an open-source AI workspace for macOS.\n\n### Data and Compatibility\n\n- Keep SQLite schema v13 unchanged with no migration, backup, cleanup, or canonical-data rewrite.\n- Preserve existing automatic updates, app identity, permissions, signing, notarization, and stable-channel behavior.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.9-arm64.dmg",
+      "size": 183306182,
+      "sha256": "cbcc9df6f3164dc634f223597a2112c191b0e95cd3b41957628baba583120ecf"
+    },
+    {
+      "name": "Pudding-0.2.9-arm64.dmg.blockmap",
+      "size": 194102,
+      "sha256": "4cbf84743d608dc7bacbd758102dec14abcc4bfa186a1acc742ed41e3411a6ce"
+    },
+    {
+      "name": "Pudding-0.2.9-arm64.zip",
+      "size": 182653043,
+      "sha256": "c88c5e42803ca861a0bd4762af4f5802be0a5a2ceba644d62aa236386865ea14"
+    },
+    {
+      "name": "Pudding-0.2.9-arm64.zip.blockmap",
+      "size": 193602,
+      "sha256": "8bd437592b1dace0d9d50ad255649af6e2d8b0b6a387f1e1e0c56881016225d2"
+    },
+    {
+      "name": "Pudding-0.2.9-x64.dmg",
+      "size": 183588068,
+      "sha256": "260d2b6f90f5943e359ee922de6605d05703e2c2e2c38e914259f5490e2b4a96"
+    },
+    {
+      "name": "Pudding-0.2.9-x64.dmg.blockmap",
+      "size": 193733,
+      "sha256": "80214512ed009f6f8f67511c807ddf527e0e5d32fd9f03a1ee83e5feebca0a13"
+    },
+    {
+      "name": "Pudding-0.2.9-x64.zip",
+      "size": 183062013,
+      "sha256": "7ae13bbe6ba9a61dc36a305c393dc80ae7eec32119cb4e69fd6ca17b22e7350e"
+    },
+    {
+      "name": "Pudding-0.2.9-x64.zip.blockmap",
+      "size": 193774,
+      "sha256": "3590b4256e34f50299b70b24a82cff89ce6226e4d8ac2932146d9dda1f587ef4"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "b68a039a684a9ae150eadf71d2c7d7dcbe28536df062beb0a5b281e44d8d2c6a"
+    }
+  ]
+}
