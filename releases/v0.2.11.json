@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.2.11",
+  "tag": "v0.2.11",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.2.11",
+    "commit": "9e9efd87a653e50872faa96c144215bb8a7a4e31"
+  },
+  "releaseNotes": "### Workspace Tabs\n\n- Consolidate workspace tab order, selection, and resource visibility into one session-scoped state source.\n- Remove the superseded project-tab and tab-order stores to keep opening, switching, closing, and revealing resources consistent.\n- Align project, browser, canvas, and file-preview tab identities across the workspace.\n\n### Browser Navigation and History\n\n- Record browser history only after a successful final navigation, avoiding redirect intermediates and duplicate metadata visits.\n- Match history searches against visible URLs and titles without protocol noise.\n- Add stop-loading support and refine reload completion, provisional favicons, and navigation state updates.\n- Prevent late webview registration from recreating a tab that has already been closed.\n\n### Code Editing\n\n- Replace the legacy patch input with structured, line-addressed hunks that verify the expected original text before writing.\n- Return precise argument, conflict, and limit errors so failed edits can be corrected without unsafe workspace changes.\n\n### Markdown and Transcript\n\n- Queue and cache Mermaid rendering in the Markdown editor while exposing a clear editor loading state.\n- Isolate disclosure state for multiple assistant outputs and keep browser tab closing responsive while release completes.\n\n### Interface Refinements\n\n- Refine the empty workspace, canvas item counts, activity presentation, approval bar, and application icon shapes.\n\n### Security and Compatibility\n\n- Update the transitive `qs` dependency to 6.16.0 and `@xmldom/xmldom` to 0.8.15, clearing the release dependency audit.\n- Keep SQLite schema v13 unchanged with no migration, backup, cleanup, or canonical-data rewrite.\n\n### Updates and Distribution\n\n- Preserve the existing automatic update protocol, app identity, permissions, signing, notarization, and stable-channel behavior.",
+  "assets": [
+    {
+      "name": "Pudding-0.2.11-arm64.dmg",
+      "size": 183038750,
+      "sha256": "a904c961463e0375179eae4c1b505c6bbb0960ed1d5496304a088a373d6c6885"
+    },
+    {
+      "name": "Pudding-0.2.11-arm64.dmg.blockmap",
+      "size": 195506,
+      "sha256": "2cb5dc390e5834f810e0c7729f4344baa5ecfeb16bba1c98a4e6dfeae5ebe8ce"
+    },
+    {
+      "name": "Pudding-0.2.11-arm64.zip",
+      "size": 182420864,
+      "sha256": "0fee5acc11f48175102cc2ddf7bae58d41f40736f154bc8137156399aab54604"
+    },
+    {
+      "name": "Pudding-0.2.11-arm64.zip.blockmap",
+      "size": 193195,
+      "sha256": "e4fc1a8509b846067d6dd63446e5bfee7371a8c7a4a626bad012885c193f4406"
+    },
+    {
+      "name": "Pudding-0.2.11-x64.dmg",
+      "size": 183327212,
+      "sha256": "eab16eb7e3699958dec7adbac49d5c0d25358fed0ce3981b343e49cbc406bc09"
+    },
+    {
+      "name": "Pudding-0.2.11-x64.dmg.blockmap",
+      "size": 193350,
+      "sha256": "eda78d76612fee7c34e0fbe75ffd6755493e023c34d2b4068ef519c77e432bc8"
+    },
+    {
+      "name": "Pudding-0.2.11-x64.zip",
+      "size": 182795255,
+      "sha256": "5b6096725b63111091076b63c3e94d8065208a00e6cf4566ffcbf9cbc7357ee0"
+    },
+    {
+      "name": "Pudding-0.2.11-x64.zip.blockmap",
+      "size": 192910,
+      "sha256": "156921c7150ba228d99a542e34ee2ef31e0d4a0af9d969f0dd1b34a712d54118"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "50125597cd7c46862826a25af07897fd5d6d606d40a3ede83c79af86ffc1161c"
+    }
+  ]
+}
