@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.0",
+  "tag": "v0.3.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.0",
+    "commit": "afbb3a7c2fc6b1f4cd62a8e4acfbf724cb5014d7"
+  },
+  "releaseNotes": "### Redesigned Workspace\n\n- Organize projects, web pages, and canvases in one draggable tab bar while keeping project files in their own editor tabs.\n- Add a unified resource library with web and canvas favorites, recent opens, search, filters, and clear source sessions.\n- Preserve canvas content when closing tabs and saved versions when removing favorites.\n- Keep the full conversation visible beside the workspace in focus mode and restore the previous layout when leaving it.\n\n### Browsing and Editing\n\n- Refresh the browser start page, address field, history search, loading errors, and tab overflow behavior.\n- Support up to 20 browser tabs per session and 40 across the app with a shared capacity policy.\n- Improve file navigation, editor state retention, bulk-save retries, and unsaved-change protection.\n- Restore conversation reading positions across session and layout changes.\n\n### Computer Use\n\n- Show session-scoped picture-in-picture previews of native app and browser automation.\n- Improve native window capture, application lifecycle handling, accessibility element traversal, and keyboard input.\n- Keep automation previews aligned with the active operation and stop capture when the operation ends or is cancelled.\n\n### Interface and Tools\n\n- Refine session navigation, compact layouts, resource counts, tooltips, and approval controls.\n- Improve file-tool behavior and command diagnostics.\n\n### Data and Upgrades\n\n- Upgrade SQLite schema v13 to v17 in a single transaction with a pre-migration backup and complete rollback on failure.\n- Preserve conversations, projects, app grants, browser history, saved canvas versions, and previously closed canvas content.\n- Add persistent favorites and recent-open references without inventing historical access times.\n- Downgrading to 0.2.11 or earlier requires restoring the pre-migration database backup; older versions cannot open schema v17.\n- Distribute signed and notarized macOS arm64 and x64 builds through the stable automatic-update channel.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.0-arm64.dmg",
+      "size": 183240765,
+      "sha256": "6803d584018cf3b8c455a8e87e15b9665bd4e6c7a9045f8accfabfba8076be4d"
+    },
+    {
+      "name": "Pudding-0.3.0-arm64.dmg.blockmap",
+      "size": 193377,
+      "sha256": "f8c2d74aebcde5079d128aa023268a833c7dfe6c747c8e28b4e5d22b325ca179"
+    },
+    {
+      "name": "Pudding-0.3.0-arm64.zip",
+      "size": 182631885,
+      "sha256": "24b0faee0d720cbbbd62a7c4776beb53ef79e7b32402948e6f8db08f57cfda49"
+    },
+    {
+      "name": "Pudding-0.3.0-arm64.zip.blockmap",
+      "size": 193421,
+      "sha256": "d4f86e904fd34f7e5f2417edf9607f79544fca014951f7c51f49e20a3ec20de8"
+    },
+    {
+      "name": "Pudding-0.3.0-x64.dmg",
+      "size": 183531581,
+      "sha256": "45cff063e8f95ff513a3e07bc044a015a98aa990456806b75bf38085fec1ab41"
+    },
+    {
+      "name": "Pudding-0.3.0-x64.dmg.blockmap",
+      "size": 195425,
+      "sha256": "e9e12a7de3fef7c8fad67882766d2688ac1248c18f5d419025cc0af3facebce7"
+    },
+    {
+      "name": "Pudding-0.3.0-x64.zip",
+      "size": 183025406,
+      "sha256": "e2d40b788c6cb47dc6767dedc851e725dc3a015a2ce39ef342e9378ef492ccfa"
+    },
+    {
+      "name": "Pudding-0.3.0-x64.zip.blockmap",
+      "size": 194255,
+      "sha256": "7fc34602d360379c374b7d9b497e8389e410dbb5ffe22d2f154943c43a56bd08"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "3e9beb28804a6ba1f8a3adca3985dafbd9f96134106bd321d94438844e2d6aac"
+    }
+  ]
+}
