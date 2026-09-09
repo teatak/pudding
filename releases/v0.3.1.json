@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.1",
+  "tag": "v0.3.1",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.1",
+    "commit": "95549c42bc62ea9a295ade7ab7fb8685e69aad1e"
+  },
+  "releaseNotes": "### Workspace and Library\n\n- Organize projects, browser pages, and canvases in a shared tab bar while preserving project editor state.\n- Keep the conversation visible in focus mode; improve resource favorites, browsing history, search, source navigation, and Markdown links.\n- Preserve canvas content when closing tabs and saved versions when removing favorites.\n\n### Conversations and Input\n\n- Reorder queued inputs with persistent per-session ordering and preserve attachments while editing.\n- Improve inline guidance, image attachments, disclosure scrolling, and approval controls.\n- Open the appropriate project or global draft after archiving the current conversation; preserve other navigation when an archive request finishes later.\n\n### Computer Use\n\n- Extend explicit background pointer delivery to left clicks, right clicks, left double-clicks, left-button drags, and two-axis pixel scrolling without an application compatibility allowlist.\n- Preserve permissions, protected-application rules, exact target identity, partial outcomes, and interrupted-input cleanup; never automatically replay uncertain input or switch to foreground delivery.\n- Localize application names and show titleless, cursor-free previews with per-app stacking and expiry. Invalid targets show no preview.\n- Keep capture and image identity continuous while expanding or collapsing the workspace; float previews below artifacts or at the conversation's top-right when artifacts are absent.\n- Background compatibility remains application-dependent; an application may activate itself, and remaining input stops when foreground changes.\n\n### Data and Upgrades\n\n- Upgrade schema v13 through v17 to v18 using backed-up, per-version transactional migrations.\n- Preserve conversations, app grants, browser history, saved canvas content, and queued input state; persist queue ordering.\n- Downgrades require the appropriate pre-migration backup; older applications cannot directly open schema v18.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.1-arm64.dmg",
+      "size": 183298013,
+      "sha256": "e49c65479ee7b5eb0966f9da3bc7ac1a45dc722ea466773d04dc764c603c2a27"
+    },
+    {
+      "name": "Pudding-0.3.1-arm64.dmg.blockmap",
+      "size": 195076,
+      "sha256": "14bf17e4ddd46985efe5d61183273d40a23e9e97cadef78c7b3c8717bdb84668"
+    },
+    {
+      "name": "Pudding-0.3.1-arm64.zip",
+      "size": 182669021,
+      "sha256": "9dedd0fd0498da0c1cd261567298ee0dbee68cc50256e7ff2db24c4f216546bb"
+    },
+    {
+      "name": "Pudding-0.3.1-arm64.zip.blockmap",
+      "size": 194084,
+      "sha256": "aeb7b79f920720f139db00495909fac227f9b79986911844e103b40f93a3dfd6"
+    },
+    {
+      "name": "Pudding-0.3.1-x64.dmg",
+      "size": 183609299,
+      "sha256": "e4d86af50c64b8e5a8649042a5ca527dc4b9f3faefff1e40a83cc0b91fc28f4d"
+    },
+    {
+      "name": "Pudding-0.3.1-x64.dmg.blockmap",
+      "size": 191716,
+      "sha256": "54faa2fae9b8878e36963e9b20bb0d1ab6c5905044ef6a647c0315ab9ed59a89"
+    },
+    {
+      "name": "Pudding-0.3.1-x64.zip",
+      "size": 183063311,
+      "sha256": "9c9d521a23ab6a016e705fa17425f83a249e7542c151c50614a2d65c85885565"
+    },
+    {
+      "name": "Pudding-0.3.1-x64.zip.blockmap",
+      "size": 193679,
+      "sha256": "63e07d0245d35ef5ffc689c07adaf76fe08d1828a3f9117fa170ab4477a40fe3"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "306265dc8bb0459f3602f1e8b32ca4d532ccd53426558fade5010d07896da75f"
+    }
+  ]
+}
