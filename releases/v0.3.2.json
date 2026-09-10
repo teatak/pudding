@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.2",
+  "tag": "v0.3.2",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.2",
+    "commit": "46e3814c750cacde9912ae3f48087642ca0eb8a4"
+  },
+  "releaseNotes": "### Questions and Answers\n\n- Wait for requested user input with independent model-wait and panel-inactivity timers; renew active waits during interaction without restarting expired waits.\n- Reopen unanswered questions and restore in-memory drafts after the panel closes. Submit late answers to the original question without interrupting an unrelated task.\n- Keep answers as canonical user messages, prevent duplicate delivery, and allow withdrawn queued answers to be explicitly replaced and submitted again.\n- Improve numeric keyboard input, countdowns, completion states, and chronological ordering between tool results, user answers, and assistant continuations.\n\n### Computer Use and Model Context\n\n- Default pointer actions to background delivery while keeping foreground delivery explicit. Preserve permission checks, exact targets, cancellation, and partial-result handling without automatic foreground fallback.\n- Keep tool images beside their result batches and before later actions, with source-tool attribution for model inspection.\n- Resolve App and Skill instructions from their current registered sources, retain references across conversation compaction, and stop reusing stale instruction bodies.\n\n### Data and Updates\n\n- Keep database schema v18 unchanged; upgrading from 0.3.1 requires no new database migration or migration-backup cleanup.\n- Preserve existing conversations, queued inputs, saved content, and the established signed macOS update flow.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.2-arm64.dmg",
+      "size": 183336406,
+      "sha256": "2b9c0949537fc67db7e3337dde39788f4350adffb0458d2f0d935309854b03ac"
+    },
+    {
+      "name": "Pudding-0.3.2-arm64.dmg.blockmap",
+      "size": 193469,
+      "sha256": "3734911af1fe0957ea226781fd77319f6061e02195d0e5043458b868cd5da6ec"
+    },
+    {
+      "name": "Pudding-0.3.2-arm64.zip",
+      "size": 182714845,
+      "sha256": "04c6a7416ec71d9531404c68e50c4981e50f8c97ed3feae016cfab21984d7e7f"
+    },
+    {
+      "name": "Pudding-0.3.2-arm64.zip.blockmap",
+      "size": 193619,
+      "sha256": "876d2c2cd361c09438a5289cc86a0491f6e3074cd8ff1cd6ad13ae7a38810262"
+    },
+    {
+      "name": "Pudding-0.3.2-x64.dmg",
+      "size": 183653760,
+      "sha256": "b5514fb9e17f7fb042a64966b1b9466e9b80d355f2e952d57133a20420a375da"
+    },
+    {
+      "name": "Pudding-0.3.2-x64.dmg.blockmap",
+      "size": 195431,
+      "sha256": "65e1b17a403f76d68657470f92a7f3c3830c2a1c4c175890b017581ca6c8567a"
+    },
+    {
+      "name": "Pudding-0.3.2-x64.zip",
+      "size": 183112362,
+      "sha256": "99497dd33c8bd21963cf2830834222482206f95c5a72d97bf2c8cb4890c1ce42"
+    },
+    {
+      "name": "Pudding-0.3.2-x64.zip.blockmap",
+      "size": 193411,
+      "sha256": "b9688be637f9dc862fdaaf06b7e2e5575a5a5d8551d12ac582aa1c363d57b10b"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "993a0b0ee34279ecdbc1ede3f8e82214baec53ba60b211840dacec0e1738fe54"
+    }
+  ]
+}
