@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.3-beta.1",
+  "tag": "v0.3.3-beta.1",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.3-beta.1",
+    "commit": "7a642992f8be155fb5e09ea73c21e9e5cab0b6a9"
+  },
+  "releaseNotes": "### Conversation steering\n\n- Keep already streamed assistant segments visible when you steer a running turn, instead of collapsing them into a single reply.\n- Show each steered input on its own boundary, in order, while the live reply keeps streaming.\n- Reconcile the live reply with saved history by input identity, so a finishing turn no longer flickers or shows duplicated rows.\n\n### Input queue and questions\n\n- Keep the queue order stable while an answer is being delivered, so an item returns to its previous place instead of jumping to the end.\n- Stop showing a temporary summary as an answer bubble while waiting for the structured answer card; the card now appears once, from saved history.\n\n### Data and updates\n\n- Keep database schema v18 unchanged; upgrading from 0.3.2 needs no migration and no migration backup.\n- Preserve existing conversations, queued inputs, saved content, and the established signed macOS update flow.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.3-beta.1-arm64.dmg",
+      "size": 183336974,
+      "sha256": "87a38b616dfb2a13f9cc2ee87279163b558418569a96601d776e29a374378441"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-arm64.dmg.blockmap",
+      "size": 193455,
+      "sha256": "98e69aa82088854b99d20284feddab0b8f2bf2976befcaad030d39d69b9c5f1b"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-arm64.zip",
+      "size": 182715068,
+      "sha256": "03cee845de74439ab168851f51e79ac3514e720d5471e56a0f95436587fafb9d"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-arm64.zip.blockmap",
+      "size": 193806,
+      "sha256": "638627042bc21e33960e74647d053112a27d415792491a7d03c505cde14e9b7b"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-x64.dmg",
+      "size": 183651866,
+      "sha256": "dbe5ef9b84ba8e582761d08d84099beddb116772a66af379c55d84b006889e7c"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-x64.dmg.blockmap",
+      "size": 194583,
+      "sha256": "2f72d97b6a2d8330ff0ccde1af6f2f9b9a4213c5b2b6e03bdf669ccf1b4b0bdc"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-x64.zip",
+      "size": 183113176,
+      "sha256": "6e25e28af22d63c78285608243c65da1eb5924237197ec874a80c442f8af8f92"
+    },
+    {
+      "name": "Pudding-0.3.3-beta.1-x64.zip.blockmap",
+      "size": 193921,
+      "sha256": "936461a0d03e0615526840c29b0be355e3acaaa2a1b5fdf3212896a06c94643c"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "080b07e6c13ea5a1fb07413a92c87ad382e319fc88d41338004b97db3bcb03f5"
+    }
+  ]
+}
