@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.3",
+  "tag": "v0.3.3",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.3",
+    "commit": "97c9d24b5bf4018c78091a2134c078389cc9bbd5"
+  },
+  "releaseNotes": "### Conversation and Performance\n\n- Keep long streaming replies responsive with background syntax highlighting, batched text updates, and on-demand rendering of collapsed tool details.\n- Preserve streamed reply segments and attachments across multiple steering inputs, and keep queued inputs in a stable order.\n- Use a fixed deadline for requested user input while retaining late answers, draft reopening, and duplicate-safe delivery.\n- Keep the compacting row in place as the saved summary arrives, avoiding jumps during conversation compaction.\n\n### Tools and Model Context\n\n- Reduce oversized tool results in model requests while preserving the original results in conversation history. Read back specific fields, matching lines, or complete array records when needed.\n- Provide precise context and candidate locations when a patch does not match, without automatically relocating or applying it.\n- Improve certificate validation for sandboxed commands and reduce routine Git approval prompts while retaining repository, index, and drift checks.\n\n### Models and Workspace\n\n- Add an optional DeepSeek Responses connection and fix pairing of parallel Responses tool calls and results.\n- Refresh provider model presets, capability metadata, and output limits. Let new model configurations use provider-default temperature without overwriting saved profiles.\n- Improve narrow-window layouts, project change-list scrolling, model settings, and app-icon overflow counts and menus.\n- Distinguish dictation from raw audio input and pause decorative animation while the window is unfocused.\n\n### Data and Updates\n\n- Keep database schema v18 unchanged; upgrading from 0.3.2 requires no new migration or migration-backup cleanup.\n- Preserve the established signed macOS update flow and fix preview-version validation in the update test runner.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.3-arm64.dmg",
+      "size": 183384836,
+      "sha256": "e15368586a9452943e2edb782e1650f7544fc12c381b30c76528a8c63913b3ce"
+    },
+    {
+      "name": "Pudding-0.3.3-arm64.dmg.blockmap",
+      "size": 193941,
+      "sha256": "e3bd0e9541b8769283545f0ce548355139e02879af1b5ff12bc2d9a2a92eb27b"
+    },
+    {
+      "name": "Pudding-0.3.3-arm64.zip",
+      "size": 182742705,
+      "sha256": "39e2b653778a82f0837e18ccd8466246581f7067b4edfeeeaa398505af87a27b"
+    },
+    {
+      "name": "Pudding-0.3.3-arm64.zip.blockmap",
+      "size": 194118,
+      "sha256": "aaf6f4abfb03142c298d2c4eedb18428c19e83d50c99587dfc7ba5aa89352871"
+    },
+    {
+      "name": "Pudding-0.3.3-x64.dmg",
+      "size": 183654405,
+      "sha256": "04689f3cc1218ef8f5c17798114c35a85b237bb7cfae2782f65590657211cc04"
+    },
+    {
+      "name": "Pudding-0.3.3-x64.dmg.blockmap",
+      "size": 194187,
+      "sha256": "6c71b757842fe071ec6e39dbe8c7c9df0fe9c8a87ab4eb5126ec40a2b98ac1b1"
+    },
+    {
+      "name": "Pudding-0.3.3-x64.zip",
+      "size": 183142346,
+      "sha256": "424c7e83f2d7225ff69f16c3db13f72f1c07a830d49884608723d0f167732ac4"
+    },
+    {
+      "name": "Pudding-0.3.3-x64.zip.blockmap",
+      "size": 193353,
+      "sha256": "3d2f0ecba7f6b0437d112525851592eae4edec3304152206595b1a48b44585ab"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "5e6d6cf0bac92ba986fd51a2775e78cc366191bc9f98dd1e74bff11d1bfaee7a"
+    }
+  ]
+}
