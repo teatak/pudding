@@ -1,0 +1,59 @@
+{
+  "formatVersion": 1,
+  "version": "0.3.4",
+  "tag": "v0.3.4",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-core",
+    "tag": "v0.3.4",
+    "commit": "de13085ca4401992d218fbad8dd1c7704c690c65"
+  },
+  "releaseNotes": "### Long Conversations\n\n- Compact long conversations safely before oversized model requests and between complete tool exchanges, while retaining the current task, recent inputs, the latest tool results, attachments, and provider continuation state.\n- Enforce model-aware input budgets that reserve output space and estimation headroom, and preserve generated replies that end at a provider length limit while rejecting incomplete compact summaries.\n- Keep compaction progress, savings, failures, cancellation, and refresh recovery stable inside the transcript without duplicating streamed tool output or creating empty assistant rows.\n\n### Providers and Models\n\n- Import structured model candidates from OpenRouter, BuzzHive, Anthropic, and Gemini, including display names, context windows, output limits, and explicitly reported image, audio, and tool capabilities.\n- Prefer endpoint metadata, fill only missing fields from exact model presets, and leave saved provider profiles unchanged until a candidate is explicitly added.\n- Refresh the OpenRouter presets with its free router and six commonly used paid models, with model-specific capabilities and limits.\n\n### Integration and Reliability\n\n- Attribute model traffic to Pudding across OpenAI Chat Completions, OpenAI Responses, Anthropic, and Gemini-compatible gateways using the standard OpenRouter application headers.\n- Preserve canonical history during compaction with atomic snapshot and active-turn ownership checks, monotonic lifecycle events, and no database migration.\n- Clarify the supported file-search context range and guide larger-context reads to precise file slices.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.4-arm64.dmg",
+      "size": 183409311,
+      "sha256": "358af1c4985a9948d6ed5d543715b64aa569f3504d67881f91557cc968d0f40b"
+    },
+    {
+      "name": "Pudding-0.3.4-arm64.dmg.blockmap",
+      "size": 195156,
+      "sha256": "7349144a7eaacdee9180a2ffeefd498b31928e083b4b6fe913edf4729e3e835b"
+    },
+    {
+      "name": "Pudding-0.3.4-arm64.zip",
+      "size": 182772872,
+      "sha256": "02ac8484b85243bfeb584e5bb0c46fa8b8cf5aa814f91b1ebedafcae41a3dc18"
+    },
+    {
+      "name": "Pudding-0.3.4-arm64.zip.blockmap",
+      "size": 194088,
+      "sha256": "20721c8f349fe7ff0a1de08823fe7a8544908ae7de17ceeb174f54707196c181"
+    },
+    {
+      "name": "Pudding-0.3.4-x64.dmg",
+      "size": 183694702,
+      "sha256": "3c0c0f6241b10345493cc9558925885e3584c22cb527c7d2731660064e7cd7dc"
+    },
+    {
+      "name": "Pudding-0.3.4-x64.dmg.blockmap",
+      "size": 194277,
+      "sha256": "57bab8b02840cb82df8762e87226f7b989e6048ecba579aef0a596fcbc968108"
+    },
+    {
+      "name": "Pudding-0.3.4-x64.zip",
+      "size": 183179068,
+      "sha256": "22c187d40dca8724693aea0cfda77764fc26005a3633b8e4089bd46b608b51a2"
+    },
+    {
+      "name": "Pudding-0.3.4-x64.zip.blockmap",
+      "size": 193188,
+      "sha256": "c9b56eb66c85eac1a55e9bcb44f6e1eeb37594828d8eb82047f68710c23bad3d"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "8d6648401661d2840b52006364a4f6236f7940494591caa312d6bffd3af076f5"
+    }
+  ]
+}
