@@ -1,23 +1,26 @@
 # Pudding
 
 <p align="center">
-  <strong>Open-source AI workspace for macOS.</strong><br />
+  <strong>AI workspace for macOS, powered by an open-source core.</strong><br />
   Run independent AI sessions, work with local projects, and keep useful results beside the conversation.
 </p>
 
 <p align="center">
   <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download for macOS</strong></a>
   · <a href="https://x-t.top">Website</a>
-  · <a href="https://github.com/teatak/pudding-core">Source</a>
+  · <a href="https://github.com/teatak/pudding-core">Core source</a>
   · <a href="./README.zh-CN.md">中文</a>
 </p>
 
-<p align="center"><sub>macOS · Apple silicon and Intel · Early preview</sub></p>
+<p align="center"><sub>macOS · Apple silicon and Intel · Free to use</sub></p>
 
 ![Pudding feature overview](./assets/readme/01-welcome.png)
 
-> **Early preview:** this repository distributes Pudding releases, product information, and public catalog data.
-> The AGPL-licensed application source is published in [`teatak/pudding-core`](https://github.com/teatak/pudding-core).
+> This repository distributes Pudding releases, product information, and public catalog data.
+> The local Agent backend is published under Apache-2.0 in
+> [`teatak/pudding-core`](https://github.com/teatak/pudding-core). The desktop UI, Electron shell, native helpers,
+> and application packaging are maintained separately in the private `pudding-desktop` repository.
+> Core's license applies to the backend. Starting with 0.3.5, Pudding Desktop is free to use for personal and commercial purposes under its proprietary license. Earlier builds retain their original license notices.
 
 ## Features
 
@@ -78,23 +81,23 @@ that cloud models run locally.
 
 ### Voice when you want it
 
-Pudding supports dictation, voice dialogue, and speech playback. Voice assets are optional downloads stored under
+Pudding supports dictation with local speech recognition. Voice assets are optional downloads stored under
 `~/.pudding/runtime`, so the desktop installer does not need to bundle large speech models.
 
 ## Download and install
 
-The current preview supports macOS on both Apple silicon and Intel.
+Pudding supports macOS on both Apple silicon and Intel.
 
-| Mac | Download |
-| --- | --- |
-| Apple silicon | `Pudding-<version>-arm64.dmg` |
-| Intel | `Pudding-<version>-x64.dmg` |
+| Mac | Minimum macOS | Download |
+| --- | --- | --- |
+| Apple silicon | 14.0 | `Pudding-<version>-arm64.dmg` |
+| Intel | 15.5 | `Pudding-<version>-x64.dmg` |
 
 1. Download the right DMG from [the latest release](https://github.com/teatak/pudding/releases/latest).
 2. Open it and drag **Pudding.app** into **Applications**.
 3. Launch Pudding.
 
-Preview builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS may ask
+Official builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS may ask
 you to confirm that you want to open an application downloaded from the internet.
 
 ## Your data, with clear boundaries
@@ -110,7 +113,8 @@ you to confirm that you want to open an application downloaded from the internet
 
 This repository is the public distribution hub for Pudding:
 
-- Application source and development live in [`teatak/pudding-core`](https://github.com/teatak/pudding-core).
+- Open-source Agent backend development lives in [`teatak/pudding-core`](https://github.com/teatak/pudding-core) (Apache-2.0).
+- Desktop application development and packaging live in the separate private `pudding-desktop` repository.
 - Desktop releases use `v<version>` tags.
 - Voice runtime assets use `runtime-v<version>` tags.
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts submitted only after
@@ -118,8 +122,8 @@ This repository is the public distribution hub for Pudding:
 - [`catalog/user-messages.json`](./catalog/user-messages.json) contains localized, display-only new-session copy and
   an optional external link. It is never inserted into the composer or sent to a model. Raw HTML is not supported.
 
-Signed preview builds can download updates in the background. Installation starts only after the user chooses
-**Restart to Update**, and the latest DMG remains available for manual installation or rollback.
+Pudding checks for updates in the background. Use the in-app update controls to download and install an update;
+the latest DMG also remains available for manual installation.
 
 ---
 

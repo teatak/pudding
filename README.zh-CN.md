@@ -1,23 +1,24 @@
 # Pudding
 
 <p align="center">
-  <strong>开源 macOS AI 工作区。</strong><br />
+  <strong>由开源核心驱动的 macOS AI 工作区。</strong><br />
   运行彼此独立的 AI 会话、处理本地项目，并让有用结果始终留在对话旁边。
 </p>
 
 <p align="center">
   <a href="https://github.com/teatak/pudding/releases/latest"><strong>下载 macOS 版本</strong></a>
   · <a href="https://x-t.top">官网</a>
-  · <a href="https://github.com/teatak/pudding-core">源码</a>
+  · <a href="https://github.com/teatak/pudding-core">核心源码</a>
   · <a href="./README.md">English</a>
 </p>
 
-<p align="center"><sub>macOS · Apple 芯片与 Intel · 早期预览</sub></p>
+<p align="center"><sub>macOS · Apple 芯片与 Intel · 免费使用</sub></p>
 
 ![Pudding 功能总览](./assets/readme/01-welcome.png)
 
-> **早期预览：**这个仓库用于分发 Pudding 安装包、产品资料和公开目录数据。采用 AGPL 许可的应用源码发布在
-> [`teatak/pudding-core`](https://github.com/teatak/pudding-core)。
+> 这个仓库用于分发 Pudding 安装包、产品资料和公开目录数据。本地 Agent 后端以 Apache-2.0
+> 许可发布在 [`teatak/pudding-core`](https://github.com/teatak/pudding-core)。桌面界面、Electron、原生辅助程序
+> 和应用打包在独立的私有 `pudding-desktop` 仓库维护。Core 的许可证适用于后端；Desktop 从 0.3.5 起采用允许个人及商业用途免费使用的专有许可，此前版本保留各自原有的许可证声明。
 
 ## 功能
 
@@ -76,23 +77,23 @@ OpenRouter、Ollama 以及自定义兼容接口。模型请求会发送到你配
 
 ### 按需使用语音
 
-Pudding 支持听写、语音对话和语音播放。语音资源是保存在 `~/.pudding/runtime` 下的可选下载，桌面安装包无需默认
+Pudding 支持通过本地语音识别听写消息。语音资源是保存在 `~/.pudding/runtime` 下的可选下载，桌面安装包无需默认
 携带体积较大的语音模型。
 
 ## 下载与安装
 
-当前预览版本同时支持 Apple 芯片和 Intel 芯片的 macOS。
+Pudding 同时支持 Apple 芯片和 Intel 芯片的 macOS。
 
-| Mac | 安装包 |
-| --- | --- |
-| Apple 芯片 | `Pudding-<版本>-arm64.dmg` |
-| Intel | `Pudding-<版本>-x64.dmg` |
+| Mac | 最低 macOS 版本 | 安装包 |
+| --- | --- | --- |
+| Apple 芯片 | 14.0 | `Pudding-<版本>-arm64.dmg` |
+| Intel | 15.5 | `Pudding-<版本>-x64.dmg` |
 
 1. 从[最新 Release](https://github.com/teatak/pudding/releases/latest)下载对应的 DMG。
 2. 打开安装包，将 **Pudding.app** 拖入“应用程序”。
 3. 启动 Pudding。
 
-预览版本使用 Developer ID 证书签名，并已通过 Apple 公证。首次打开时，macOS 可能会确认是否运行从互联网下载的应用。
+官方版本使用 Developer ID 证书签名，并通过 Apple 公证。首次打开时，macOS 可能会确认是否运行从互联网下载的应用。
 
 ## 数据保存在 Mac 上，边界清晰
 
@@ -106,14 +107,15 @@ Pudding 支持听写、语音对话和语音播放。语音资源是保存在 `~
 
 这个仓库是 Pudding 的公开分发中心：
 
-- 应用源码和开发工作位于 [`teatak/pudding-core`](https://github.com/teatak/pudding-core)。
+- 开源 Agent 后端位于 [`teatak/pudding-core`](https://github.com/teatak/pudding-core)，采用 Apache-2.0。
+- 桌面应用开发与打包位于独立的私有 `pudding-desktop` 仓库。
 - 桌面版本使用 `v<版本>` 标签。
 - 语音运行资源使用 `runtime-v<版本>` 标签。
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存快捷提示词，只有用户选择后才会提交给模型。
 - [`catalog/user-messages.json`](./catalog/user-messages.json) 保存新会话页的多语言展示文案和可选外部链接；内容不会
   写入输入框或发送给模型，也不支持原始 HTML。
 
-已签名的预览版本可以在后台下载更新，只有用户选择“重新启动以更新”后才会安装。最新版 DMG 仍可用于手动安装或回退。
+Pudding 会在后台检查更新，你可以通过应用内的更新入口下载和安装。最新版 DMG 也可用于手动安装。
 
 ---
 
