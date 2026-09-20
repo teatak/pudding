@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.5-beta.1",
+  "tag": "v0.3.5-beta.1",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.5-beta.1",
+    "commit": "2fa575788c55211e825e1f301143fbef28a96ae9"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "edb52f544041f38c5f3ddd25cdec25c22b52da27"
+  },
+  "releaseNotes": "### Desktop and Local Files\n\n- Preview the split desktop distribution with the existing app identity, local data location, and update channel controls.\n- Open local HTML pages in the browser workspace and resolve chat and project file links consistently, with scoped file access.\n- Keep transcript position and message pairing more stable across session changes, streaming, and reloads.\n\n### Models and Command Approvals\n\n- Improve per-session model and reasoning controls, including model catalog synchronization, availability, and cost metadata.\n- Reuse narrowly scoped command approvals within a session and inspect or revoke them from the session controls.\n- Strengthen command argument and shell policy checks while supporting local development servers.\n\n### Project Activity and Upgrade\n\n- Preserve project activity ordering when sessions are archived or deleted and when project metadata changes.\n- Upgrade project activity metadata with a transactional v18-to-v19 database migration and an automatic pre-upgrade backup.\n- This preview shares the stable app's data directory; returning to version 0.3.4 requires restoring the pre-upgrade database backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.5-beta.1-arm64.dmg",
+      "size": 183413626,
+      "sha256": "f2988bfe832f5b09d3f9b11fcfc9d284bca92dfbc1d602e45948e6136e700202"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-arm64.dmg.blockmap",
+      "size": 194501,
+      "sha256": "7ee71a1cf7dcb4cd6adcb987bae4369a351c7eb1f29ec3806cac48d823b27899"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-arm64.zip",
+      "size": 182824770,
+      "sha256": "74f6ed1113215fa360947078b7d6e9f96efe3110f027b0eb064cd4c0b9cdba17"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-arm64.zip.blockmap",
+      "size": 194014,
+      "sha256": "657c7dfdd01a6792bd984993f87b8ccf45790cdb4f22a8d6fd8e3c769cd0572d"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-x64.dmg",
+      "size": 183643825,
+      "sha256": "8b8ea0980fca58ca3cda38817330a7a36f17e0de618edde905961530f0186956"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-x64.dmg.blockmap",
+      "size": 194106,
+      "sha256": "fe47e9e2556ab0aab015789f9127d0bceac570abb54067ae5a27b3b74bf786f5"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-x64.zip",
+      "size": 183159704,
+      "sha256": "6b2a86b03f11d222db2cf64afff73f60b87c494605d6152a862d7d5aa7857124"
+    },
+    {
+      "name": "Pudding-0.3.5-beta.1-x64.zip.blockmap",
+      "size": 193667,
+      "sha256": "2032c432472d518e680cccee2fd6da9b9e7352f9a454f00892fd7cfdd374f874"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "f871d58253f6446c2bb20af34022e458ff29c49fd5dbfb1f0fd1e3aa86601190"
+    }
+  ]
+}
