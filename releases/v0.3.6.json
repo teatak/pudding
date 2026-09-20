@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.6",
+  "tag": "v0.3.6",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.6",
+    "commit": "dbadfb873e7ba9e815b77abc76bd808f77c54b15"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "daf3982a575416594fdde75c75356f8860f38977"
+  },
+  "releaseNotes": "### Retry Failed Turns\n\n- Retry the latest failed turn without resending your original message. Continue from saved conversation history and completed tool results.\n- Keep earlier attempts in a collapsible history, including after refresh and restart. Prevent duplicate retry submissions and stale events from reviving an older attempt.\n\n### Models and Reasoning\n\n- Use five consistent reasoning choices for supported models while adapting requests to known provider capabilities and preserving your saved preferences.\n- Improve model-picker transitions, short-window layout, keyboard focus, and reduced-motion behavior.\n\n### Commands and Conversation Layout\n\n- Run loops, variables, functions, and scripts within the authorized project sandbox in Auto mode without extra prompts solely for dynamic syntax. Explicit risks and permission extensions still require review; Ask mode still confirms commands.\n- Improve Markdown tables with compact short columns, wrapped long content, and horizontal scrolling within wide tables.\n\n### Upgrade\n\n- Upgrade version 19 databases to version 20 with a transactional migration and an automatic pre-upgrade backup, preserving existing conversations and project data.\n- Downgrading a version 20 database to Pudding 0.3.5 requires restoring the pre-upgrade backup.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.6-arm64.dmg",
+      "size": 183407215,
+      "sha256": "34e3f8a5e2d4172c64d37f1e9d65d8441f0c5b17fa889a38722fba5cac7f3425"
+    },
+    {
+      "name": "Pudding-0.3.6-arm64.dmg.blockmap",
+      "size": 196004,
+      "sha256": "3f92acb13c8883a08d830981786053869f8492d66aba764dc66286caafa39aca"
+    },
+    {
+      "name": "Pudding-0.3.6-arm64.zip",
+      "size": 182818880,
+      "sha256": "fd8015f0cba21240c2c891719b0ca5d0f01699471729d30930d8c3227f8592af"
+    },
+    {
+      "name": "Pudding-0.3.6-arm64.zip.blockmap",
+      "size": 194457,
+      "sha256": "6f86ed4f25b6579434bc2e7978f637f9fe64628f3357c782be483d5494594953"
+    },
+    {
+      "name": "Pudding-0.3.6-x64.dmg",
+      "size": 183653210,
+      "sha256": "fcbd3afb8f0ed822b91c2e8a06dcb6cdd14d28f40638718758869d258f784e90"
+    },
+    {
+      "name": "Pudding-0.3.6-x64.dmg.blockmap",
+      "size": 194526,
+      "sha256": "59ec08fc50fe690ba50328740d15ccfa860d7c528f6bfca95d53888d70dd58d4"
+    },
+    {
+      "name": "Pudding-0.3.6-x64.zip",
+      "size": 183155715,
+      "sha256": "39a3c2fbe7fb6b1e4756c16ecdbb2e1dc6dfc434e0d6b96ba9158d8fbe57cf5f"
+    },
+    {
+      "name": "Pudding-0.3.6-x64.zip.blockmap",
+      "size": 194083,
+      "sha256": "3476d57a35e2c4c046b46aec0483e50c8899041e64a25a2fa5bd2b7277a3897b"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "71f6e7c5462ba8259d74397743b076481dba423c76c4a8b67caf49aed81b402a"
+    }
+  ]
+}
