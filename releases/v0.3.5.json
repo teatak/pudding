@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.5",
+  "tag": "v0.3.5",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.5",
+    "commit": "ca74e940643b378687ec405c4568761b129bfe65"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "af53d0874c6b8068cb50f84150b6fbf29ce6a4cb"
+  },
+  "releaseNotes": "### Desktop and Local Files\n\n- Run the desktop application with a separately versioned local Agent backend while preserving the app identity and local data location.\n- Open local HTML pages in the browser workspace and resolve chat and project file links with scoped access.\n- Improve transcript positioning, message pairing, and layout stability across streaming and session switches.\n\n### Models and Command Approvals\n\n- Improve per-session model selection and reasoning controls, including OpenRouter and BuzzHive model synchronization.\n- Reuse narrowly scoped command approvals within a session and inspect or revoke them from session settings.\n- Strengthen command argument and shell policy checks while supporting local development servers.\n\n### Project Activity and Upgrade\n\n- Preserve project activity ordering when sessions are archived or deleted and when project metadata changes.\n- Upgrade version 18 databases to version 19 with a transactional migration and an automatic pre-upgrade backup; existing version 19 databases need no new schema migration.\n- Keep existing conversations and project data. Downgrading a version 19 database to Pudding 0.3.4 requires restoring the pre-upgrade backup.\n\n### Licensing\n\n- Publish Pudding Core under Apache-2.0 and distribute Pudding Desktop under a free-use proprietary license for personal and commercial use.\n- Include the application license and third-party notices in the app bundle, with exact application-license verification during packaging.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.5-arm64.dmg",
+      "size": 183384936,
+      "sha256": "7727506672657c534a68f51aa128f67b86343c09b8debc7979c5a61d871d24d9"
+    },
+    {
+      "name": "Pudding-0.3.5-arm64.dmg.blockmap",
+      "size": 193129,
+      "sha256": "7406d4b7fd12dbb2da9f463f3f90e8bfe53f15084993ee201e6725039bf74451"
+    },
+    {
+      "name": "Pudding-0.3.5-arm64.zip",
+      "size": 182806142,
+      "sha256": "b0bd173bc19033669b11c7d7b67f89cb84bb3e10e97fc04102cc5536381a48b2"
+    },
+    {
+      "name": "Pudding-0.3.5-arm64.zip.blockmap",
+      "size": 194238,
+      "sha256": "ff0ad561f01b6e218c52662e3763ac7e88c1d2524647a12f2140f5a286bd280c"
+    },
+    {
+      "name": "Pudding-0.3.5-x64.dmg",
+      "size": 183616921,
+      "sha256": "a0a901a35b6e01bdd76d10cea4e41bae53bc6ae4b41d18fb85a4fe149e5bb6a7"
+    },
+    {
+      "name": "Pudding-0.3.5-x64.dmg.blockmap",
+      "size": 193057,
+      "sha256": "52ca45deb7ae663c77bd8152b063b3e0d885b44a384aa3985dcbc35f95d29890"
+    },
+    {
+      "name": "Pudding-0.3.5-x64.zip",
+      "size": 183141154,
+      "sha256": "d8723510a7320c534fe5cde4f30fdc9fa9bacea5921c6b58a6ea829e44318ffe"
+    },
+    {
+      "name": "Pudding-0.3.5-x64.zip.blockmap",
+      "size": 193929,
+      "sha256": "445bd81d68be7bad7aaa0d2f86257ea9222b4d94c279b263bc1df307a221d199"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "50757282a9fe9a3ab227727eb7dcaf3c9b75873bc5da0fc831c22581a33f1fad"
+    }
+  ]
+}
