@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.7",
+  "tag": "v0.3.7",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.7",
+    "commit": "da5795ca646992b26210d6a5a17ecaf6da7cefbf"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "f2279450a8fdea81784f3b00f2e1b5aa7f2b4728"
+  },
+  "releaseNotes": "### Collaboration\n\n- Delegate work to child conversations, with up to three concurrent subtasks per main conversation. Review progress, open child conversations in the workspace, and collect their results in the original conversation.\n- Handle child approvals and questions from the main conversation while keeping each task's messages and permissions scoped to its own session.\n\n### Scheduled Tasks\n\n- Create one-time, delayed, daily, and weekly tasks from a conversation or the task manager. Use an existing conversation or create a new one with your chosen model.\n- Edit, pause, resume, run, and delete plans; inspect execution history and receive desktop notifications. Pudding must be running and the computer awake; missed times are not automatically replayed.\n\n### Conversation Experience\n\n- Improve workspace conversation search, localized app names, and model reasoning controls, including DeepSeek model selection.\n- Refine failed-turn details and retry history, and avoid redundant child event subscriptions that could delay approvals.\n\n### Upgrade\n\n- Upgrade schema version 20 to 24 with an automatic pre-upgrade backup while preserving existing conversations and messages.\n- Downgrading to Pudding 0.3.6 requires restoring the pre-upgrade backup. macOS requirements remain 14.0 or later for Apple Silicon and 15.5 or later for Intel.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.7-arm64.dmg",
+      "size": 183699456,
+      "sha256": "2fc819e6b99189622e4bae3c92e05c1b2b2c345b21e836d2b03863e1feeca8c8"
+    },
+    {
+      "name": "Pudding-0.3.7-arm64.dmg.blockmap",
+      "size": 192345,
+      "sha256": "5fb89364267078e197da30f4dddc9ec23d69e98ac9f2000f4319d7a7afe3e4ed"
+    },
+    {
+      "name": "Pudding-0.3.7-arm64.zip",
+      "size": 183102094,
+      "sha256": "e68479649a73a9e861d3255ba2cbbeb7869cd13507e4afdcf5c1914383b62912"
+    },
+    {
+      "name": "Pudding-0.3.7-arm64.zip.blockmap",
+      "size": 194279,
+      "sha256": "a9d6c4042ca031477dfbef8aea0d58de01b26fa5411f7ee31437d590107b011f"
+    },
+    {
+      "name": "Pudding-0.3.7-x64.dmg",
+      "size": 183931572,
+      "sha256": "7ea86a28fceca13c01138b067b4ebc441373a49917b673684297c17cbe551b63"
+    },
+    {
+      "name": "Pudding-0.3.7-x64.dmg.blockmap",
+      "size": 194801,
+      "sha256": "9dd3a014e3aa039d168927dc5099a5188d4c57f2a3f04cf3f69f11c66dafa46c"
+    },
+    {
+      "name": "Pudding-0.3.7-x64.zip",
+      "size": 183461398,
+      "sha256": "635c8faad68daae3ba533afb72bdc63581c9af9cd8a94870987d2508b446037b"
+    },
+    {
+      "name": "Pudding-0.3.7-x64.zip.blockmap",
+      "size": 193978,
+      "sha256": "e5bb09bcfb410a185064c917c085307577ad18efca8a311f90dfdc31254a5b95"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "ebe920694e3d6750b01baa057be7d6a896e775df6e63e8928b4f477049e921fb"
+    }
+  ]
+}
