@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.8",
+  "tag": "v0.3.8",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.8",
+    "commit": "4932bf91a6e55077ab4c1f2567b98a903fe88b86"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "f2279450a8fdea81784f3b00f2e1b5aa7f2b4728"
+  },
+  "releaseNotes": "### macOS Reliability\n\n- Give Pudding's Electron app and helper executables distinct, reproducible UUIDs while preserving the existing app identity and signing chain. Record the upstream UUIDs for release verification and crash-symbol lookup.\n\n### Conversation Experience\n\n- Improve header and sidebar spacing, let Markdown tables use the available width, and keep recent workspace items accessible in compact windows.\n- Clear stale turn activity when a completed, failed, or cancelled turn appears in saved conversation history, including when its final event arrives late or is missed.\n\n### Compatibility\n\n- Continue using schema version 24 with no database migration from Pudding 0.3.7. Minimum macOS versions remain 14.0 for Apple Silicon and 15.5 for Intel.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.8-arm64.dmg",
+      "size": 183689789,
+      "sha256": "5b87816a12bc45aaa2f1a8087cde29415a0e58299925c3f553f027f076a7fbd3"
+    },
+    {
+      "name": "Pudding-0.3.8-arm64.dmg.blockmap",
+      "size": 193338,
+      "sha256": "8f979fc7fdbff7f32985f56ed1b712e4f769439df85301263867bdd3124a28c5"
+    },
+    {
+      "name": "Pudding-0.3.8-arm64.zip",
+      "size": 183102362,
+      "sha256": "b179da4cb51ba2b4ddb62c53d1a96c567508bc91228bfa3604313deec43382d1"
+    },
+    {
+      "name": "Pudding-0.3.8-arm64.zip.blockmap",
+      "size": 194283,
+      "sha256": "e857d4bd3979368a7210165814f9cd11c0264a0e61bee8b32bdd33840f4976ad"
+    },
+    {
+      "name": "Pudding-0.3.8-x64.dmg",
+      "size": 183930347,
+      "sha256": "f03afa67e77def12915771de0a530d88c85ada72bca7480b5baff039fbc78000"
+    },
+    {
+      "name": "Pudding-0.3.8-x64.dmg.blockmap",
+      "size": 193928,
+      "sha256": "9ae8210f45be8ee4373a966a608d4330c0e39823a72c723ba9898d701a5dfb82"
+    },
+    {
+      "name": "Pudding-0.3.8-x64.zip",
+      "size": 183461697,
+      "sha256": "58455f40c473f6b1f41ee4e6db6a3b6b97eca64eeb8bfd2b4ba08b86d4e11d84"
+    },
+    {
+      "name": "Pudding-0.3.8-x64.zip.blockmap",
+      "size": 194009,
+      "sha256": "f640326a83cc1925e8ea5ad9aea2805c92c86044ebaffb93373031d464b38a00"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "b10bb1a051144138ea6a4b9edcc8bf337843b281a8511c0021195b9cc4464fc4"
+    }
+  ]
+}
