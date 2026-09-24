@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.9",
+  "tag": "v0.3.9",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.9",
+    "commit": "91647e79c320fea61e166d41632558aa1a68636a"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "217f4f88d510d9dd795d0475d292cce954f45f72"
+  },
+  "releaseNotes": "### Workspace Experience\n\n- Redesign workspace content tab controls: the close button now overlays the tab icon on hover, maximizing visible title width for browser and document tabs.\n- Refine horizontal scroll overflow masks with compact, smooth transitions.\n- Compact toolbar icon button spacing and align macOS traffic light inset for a cleaner visual rhythm.\n\n### Conversation & Collaboration\n\n- Introduce session avatar displays across collaboration and workspace views for clearer identity distinction.\n- Stabilize transcript tool disclosures, message virtualizer scrolling, and layout resizing behavior.\n- Support branching new conversations from pasted-text sessions.\n- Open local HTML files in workspace browser tabs directly from markdown links.\n\n### Models & Compatibility\n\n- Update MiMo model presets to v2.6.\n- Standardize OpenAI content filter response handling in core daemon.\n- Maintain full compatibility with schema version 24; no database migration is required from 0.3.8.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.9-arm64.dmg",
+      "size": 183686438,
+      "sha256": "a7641b96034cf91dba813916fedf0493041bf7561a88b9c8be88fc4f9c37042f"
+    },
+    {
+      "name": "Pudding-0.3.9-arm64.dmg.blockmap",
+      "size": 193296,
+      "sha256": "904eda7a74bd8e22a73420628e513932b7c38ad0653ab7bfe37b918281aba56c"
+    },
+    {
+      "name": "Pudding-0.3.9-arm64.zip",
+      "size": 183118779,
+      "sha256": "8eacbf3ee8942e07cd0db9003ee1f879cd7549b5e1a33d0dd923f1ec3e144168"
+    },
+    {
+      "name": "Pudding-0.3.9-arm64.zip.blockmap",
+      "size": 194446,
+      "sha256": "f1a825c848b762be89e479470985e26d3cb5b85e6850c9b7888018c2152f9f61"
+    },
+    {
+      "name": "Pudding-0.3.9-x64.dmg",
+      "size": 183935784,
+      "sha256": "40ba124023a0e0e35f6c5575073585013c8c1c5a469fef02960e58f393844508"
+    },
+    {
+      "name": "Pudding-0.3.9-x64.dmg.blockmap",
+      "size": 193877,
+      "sha256": "609c0840695fd0f548d0d46f080da62df5b2792dcb3bac6ffb9e7e478b99ee7f"
+    },
+    {
+      "name": "Pudding-0.3.9-x64.zip",
+      "size": 183475961,
+      "sha256": "a71fcb373b91408f8e7eef52d74a81331d4d1aa21de8070df78c3e1d819c2dba"
+    },
+    {
+      "name": "Pudding-0.3.9-x64.zip.blockmap",
+      "size": 193340,
+      "sha256": "b3332d2acccedf8b3097122b6cf86da7a67f067f866b15a274ba96f89abc4570"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "ab642510b2f28cf29fe030f5296623340304374b23b784e8c44ee51a886f96f5"
+    }
+  ]
+}
