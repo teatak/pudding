@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.3.10",
+  "tag": "v0.3.10",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.3.10",
+    "commit": "ed00ed4e6ccc7cc7425a8df65d309dc7d261bcf4"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "4e028ca7a6bc4f04c1cdc120095a54f17d3a12d1"
+  },
+  "releaseNotes": "### Notifications and Workspace\n\n- Receive background notifications when a conversation completes or needs approval, with a shortcut back to its session.\n- Refine collaboration and scheduled-task cards, session icons, image-viewer translations, and model reasoning controls.\n- Identify and remove unavailable models from provider lists.\n\n### Permissions and Agent Tools\n\n- Grant and revoke temporary session directory access without changing shared project settings, and review additional directories alongside command approvals.\n- Show file-copy sources, destinations, and overwrite scope; recheck changes before committing and preserve existing files on copy failure.\n- Let agents inspect their subtasks and background commands, reuse session attachment analysis files, and receive clearer path, search, patch, and argument diagnostics.\n- Improve Git discovery isolation, command output handling, and process cleanup.\n\n### Browser and Reliability\n\n- Preserve unsaved webpage content when closing is cancelled, including during bulk tab closure.\n- Recover local-file previews after missing files are restored, while preserving tab identity, navigation history, and file authorization.\n- Wait for active work before cleaning up archived or deleted sessions, and reclaim orphaned attachments safely.\n- Keep database schema v24 and existing macOS requirements; upgrading from 0.3.9 requires no database migration.",
+  "assets": [
+    {
+      "name": "Pudding-0.3.10-arm64.dmg",
+      "size": 183868424,
+      "sha256": "0ff92ae9ca10d40ab764e5aa12d316fe9ecac4845d2e8230293134c4e5f8af55"
+    },
+    {
+      "name": "Pudding-0.3.10-arm64.dmg.blockmap",
+      "size": 193759,
+      "sha256": "be5f16ba2a317316acfa0082b0ef68599421874b97d9866c22e306881f32805f"
+    },
+    {
+      "name": "Pudding-0.3.10-arm64.zip",
+      "size": 183273748,
+      "sha256": "f28517170f882ddbfd1825f71400e71e413335c0d8416b3a02fe0f97ebad6cd4"
+    },
+    {
+      "name": "Pudding-0.3.10-arm64.zip.blockmap",
+      "size": 194953,
+      "sha256": "ae01d8eafb426a3ab2b8844b17e626e65522bc719d55a65e5d2b877532e831a3"
+    },
+    {
+      "name": "Pudding-0.3.10-x64.dmg",
+      "size": 184120226,
+      "sha256": "65f8eda863b682be27d50b501a3060f3f506df6e24f3edd9d2f0d9990d329378"
+    },
+    {
+      "name": "Pudding-0.3.10-x64.dmg.blockmap",
+      "size": 193956,
+      "sha256": "ce078b671a2c9f496a5bb5c4c0de9e5654fadbacc5eec0e9147e4ca7ff784668"
+    },
+    {
+      "name": "Pudding-0.3.10-x64.zip",
+      "size": 183641636,
+      "sha256": "9df4d70be4f2e5573c2736f7bc597f583bdee6ab0181220dfaf3c1946f3604c8"
+    },
+    {
+      "name": "Pudding-0.3.10-x64.zip.blockmap",
+      "size": 194212,
+      "sha256": "6adf7a6f996200b5c1319a5a14f0c9220b86c12855dab2411117dbfd9d7d396c"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 805,
+      "sha256": "b101c9bb2dbf22e8f74408e04963320f1d87c81006e90efb5b0a8d18e56f16bb"
+    }
+  ]
+}
