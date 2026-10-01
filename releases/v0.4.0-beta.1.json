@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.4.0-beta.1",
+  "tag": "v0.4.0-beta.1",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.4.0-beta.1",
+    "commit": "82c65dc514e89e31a4fcab13ad914b0db5f0ed66"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "854827fe3e02a1787b2d2387a6a2b930f0730d21"
+  },
+  "releaseNotes": "### Canvases\n\n- Build documents, tables, charts and App interfaces as one kind of canvas, backed by editable React source and shown in a single canvas library.\n- Create canvases with the built-in Canvas Authoring app in Code mode: start from a document, report or dashboard template, preview with real App data, inspect the rendered result and activate a version when it is ready.\n- Give canvases their own icons and colors. App changes made from a canvas are confirmed one at a time and recorded.\n- Existing canvases are converted to editable source on upgrade. Images that are no longer available become a placeholder instead of blocking the upgrade.\n\n### New Desktop Layout\n\n- A redesigned shell with an activity rail, and matching sidebars, home pages and breadcrumbs for conversations, canvases, apps, scheduled tasks and projects.\n- Settings open as a full page with grouped sections, one content width and consistent headings.\n- Mentions for apps, skills and canvases share one `@type/id(name)` format.\n- Conversations keep your reading position while panels resize or collapse.\n\n### Models and Reliability\n\n- New model presets: Claude Fable 5.1, Opus 5.5 and Sonnet 5.5; GPT 6.1 Sol and GPT 6 Luna; GLM 5.3. OpenRouter cost estimates assume an 80% cache hit rate.\n- Live updates resume after a slow connection catches up, cancelled turns are recorded as cancelled, and daemon token checks and attachment responses are hardened.\n- Electron 44.4.5, Go 1.26.6 and patched dependencies.\n- The database moves from schema v24 to v26 with an automatic backup first. After upgrading, 0.3.10 can no longer open the data.",
+  "assets": [
+    {
+      "name": "Pudding-0.4.0-beta.1-arm64.dmg",
+      "size": 193044994,
+      "sha256": "d9d214e32c65d3d77c1f70153ff758b6a7c6660752dd3bd1e38f8fa3c4226612"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-arm64.dmg.blockmap",
+      "size": 202745,
+      "sha256": "39b544efae938fb9bb039984778fa49cd7b87c53b4198f0e85daff8857eaf48e"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-arm64.zip",
+      "size": 192397844,
+      "sha256": "9e67a17b7df71ef1706970cbb2446317ab05a8baab7fe0af971737316eed9fd7"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-arm64.zip.blockmap",
+      "size": 202644,
+      "sha256": "27ebd56c97b4d93e77100df23f32a4deb719c070c4219c3a1627d2bde82acdd4"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-x64.dmg",
+      "size": 195351331,
+      "sha256": "3917360699a551efab2510ae84731865a29280c84cd27e94505d97d4ffc3a70f"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-x64.dmg.blockmap",
+      "size": 206718,
+      "sha256": "96421e48eb04bccb986792d7d6b8f51e4bc7de35eb25705e770fc36249ed1782"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-x64.zip",
+      "size": 194829795,
+      "sha256": "5f46e4b0703b20a2f0a1a1e1b8398766ce49a22ab5c8448778a625ecf8922ff8"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.1-x64.zip.blockmap",
+      "size": 204308,
+      "sha256": "e79ee34839160deea6c2a10915a93b52351fdfabc0728a7ba9c8a57e9b291ab2"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "26bd5d9fc704353bfbbea5b5eb9a1f6c9a8615e6c6d8d556c3399e8b4b864b33"
+    }
+  ]
+}
