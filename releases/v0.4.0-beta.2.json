@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.4.0-beta.2",
+  "tag": "v0.4.0-beta.2",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.4.0-beta.2",
+    "commit": "dd700ab1a82462abf9015415f87cd18ce4b9f302"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "854827fe3e02a1787b2d2387a6a2b930f0730d21"
+  },
+  "releaseNotes": "### Fixes\n\n- Canvases open again in the installed app. In 0.4.0-beta.1 the canvas compiler's dependencies were missing from the package, so every canvas failed with “Cannot find module … esbuild”.\n- Every release now compiles a sample canvas inside each built app before it is published.\n- This preview includes everything in [0.4.0-beta.1](https://github.com/teatak/pudding/releases/tag/v0.4.0-beta.1).",
+  "assets": [
+    {
+      "name": "Pudding-0.4.0-beta.2-arm64.dmg",
+      "size": 221641052,
+      "sha256": "a015019bfbdaaeb9a6dc3f9c13680f9aedbece530f7f95332b61992bc6b6345c"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-arm64.dmg.blockmap",
+      "size": 232240,
+      "sha256": "64c34a6a63a17528f30fe8d10818e9e0537cd283844a72bfa83acff3d36d2d6a"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-arm64.zip",
+      "size": 228831177,
+      "sha256": "9b67dd18c3ab4a2b61c1feb4c8c029eb7d30063f34a0070c020e8311a30fd52d"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-arm64.zip.blockmap",
+      "size": 239659,
+      "sha256": "575101ea4e988246f82427df9380e67c5899750dfb3f88f170c86148f2856ef2"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-x64.dmg",
+      "size": 225078036,
+      "sha256": "562d10e05f20055aea983eb74b76ad6a97c1bc772224072898f0a1e0d0bceda7"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-x64.dmg.blockmap",
+      "size": 236322,
+      "sha256": "bbb75f521c96ef1b365f2b6c7d426c00e4ba18e02bd8576f09e9f605369dd562"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-x64.zip",
+      "size": 232392918,
+      "sha256": "e0bef817cb760d1237e523892412ad642addda7e5e25447a8b45cd4f26b5746a"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.2-x64.zip.blockmap",
+      "size": 243741,
+      "sha256": "33c2b324d0876ea18d16ac75b6ecf5380ffb09982579c52a530a572040530ac6"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "2a944a7f5bd05c9e640dd1c3fb18b05e7ccc8d13d12f58539f28b7755c584253"
+    }
+  ]
+}
