@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.4.0-beta.3",
+  "tag": "v0.4.0-beta.3",
+  "channel": "preview",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.4.0-beta.3",
+    "commit": "c75477e5f6fa7ddb24086ac986eb60a3433829dc"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "d39f99d2d181ab8526822f94f2bc741672b9692d"
+  },
+  "releaseNotes": "### Studio documents and tables\n\n- Create and edit Markdown documents and typed tables directly in Studio, with autosave, version history, restore, and CSV import/export.\n- Preserve unsaved work through conflicting edits, navigation, application quit, and update restarts.\n\n### AI collaboration\n\n- Send instructions for selected text and cells, review AI changes, and undo individual AI edits while keeping later human changes where possible.\n- Follow each request through queued, working, waiting, failed, and completed states, with access to its conversation.\n\n### Organization and navigation\n\n- Archive Studio documents, tables, and widgets, restore them from Settings, or permanently delete them. Archived items are removed after 30 days.\n- Resize and collapse sidebars, and navigate back and forward across the workspace.\n- Existing canvases migrate to Studio widgets; Apps are now named Plugins.\n\n### Upgrade notes\n\n- This preview upgrades the local database to schema v30 and creates a backup before migration. Older versions cannot open the upgraded database directly.\n- macOS requirements remain unchanged: macOS 14 or later for Apple Silicon and macOS 15.5 or later for Intel.",
+  "assets": [
+    {
+      "name": "Pudding-0.4.0-beta.3-arm64.dmg",
+      "size": 221842405,
+      "sha256": "63c604be57a0ab262f2aadd698121b3446d82936862f9b61a2a4f55f2a8359c1"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-arm64.dmg.blockmap",
+      "size": 233872,
+      "sha256": "80591740f4b3588e7a1a7bf5121ed4c74795f138a537d17b336ff0852d9073d7"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-arm64.zip",
+      "size": 229055932,
+      "sha256": "ba667e00ac65cdf3454c1f046fdb8d27cac2130d469ff7acb8a2cedc1049cc8a"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-arm64.zip.blockmap",
+      "size": 239192,
+      "sha256": "fb32ba8016e2462db4fb9b87942a487e7637971694fe6b693c4f037bbf583707"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-x64.dmg",
+      "size": 225281019,
+      "sha256": "75366f45cf770ac0803305950a7cb31578b794aebf2f5499941e1c30edef59d8"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-x64.dmg.blockmap",
+      "size": 235317,
+      "sha256": "f95d6c5258fb7537743a15c8bd8456458e3f6df1a2e6b6ffe405e87a8ae79d51"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-x64.zip",
+      "size": 232635931,
+      "sha256": "8a2d047b150201f96f3793923b002dc0a85e55dbb24a4ef518d425d58dd65c43"
+    },
+    {
+      "name": "Pudding-0.4.0-beta.3-x64.zip.blockmap",
+      "size": 244388,
+      "sha256": "5cddecab751239d420067eecbc803c182f71d16196af47c0d2c3d9616eb3e90c"
+    },
+    {
+      "name": "beta-mac.yml",
+      "size": 841,
+      "sha256": "7bd0fa226e3f2740042f4bd5cba0e6f0355bc9b929f885f918b47b63c3ff1c74"
+    }
+  ]
+}
