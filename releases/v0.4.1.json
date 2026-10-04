@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.4.1",
+  "tag": "v0.4.1",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.4.1",
+    "commit": "7827653e925678d4f73fa30d8ad29a95ce3b68ce"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "77b79cd27dd68a642a5fb68be2356dc86287f2f4"
+  },
+  "releaseNotes": "### Widget tool hotfix\n\n- Restore session identity for Widget Authoring tools, fixing failures when listing widgets or opening drafts. Widget creation stays attached to the conversation that invoked it, even when another conversation is selected.\n- Normalize missing and null browser-tool arguments before injecting session and request metadata, preventing tool-call crashes.\n- Remove the obsolete Canvas Chat-mode permission exception; Widget tools continue to require Code mode.\n\n### Upgrade notes\n\n- Upgrading from 0.4.0 or 0.4.0-beta.3 requires no additional database migration. Earlier versions retain the existing schema v30 upgrade and backup behavior.\n- Requires macOS 14 or later on Apple Silicon, or macOS 15.5 or later on Intel.",
+  "assets": [
+    {
+      "name": "Pudding-0.4.1-arm64.dmg",
+      "size": 221857462,
+      "sha256": "4ff17f78e71b5f9d09016e348084bf499272eb5d21c99e6fa9dd53a278a718e0"
+    },
+    {
+      "name": "Pudding-0.4.1-arm64.dmg.blockmap",
+      "size": 233069,
+      "sha256": "ebf89775029322b5cffee3f12d4de8781765990cc69bb945c15a3d16ec2baacb"
+    },
+    {
+      "name": "Pudding-0.4.1-arm64.zip",
+      "size": 229052458,
+      "sha256": "40ae1b0039fa4505642730aa9a019d1c659032c8b65a7452c24689a78cdda2ec"
+    },
+    {
+      "name": "Pudding-0.4.1-arm64.zip.blockmap",
+      "size": 239894,
+      "sha256": "0637b62936b2fe62082b7a1d8f08f8773d8ef9ff3ba770f8685eea4287579ef4"
+    },
+    {
+      "name": "Pudding-0.4.1-x64.dmg",
+      "size": 225331150,
+      "sha256": "3ac07a5c2a4133b42b421dbd27280f2ff13dcb42af679437c0b2416249f292ea"
+    },
+    {
+      "name": "Pudding-0.4.1-x64.dmg.blockmap",
+      "size": 235668,
+      "sha256": "b93b00dad132338117332575d9e37cd8c318806f4a982c30feed3a6879748e86"
+    },
+    {
+      "name": "Pudding-0.4.1-x64.zip",
+      "size": 232634220,
+      "sha256": "bc458e645ff678e750ed58e5c5336fa942951b0335985b36db14fe99ccb45ff0"
+    },
+    {
+      "name": "Pudding-0.4.1-x64.zip.blockmap",
+      "size": 243683,
+      "sha256": "c7b2265a1d092cce8adfe504473d3003627fa84c853ce9d703ec3246e8ac6cb6"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "8a59707a174794fe30012e595f779871d397dde884f094b92b4fdc8f7348ae62"
+    }
+  ]
+}
