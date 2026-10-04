@@ -1,133 +1,146 @@
 # Pudding
 
 <p align="center">
-  <strong>AI workspace for macOS, powered by an open-source core.</strong><br />
-  Run independent AI sessions, work with local projects, and keep useful results beside the conversation.
+  <strong>The desktop AI workspace for leading models.</strong><br />
+  Separate sessions, a built-in browser and tools, Studio documents and tables, scheduled tasks, and plugins — powered by an open-source core.
 </p>
 
 <p align="center">
-  <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download for macOS</strong></a>
-  · <a href="https://x-t.top">Website</a>
+  <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download</strong></a>
+  · <a href="https://teatak.com/products/pudding/">Website</a>
   · <a href="https://github.com/teatak/pudding-core">Core source</a>
   · <a href="./README.zh-CN.md">中文</a>
 </p>
 
-<p align="center"><sub>macOS · Apple silicon and Intel · Free to use</sub></p>
+<p align="center"><sub>Free for personal and commercial use · Available for macOS (Apple silicon and Intel)</sub></p>
 
-![Pudding feature overview](./assets/readme/01-welcome.png)
+![Pudding workspace](./assets/readme/workspace.png)
 
-> This repository distributes Pudding releases, product information, and public catalog data.
-> The local Agent backend is published under Apache-2.0 in
-> [`teatak/pudding-core`](https://github.com/teatak/pudding-core). The desktop UI, Electron shell, native helpers,
-> and application packaging are maintained separately in the private `pudding-desktop` repository.
-> Core's license applies to the backend. Starting with 0.3.5, Pudding Desktop is free to use for personal and commercial purposes under its proprietary license. Earlier builds retain their original license notices.
+> This repository distributes Pudding releases, product information, and public catalog data. The local Agent
+> backend is open source under Apache-2.0 in [`teatak/pudding-core`](https://github.com/teatak/pudding-core). The
+> desktop UI, Electron shell, native helpers, and packaging are maintained in the private `pudding-desktop`
+> repository. Starting with 0.3.5, Pudding Desktop is free for personal and commercial use under its proprietary
+> license; earlier builds keep their original license notices.
 
 ## Features
 
-### Independent sessions
+### Leading models, ready out of the box
 
-Each chat is a separate workspace with its own conversation, project, tools, permissions, and live activity. Keep
-several tasks moving without one task silently becoming another task's context.
+Built-in presets cover OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen, Xiaomi MiMo, Moonshot Kimi, Zhipu GLM,
+OpenRouter, Buzz, and Ollama, plus any compatible endpoint. Add an API key and start.
 
-- Create standalone chats or group them under projects.
-- Search previous sessions and archive work you no longer need in the sidebar.
-- Branch from an existing answer when you want to explore a different direction.
-- Choose the model and reasoning level for each task.
+- Choose the model and reasoning effort for each task.
+- Use local models through Ollama, or connect a team gateway through [Buzz](https://teatak.com/products/buzz/).
+- Model requests go only to the providers you configure.
 
-### AI work with visible results
+![Choosing a model in Pudding](./assets/readme/models.png)
 
-Pudding can use tools, edit files, and keep the result visible beside the conversation. Tool activity is shown in
-the transcript, permission requests stay explicit, and file changes can be reviewed before you continue.
+### Separate sessions and projects
 
-![Pudding creating and reviewing a Markdown file](./assets/readme/02-agent-workflow.png)
+Each task has its own conversation, model, tools, and permissions, so several tasks can run side by side.
 
-The workspace can hold file previews, diffs, browser pages, documents, tables, images, and reusable widgets. Useful
-work does not have to disappear into a long chat transcript.
+- Start a new chat from any answer to explore a different direction.
+- Link a project folder when a task needs one; files stay where they are.
+- Set approvals per project: Ask, Auto, or Full access.
+- Pin, search, and archive sessions from the sidebar.
 
-### Built-in browser and desktop tools
+### Workspace and tools
 
-Open a browser beside the chat so research and follow-up work stay in the same session. Pudding can also work with
-local terminal tools, capture images, use computer controls, and operate on project files after you grant access.
+Pudding gives models file, command, and code-understanding tools. The workspace keeps file previews, diffs,
+browser pages, Studio items, and images open as tabs beside the conversation.
 
-![Pudding built-in browser beside an AI session](./assets/readme/03-built-in-browser.png)
+- Read, search, and edit project files, and review every change in a diff view.
+- Run commands; stop a running turn at any time and retry a failed one.
+- Find definitions and references and check diagnostics for Go and TypeScript.
 
-- Keep multiple workspace resources open as tabs.
-- Add browser pages and captured results without leaving the task.
-- Review local file changes in a dedicated diff view.
-- Cancel long-running model turns when the task changes.
+### Built-in browser and computer use
 
-### Local projects
+Browser tabs sit beside the conversation, so research and follow-up work stay in one session.
 
-Attach a folder only when a task needs it. Project files remain in the directory you choose, while each session
-keeps its own conversation and tool activity. Pudding asks for capability and directory access instead of assuming
-that every chat can read your computer.
+- Open pages, click, type, capture screenshots, and read page content.
+- With your permission, view and operate apps on your computer.
+- Capture images from the screen or camera when you ask.
 
-### Apps, skills, and MCP
+### Studio: documents, tables, and widgets
 
-Built-in apps provide the browser, canvas, computer use, image capture, and authoring tools. Install optional apps
-for services such as GitHub and Gmail, connect MCP servers, or create reusable skills for repeatable workflows.
+Documents, tables, and widgets are kept together in Studio, ready to review and revise.
 
-![Pudding built-in, installed, and available apps](./assets/readme/04-apps.png)
+- Markdown documents and typed tables with autosave.
+- Select text, cells, or columns and send them to a session for revision.
+- Every edit, yours or a session's, is saved as a version you can compare and restore.
+- Build interactive widgets from editable React source and preview them with plugin data.
+- Import and export CSV, export Markdown, and restore archived items within 30 days.
 
-- **Apps** package reusable integrations, including REST, GraphQL, and MCP tools.
-- **Skills** provide task-specific instructions and repeatable workflows.
-- **Widgets** are interactive workspace results that can be saved as favorites and reused.
+![A Studio document and its version history](./assets/readme/studio.png)
 
-### Bring your own model
+### Scheduled tasks and collaboration
 
-Connect OpenAI, Anthropic, Google Gemini, DeepSeek, Qwen, Xiaomi MiMo, Moonshot/Kimi, Zhipu GLM, OpenRouter,
-Ollama, or a custom compatible endpoint. Model requests go to the provider you configure; Pudding does not claim
-that cloud models run locally.
+- Schedule tasks daily or weekly. They run in the original conversation and keep a run history.
+- Let the main conversation delegate subtasks, track their progress, and combine the results.
+- Get a system notification when a task finishes or needs your approval.
 
-### Voice when you want it
+![Scheduled tasks in Pudding](./assets/readme/scheduled-tasks.png)
 
-Pudding supports dictation with local speech recognition. Voice assets are optional downloads stored under
-`~/.pudding/runtime`, so the desktop installer does not need to bundle large speech models.
+### Plugins, skills, and MCP
+
+- Built-in plugins provide the browser, collaboration, computer use, image capture, and widget, skill, and plugin
+  authoring.
+- Install plugins for services such as GitHub and Gmail, or add MCP plugins from an `mcpServers` configuration.
+- Turn routine work into reusable skills.
+
+![Built-in and installed plugins](./assets/readme/plugins.png)
+
+### Voice input
+
+Dictate messages with local speech recognition. Voice assets are an optional download, so the installer stays small.
 
 ## Download and install
 
-Pudding supports macOS on both Apple silicon and Intel.
+Pudding is currently available for macOS.
 
 | Mac | Minimum macOS | Download |
 | --- | --- | --- |
-| Apple silicon | 14.0 | `Pudding-<version>-arm64.dmg` |
-| Intel | 15.5 | `Pudding-<version>-x64.dmg` |
+| Apple silicon | 14.0 | [`Pudding-<version>-arm64.dmg`](https://teatak.com/download/pudding/mac-arm64) |
+| Intel | 15.5 | [`Pudding-<version>-x64.dmg`](https://teatak.com/download/pudding/mac-x64) |
 
-1. Download the right DMG from [the latest release](https://github.com/teatak/pudding/releases/latest).
+1. Download the DMG for your Mac. The links above always point to the latest release.
 2. Open it and drag **Pudding.app** into **Applications**.
 3. Launch Pudding.
 
 Official builds are signed with a Developer ID certificate and notarized by Apple. On first launch, macOS may ask
 you to confirm that you want to open an application downloaded from the internet.
 
-## Your data, with clear boundaries
+Pudding checks for updates in the background. Install updates from the in-app update controls, or download the
+latest DMG from [Releases](https://github.com/teatak/pudding/releases/latest).
 
-- Pudding does not require a Pudding account.
-- Conversations, settings, the local database, installed apps and skills, and optional runtime assets live under
-  `~/.pudding`.
+## Data and privacy
+
+- No Pudding account is required.
+- Conversations, settings, the local database, installed plugins and skills, and optional runtime assets stay in
+  the `.pudding` folder in your home directory.
 - Project files stay in the folders you choose.
-- Model requests go only to the provider you configure.
+- Pudding asks before it accesses folders or operates your apps, and temporary permissions can be reviewed and
+  revoked.
+- Model requests go only to the providers you configure.
 - Public starter catalogs are cached locally, and Pudding does not upload catalog interaction data.
 
 ## Repository contents
 
 This repository is the public distribution hub for Pudding:
 
-- Open-source Agent backend development lives in [`teatak/pudding-core`](https://github.com/teatak/pudding-core) (Apache-2.0).
-- Desktop application development and packaging live in the separate private `pudding-desktop` repository.
-- Desktop releases use `v<version>` tags.
-- Voice runtime assets use `runtime-v<version>` tags.
-- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts submitted only after
-  the user chooses one.
+- Desktop releases use `v<version>` tags; voice runtime assets use `runtime-v<version>` tags.
+- [`releases/`](./releases) contains a manifest for each published version: its tag, channel, the desktop and core
+  commits it was built from, and its release notes.
+- [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) contains clickable prompts that are submitted only
+  after the user chooses one.
 - [`catalog/user-messages.json`](./catalog/user-messages.json) contains localized, display-only new-session copy and
   an optional external link. It is never inserted into the composer or sent to a model. Raw HTML is not supported.
-
-Pudding checks for updates in the background. Use the in-app update controls to download and install an update;
-the latest DMG also remains available for manual installation.
+- [`assets/product/`](./assets/product) contains product launch artwork.
+- The open-source Agent backend lives in [`teatak/pudding-core`](https://github.com/teatak/pudding-core).
 
 ---
 
 <p align="center">
   <a href="https://github.com/teatak/pudding/releases/latest"><strong>Download Pudding</strong></a>
-  · <a href="https://x-t.top">x-t.top</a>
+  · <a href="https://teatak.com/products/pudding/">teatak.com</a>
 </p>
