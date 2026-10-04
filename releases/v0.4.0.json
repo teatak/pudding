@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.4.0",
+  "tag": "v0.4.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.4.0",
+    "commit": "dba91c4c60c21dc4278806d2455d36dd15b9776b"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "d39f99d2d181ab8526822f94f2bc741672b9692d"
+  },
+  "releaseNotes": "### Studio documents, tables and widgets\n\n- Create and edit Markdown documents and typed tables with autosave, version history, restore, and CSV import/export.\n- Build interactive widgets from editable React source, preview them with Plugin data, and manage documents, tables and widgets together in Studio.\n- Archive and restore Studio content, with permanent cleanup after 30 days. Preserve unsaved edits through navigation, conflicts, application quit and update restarts.\n\n### AI collaboration\n\n- Ask AI about selected text, table cells or columns using shared reference cards with source and revision context.\n- Review AI changes and selectively undo them while preserving later human edits where possible; follow request status and open its conversation.\n- Improve selection boundaries, session/model pickers and input handling: Enter sends, while Shift+Enter or Command/Ctrl+Enter inserts a line break, with IME composition protection.\n\n### Workspace and reliability\n\n- Navigate a redesigned desktop with resizable sidebars, workspace overview, Studio search, full-page settings, and back/forward navigation.\n- Open browser tabs directly from the workspace toolbar, and keep closed tabs from reappearing after delayed updates.\n- Improve streaming reconnection, cancellation records, local daemon authentication and attachment handling. Include the widget compiler and verify it inside both packaged architectures.\n\n### Upgrade notes\n\n- Existing canvases become Studio widgets; Apps are now named Plugins.\n- Upgrading from 0.3.10 or an earlier 0.4.0 preview migrates older databases to schema v30 with an automatic backup. Upgrading from 0.4.0-beta.3 requires no additional database migration. Older releases cannot open a v30 database directly.\n- Requires macOS 14 or later on Apple Silicon, or macOS 15.5 or later on Intel.",
+  "assets": [
+    {
+      "name": "Pudding-0.4.0-arm64.dmg",
+      "size": 221848713,
+      "sha256": "3a018050ab129e0449cdd559671e12d67243cd0acdd916499f519fec67e4a5c3"
+    },
+    {
+      "name": "Pudding-0.4.0-arm64.dmg.blockmap",
+      "size": 233423,
+      "sha256": "cb6058c5c0d4a51d631515678cce98d47b7d211d999454abef41a3ed2e18c3e9"
+    },
+    {
+      "name": "Pudding-0.4.0-arm64.zip",
+      "size": 229053566,
+      "sha256": "17c3b232ad106ad7e77a686a439eae7dc8ed6f34cc4700dd8d3204e67aa77757"
+    },
+    {
+      "name": "Pudding-0.4.0-arm64.zip.blockmap",
+      "size": 239225,
+      "sha256": "e1dbfcc4284bec35884aafacb3e120fd50b80afe6802e11eeddaa44296e791e2"
+    },
+    {
+      "name": "Pudding-0.4.0-x64.dmg",
+      "size": 225286705,
+      "sha256": "a83fba30567a298b3bef41fc47ce50b6a472126fa89b1342800869429cde4ac5"
+    },
+    {
+      "name": "Pudding-0.4.0-x64.dmg.blockmap",
+      "size": 236478,
+      "sha256": "27397578a45961dd8d5b31d685a26101bb38d00a06036cadc8b1a9fd2129c76f"
+    },
+    {
+      "name": "Pudding-0.4.0-x64.zip",
+      "size": 232633635,
+      "sha256": "97958dd009f33ba4f1b792350dfedc4a06738deb5ddfb442390af020e7470fda"
+    },
+    {
+      "name": "Pudding-0.4.0-x64.zip.blockmap",
+      "size": 244134,
+      "sha256": "723fee77d2b5e89c892c191c7816a4ee741af05eb43eb5b47f83a846a1c0fbb4"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "63f96d9f3af7aaed3bd5f9b6d4fe98227e74db064d394f2199feb85330d70a61"
+    }
+  ]
+}
