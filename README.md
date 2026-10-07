@@ -128,6 +128,8 @@ latest DMG from [Releases](https://github.com/teatak/pudding/releases/latest).
 
 This repository is the public distribution hub for Pudding:
 
+- [Release artifact management](./docs/artifact-management.md) defines artifact ownership, versioned Store
+  material archives, and website references.
 - Desktop releases use `v<version>` tags; voice runtime assets use `runtime-v<version>` tags.
 - [`releases/`](./releases) contains a manifest for each published version: its tag, channel, the desktop and core
   commits it was built from, and its release notes.

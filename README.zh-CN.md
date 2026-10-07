@@ -117,6 +117,7 @@ Pudding 会在后台检查更新，可通过应用内的更新入口安装，也
 
 这个仓库是 Pudding 的公开分发中心：
 
+- [发布产物管理约定](./docs/artifact-management.md) 定义产物归属、商店素材版本归档和官网引用方式。
 - 桌面版本使用 `v<版本>` 标签，语音运行资源使用 `runtime-v<版本>` 标签。
 - [`releases/`](./releases) 保存每个已发布版本的清单：标签、渠道、构建所用的 desktop 与 core 提交，以及发布说明。
 - [`catalog/starter-prompts.json`](./catalog/starter-prompts.json) 保存快捷提示词，只有用户选择后才会提交给模型。
