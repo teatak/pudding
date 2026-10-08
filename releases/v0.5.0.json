@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.5.0",
+  "tag": "v0.5.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.5.0",
+    "commit": "4dc4b376772b00ab0dc69602d6591456a3bf7dea"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "1571c7bacc4aa7f9e2dd7b9e75329d0ef0f2011e"
+  },
+  "releaseNotes": "### Availability\n\n- macOS 0.5.0 is available for Apple Silicon and Intel.\n- Windows 0.5.0 has been submitted to Microsoft Store and is awaiting certification. The existing Store version remains available; the Windows changes below will arrive with the approved update.\n\n### Windows desktop and Store updates\n\n- Refine Windows navigation, title bars and chat layout, including alignment with classic scrollbars.\n- Surface Microsoft Store updates through manual checks and the existing update indicator, with a direct handoff to the Store.\n- Add transparent Windows icon variants and isolate locally built Pudding Dev from installed release data.\n\n### Remote access\n\n- Connect an explicitly enabled desktop over the local network or a self-hosted relay with one-use authorization codes and revocable devices.\n- Share conversations and supported workspace views with the remote browser while keeping native-only operations on the desktop.\n\n### Studio and conversations\n\n- Improve document and table page controls, content search, and the Discuss this workflow.\n- Improve AI request session management, project creation, plugin controls and pending-question notifications across conversations.\n\n### Upgrade notes\n\n- This version upgrades the local database from v30 to v32 and creates a migration backup. Older versions cannot open the upgraded database; restore a matching backup before downgrading.\n- Windows is distributed and updated by Microsoft Store. Mac uses the existing signed update channel.\n- macOS requires 14 or later on Apple Silicon, or 15.5 or later on Intel. Windows Computer Use remains unavailable.",
+  "assets": [
+    {
+      "name": "Pudding-0.5.0-arm64.dmg",
+      "size": 225158699,
+      "sha256": "27a2f249c1d3b42e5a6688f980851cc472f2c5a3228c4c7266451c7ac3fd4115"
+    },
+    {
+      "name": "Pudding-0.5.0-arm64.dmg.blockmap",
+      "size": 238957,
+      "sha256": "1071ebbc05db4c7a80428e37ec8072326839c2ebad097f1b7607e767310adc90"
+    },
+    {
+      "name": "Pudding-0.5.0-arm64.zip",
+      "size": 225303880,
+      "sha256": "b18a29862a071b1ff871863a16608320c20f96f6992d7162b767199bd2930499"
+    },
+    {
+      "name": "Pudding-0.5.0-arm64.zip.blockmap",
+      "size": 235564,
+      "sha256": "1a32626948a07e7eacda17988df563c37d20651989c0caca8a49dbc94fd5678c"
+    },
+    {
+      "name": "Pudding-0.5.0-x64.dmg",
+      "size": 229188497,
+      "sha256": "b6184daace23b954cc116462bff1fbc0c1bbb64436d0952b368846b4df1d2f6f"
+    },
+    {
+      "name": "Pudding-0.5.0-x64.dmg.blockmap",
+      "size": 241155,
+      "sha256": "563cce1e51acdd78d636cf4b089cd6e944afbf7da4a2a879bd12a539d6ae7168"
+    },
+    {
+      "name": "Pudding-0.5.0-x64.zip",
+      "size": 229439454,
+      "sha256": "86d6d3a6d18902407bee9b42d9aedf119160698cb1c8e2b88da94f3a750066b8"
+    },
+    {
+      "name": "Pudding-0.5.0-x64.zip.blockmap",
+      "size": 238949,
+      "sha256": "07bc2b515749e28f624c6ec47770f01b2c97cc3672070593b3ebd024d7324e94"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "1d021913de83a873a0599dd917bd7ddf6faa6af099f335bdf2f0be24179050cd"
+    }
+  ]
+}
