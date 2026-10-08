@@ -1,0 +1,130 @@
+{
+  "version": "0.5.0",
+  "desktop": "4dc4b376772b00ab0dc69602d6591456a3bf7dea",
+  "core": "1571c7bacc4aa7f9e2dd7b9e75329d0ef0f2011e",
+  "screenshotPlatform": "windows-arm64",
+  "demo": true,
+  "generatedAt": "2026-10-08T04:58:19.340Z",
+  "images": [
+    {
+      "locale": "en-us",
+      "file": "en-us/01-overview.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 429402,
+      "sha256": "3eba0a103e0a840aa0851493b1ecdf8445af8a77011f258ee5215c1aed34ebd8",
+      "sourceScreenshot": "pudding-0.5.0-overview-en.png",
+      "sourceSHA256": "c933ccfbb1d12412f8f6ec714bc424acf01940159c2bde1b6d40d02ff749fcc2",
+      "headline": [
+        "Turn ideas",
+        "into results"
+      ],
+      "caption": "Connect your preferred models and work with local projects in Pudding."
+    },
+    {
+      "locale": "en-us",
+      "file": "en-us/02-studio.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 343259,
+      "sha256": "020e5a07b8da7db4e6ddc784655d661b05990cdfc5cfc34f2f70910307b7cfa6",
+      "sourceScreenshot": "pudding-0.5.0-studio-en.png",
+      "sourceSHA256": "c984f118e04c4c86258af85783c5688fec3f5a48cfb1b5a518bb90eed855086c",
+      "headline": [
+        "From conversation",
+        "to creation"
+      ],
+      "caption": "Create and edit documents and spreadsheets in Studio, turning discussions into work you can refine."
+    },
+    {
+      "locale": "en-us",
+      "file": "en-us/03-local-projects.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 379745,
+      "sha256": "af6cf13998a11c241f062dede82fece30877b84bf8e7880f53f556383c346f86",
+      "sourceScreenshot": "pudding-0.5.0-projects-en.png",
+      "sourceSHA256": "378901cdb604467eea06120ec4b08f1622d775a38c981ee4f2cc61770fd1c94e",
+      "headline": [
+        "Bring your project",
+        "into the conversation"
+      ],
+      "caption": "Give your conversation context from local files and view project content alongside your chat."
+    },
+    {
+      "locale": "en-us",
+      "file": "en-us/04-scheduled-tasks.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 275944,
+      "sha256": "0abff85da6e9a49caaaf8c801d6a9c35b8583429479462dc207c2cf4c79873f3",
+      "sourceScreenshot": "pudding-0.5.0-tasks-en.png",
+      "sourceSHA256": "e43490ec9cf7680d7bddb26c4f00b6507a838899a0f688679ae22c34ee5f35c9",
+      "headline": [
+        "Put repeat work",
+        "on a schedule"
+      ],
+      "caption": "Schedule tasks and review their runs. Pudding must be running; model requests require an available connection."
+    },
+    {
+      "locale": "zh-cn",
+      "file": "zh-cn/01-overview.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 433064,
+      "sha256": "4fd9dbb526968d86a2d45a5f31aac921b8c226b45bb8aca2dff66f0d143a0756",
+      "sourceScreenshot": "pudding-0.5.0-overview-zh.png",
+      "sourceSHA256": "527d76372ba443a4a8ceee3f573f965b92ec57ad1b1335b7ab940e193611118a",
+      "headline": [
+        "把想法",
+        "变成成果"
+      ],
+      "caption": "在 Pudding 中连接自选模型，结合本地项目开展工作。"
+    },
+    {
+      "locale": "zh-cn",
+      "file": "zh-cn/02-studio.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 336273,
+      "sha256": "d51c3ce3c7ab906a869279842479be9f3b1493cbeffb8026b746748e1ce08263",
+      "sourceScreenshot": "pudding-0.5.0-studio-zh.png",
+      "sourceSHA256": "a058fc9b01f7a1d1f8bc5bec59435417f618f4b0e338994c172dc362af1ace21",
+      "headline": [
+        "从对话",
+        "到文档"
+      ],
+      "caption": "在 Studio 中创建和编辑文档、表格，把讨论整理成可继续修改的内容。"
+    },
+    {
+      "locale": "zh-cn",
+      "file": "zh-cn/03-local-projects.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 396653,
+      "sha256": "379c2d0231efc58ab90feefd6b9b46bd7b27361f110915613fc4982158f6375b",
+      "sourceScreenshot": "pudding-0.5.0-projects-zh.png",
+      "sourceSHA256": "39cb4969843f74705712ee017c7125fde5e2f8228a09af64ef40217dbe8df8e5",
+      "headline": [
+        "让 AI",
+        "理解你的项目"
+      ],
+      "caption": "结合本地项目文件理解上下文，在同一工作区查看对话和项目内容。"
+    },
+    {
+      "locale": "zh-cn",
+      "file": "zh-cn/04-scheduled-tasks.png",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 271329,
+      "sha256": "26b8652adcac300f15677628764f23cd6f9d4762c1490b711d33df2761cef0db",
+      "sourceScreenshot": "pudding-0.5.0-tasks-zh.png",
+      "sourceSHA256": "9a2e020087df9b6ceab0cbaf0b18749b440fcd10ba2c5a9677e6a28ac0089045",
+      "headline": [
+        "重复工作",
+        "交给定时任务"
+      ],
+      "caption": "安排定时任务并查看执行记录。任务执行需要 Pudding 运行，模型调用需要可用连接。"
+    }
+  ]
+}
