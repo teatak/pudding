@@ -11,7 +11,7 @@
 | 公开安装包、更新文件、可选运行资源 | `teatak/pudding` 的 GitHub Releases |
 | 已发布构建的来源与文件校验信息 | `teatak/pudding/releases/` |
 | 可公开的商店截图、文案、关键词和图片标题 | `teatak/pudding/assets/store/` |
-| 通用产品宣传素材、README 图片 | 现有 `teatak/pudding/assets/product/`、`assets/readme/` |
+| 通用产品宣传素材、README 图片 | 现有 `teatak/pudding/assets/readme/` |
 | 构建脚本、打包配置、验收报告、未公开提交包的归档记录 | 私有 `pudding-desktop` |
 | 官网代码、网页专用派生图片、宣传动画源码 | `teatak.com` |
 
@@ -49,7 +49,7 @@ assets/store/v<version>/YYYY-MM-DD/
     04-scheduled-tasks.png
 ```
 
-日期使用新加坡时区，同日多次修订追加 `-2`、`-3`。这是归档布局示例，不表示该修订已经提交或上架。既有 `assets/product/` 和 `assets/readme/` 不做无关的批量迁移。
+日期使用新加坡时区，同日多次修订追加 `-2`、`-3`。这是归档布局示例，不表示该修订已经提交或上架。既有 `assets/readme/` 不做无关的批量迁移。
 
 每个修订的 `README.md` 记录目标商店和产品 ID、对应构建清单、截图实际运行的程序版本/架构和 desktop/core 提交、捕获日期、演示内容说明，以及复用图片的原始来源。截图顺序以数字前缀固定；尺寸和图片 SHA-256 一并记录，便于核对上传文件。
 

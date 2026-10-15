@@ -30,4 +30,4 @@ README、产品介绍和宣传页面复用下列中英文 PNG。原图已经保�
 - 不覆盖已归档图片。日常发版继续沿用，只有用户明确要求时才制作或更换；新素材另建版本/日期修订。
 
 本目录原有 `workspace.png`、`models.png`、`studio.png`、`scheduled-tasks.png`、`plugins.png` 是早期 README 截图，
-保留供历史引用，不作为当前首页主图。Product Hunt 素材另见 [`assets/product/`](../product/README.md)。
+保留供历史引用，不作为当前首页主图。
