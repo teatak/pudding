@@ -9,8 +9,8 @@
   "storeUrl": "https://apps.microsoft.com/detail/9P0T8NV49C51",
   "submissionId": "1152921505702170783",
   "recordedAt": "2026-10-20",
-  "status": "candidate-validated",
-  "observedStage": "not-uploaded",
+  "status": "submitted-for-certification",
+  "observedStage": "preprocessing",
   "publishingMode": "manual",
   "signing": "Unsigned submission APPX files. Microsoft Store distributed packages are separately signed and have different hashes.",
   "distribution": "Microsoft Store only; submission packages are retained in private build archives, not direct user downloads.",
@@ -20,15 +20,16 @@
       "name": "Pudding-0.6.0-windows-x64.appx",
       "bytes": 263355634,
       "sha256": "0b53f0aa3c85bb26a83ca8caf77daef2b9e0a28cdf28a7934e8b7fb264e6bb9e",
-      "uploadValidation": "not-uploaded"
+      "uploadValidation": "Validated"
     },
     {
       "arch": "arm64",
       "name": "Pudding-0.6.0-windows-arm64.appx",
       "bytes": 257138251,
       "sha256": "576bfffa12000db0e780c1fd41ace8bdb45a6afa993a2e1a09941f897ade2969",
-      "uploadValidation": "not-uploaded"
+      "uploadValidation": "Validated"
     }
   ],
-  "storeAssets": "assets/store/v0.6.0/2026-10-20"
+  "storeAssets": "assets/store/v0.6.0/2026-10-20",
+  "statusConfirmedAt": "2026-10-20T02:16:03+08:00"
 }
