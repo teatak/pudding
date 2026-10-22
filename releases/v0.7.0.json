@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.7.0",
+  "tag": "v0.7.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.7.0",
+    "commit": "976ccfa116098d4eb960632fee8b81b395c8a604"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "dfffe57833f3bf36c71274cca101495feec46789"
+  },
+  "releaseNotes": "### Plugins and web tools\n\n- Choose plugin connections explicitly for each conversation, with clearer account details and isolation between conversations.\n- Configure Web Search & Fetch through standard plugin connections, including DeepSeek support and compatibility with existing settings.\n- Improve Google connection account details and keep saving credentials independent from selecting or enabling a provider.\n\n### Studio and Widgets\n\n- Improve Widget validation messages with localized, readable constraints and a unified error panel with expandable, copyable details.\n- Preserve Widget file exports and improve import/export progress, cancellation and failure feedback.\n- Share the active Widget connection and Studio context across split conversations without duplicating the content view.\n- Refine Studio navigation, favorites, localized names, floating menus and session selection.\n\n### Conversations and reliability\n\n- Improve context compaction, input preparation and retry behavior.\n- Simplify conversation progress and refresh tool presentation icons.\n\n### Upgrade notes\n\n- The local database upgrades from v47 to v48 with an automatic backup. Restore a matching backup before downgrading; older versions cannot open the upgraded database.\n- Conversations that require a plugin account now ask for an explicit connection selection rather than silently choosing one.\n- macOS requires 14 or later on Apple Silicon, or 15.5 or later on Intel.\n- Mac updates use the signed update channel. Windows availability is tracked separately through Microsoft Store acceptance, certification and rollout.",
+  "assets": [
+    {
+      "name": "Pudding-0.7.0-arm64.dmg",
+      "size": 230203201,
+      "sha256": "4d4e9281c53f8f795358ee7ff0b26b910e3d1dadb1ae0b941befb322e22d1e1e"
+    },
+    {
+      "name": "Pudding-0.7.0-arm64.dmg.blockmap",
+      "size": 242836,
+      "sha256": "d31dcf4eb0f055d68a4d9ed1dafae15d302fcf290d63200e16aa887464906251"
+    },
+    {
+      "name": "Pudding-0.7.0-arm64.zip",
+      "size": 229707694,
+      "sha256": "26feb7da5659239ae990e7b25e0ebc7023510ec4bcdd0dfdf14c27a34dea11f3"
+    },
+    {
+      "name": "Pudding-0.7.0-arm64.zip.blockmap",
+      "size": 242334,
+      "sha256": "cdd42eff66727b332ee533ff35ef7375696419580c7cd5f6e9d9186b2fb6a028"
+    },
+    {
+      "name": "Pudding-0.7.0-x64.dmg",
+      "size": 234303549,
+      "sha256": "d6ab3848d1e83c8395e320aa03d32cd55e605e56794ec2670b8e58d696e3de97"
+    },
+    {
+      "name": "Pudding-0.7.0-x64.dmg.blockmap",
+      "size": 246172,
+      "sha256": "4c477ffd23d4876973897b998a9dbe2869829bdbbe1bad46968e2060043e3556"
+    },
+    {
+      "name": "Pudding-0.7.0-x64.zip",
+      "size": 233898413,
+      "sha256": "409e571de155680fbaa1e24e53a680534aa3f6d2012faa9913ddbe95d0450d3f"
+    },
+    {
+      "name": "Pudding-0.7.0-x64.zip.blockmap",
+      "size": 244515,
+      "sha256": "ce51f2c25298428f532a52f3fab994acc6990725706660d98b06ed5924e88960"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 799,
+      "sha256": "ee407756ed55b92f3b900139224ee6bc9a63f6588480960d102437770517f080"
+    }
+  ]
+}
