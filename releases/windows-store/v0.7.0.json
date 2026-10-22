@@ -1,0 +1,42 @@
+{
+  "version": "0.7.0",
+  "channel": "windows-store",
+  "platform": "win32",
+  "desktopCommit": "81727019678fd6ccc419e1796398b40f279bc69a",
+  "coreCommit": "dfffe57833f3bf36c71274cca101495feec46789",
+  "build": "81727019-2171f677c43f",
+  "productId": "9P0T8NV49C51",
+  "storeUrl": "https://apps.microsoft.com/detail/9P0T8NV49C51",
+  "submissionId": "1152921505702199263",
+  "recordedAt": "2026-10-22",
+  "status": "submitted-for-certification",
+  "observedStage": "preprocessing",
+  "publishingMode": "automatic-after-certification",
+  "signing": "Unsigned submission APPX files. Microsoft Store distributed packages are separately signed and have different hashes.",
+  "distribution": "Microsoft Store only; submission packages are retained in private build archives, not direct user downloads.",
+  "validation": {
+    "x64Candidate": "passed",
+    "arm64Candidate": "passed",
+    "isolatedPackagedSmoke": "passed",
+    "syntheticPackagedDaemonUpgrade": "passed",
+    "liveStoreCrossVersionUpgrade": "deferred-to-next-version; not verified for 0.7.0"
+  },
+  "assets": [
+    {
+      "arch": "x64",
+      "name": "Pudding-0.7.0-windows-x64.appx",
+      "bytes": 263475911,
+      "sha256": "27627cc0c61d68e07819feebfc1b7a5db51f4cccba1c228fb39e40da83489e27",
+      "uploadValidation": "Validated"
+    },
+    {
+      "arch": "arm64",
+      "name": "Pudding-0.7.0-windows-arm64.appx",
+      "bytes": 257258408,
+      "sha256": "964afff4b41e7bb97221e6d90c245ff5d0c3fc0d7cf22b700459305ae00c6020",
+      "uploadValidation": "Validated"
+    }
+  ],
+  "storeAssets": "assets/store/v0.7.0/2026-10-22",
+  "statusConfirmedAt": "2026-10-22T08:34:20.131Z"
+}
