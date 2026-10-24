@@ -19,7 +19,7 @@
 
 ## 二进制与版本清单
 
-- DMG、EXE、ZIP、APPX、blockmap 等大文件不提交到 Git。公开下载文件作为 GitHub Release 附件；仅供商店提交的未签名 APPX 留在私有归档，不作为普通用户安装入口。Microsoft Store 用户使用商店链接安装和更新。
+- DMG、EXE、ZIP、APPX、blockmap 等大文件不提交到 Git。公开下载文件作为 GitHub Release 附件；仅供商店提交的未签名 APPX 留在私有归档，不作为普通用户安装入口。Windows 下载入口使用微软官方 Web Installer 直链（`https://get.microsoft.com/installer/download/9P0T8NV49C51`），运行时联网从 Microsoft Store 安装，后续更新由商店提供；保留商店页面作为备用入口。小安装程序由微软提供，不在本仓库或 GitHub Release 保存副本。
 - `dist/` 是临时构建输出，不是长期归档。需要保留的未公开二进制存入私有制品存储或备份，并在 desktop 发布记录中记录归档位置、文件名、字节数和 SHA-256；不把完整本机路径或内部访问凭据写入公开仓库。
 - 清单必须能定位每个构建的应用版本、渠道、平台、架构、准确 desktop/core 提交，以及文件名、字节数、SHA-256、签名和分发状态。沿用当前发布工具的文件命名，不重命名历史附件。
 - 现有 `releases/v<version>.json` 保持原格式和发布范围。如果相同应用版本在其他渠道使用不同源码构建，新增 `releases/<channel>/v<version>.json`，例如 `releases/windows-store/v<version>.json`，记录该渠道的真实来源；不得覆盖原清单，或让 Windows 包借用 Mac 构建的来源。同一构建只维护一份权威清单，其他记录引用它。
@@ -59,7 +59,7 @@ assets/store/v<version>/YYYY-MM-DD/
 
 ## 官网引用
 
-官网通过正式 GitHub Release、已有下载路由或 Microsoft Store 产品链接提供安装入口，不再维护安装包副本或独立版本清单。商店文案和截图以 `pudding` 的修订归档为准。
+官网通过正式 GitHub Release、已有下载路由或微软官方 Web Installer 直链提供安装入口（Microsoft Store 产品页面作为备用），不再维护安装包副本或独立版本清单。商店文案和截图以 `pudding` 的修订归档为准。
 
 网页必须随部署提供图片时，可以在 `teatak.com` 保存压缩、裁剪等派生文件，但要在对应素材说明中记录原始路径、修订和处理方式。宣传动画源码与网页专用设计继续在官网仓库维护；已有下载路由和更新源不因归档整理而更换。
 

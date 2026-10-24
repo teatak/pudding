@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9P0T8NV49C51"><strong>Get it for Windows</strong></a>
+  <a href="https://get.microsoft.com/installer/download/9P0T8NV49C51"><strong>Download for Windows</strong></a>
   · <a href="#download-and-install"><strong>Download for macOS</strong></a>
   · <a href="https://teatak.com/products/pudding/">Website</a>
   · <a href="https://github.com/teatak/pudding-core">Core source</a>
@@ -23,12 +23,13 @@
 
 | Platform | Requirements | Download |
 | --- | --- | --- |
-| Windows · x64 and ARM64 | Windows 10 build 19041 or later, including Windows 11 | [Microsoft Store](https://apps.microsoft.com/detail/9P0T8NV49C51) |
+| Windows · x64 and ARM64 | Windows 10 build 19041 or later, including Windows 11 | [Download installer](https://get.microsoft.com/installer/download/9P0T8NV49C51) |
 | macOS · Apple silicon | macOS 14.0 or later | [Download DMG](https://teatak.com/download/pudding/mac-arm64) |
 | macOS · Intel | macOS 15.5 or later | [Download DMG](https://teatak.com/download/pudding/mac-x64) |
 
-**Windows:** install from Microsoft Store, which selects the package for your device and handles updates. Windows
-releases are distributed through the Store, not as installers on GitHub.
+**Windows:** download the small installer from Microsoft, then run it with an internet connection. It downloads
+and installs the version currently available for your device from Microsoft Store, which also handles updates.
+You can also install from the [Microsoft Store page](https://apps.microsoft.com/detail/9P0T8NV49C51).
 
 **macOS:** open the DMG and drag **Pudding.app** into **Applications**. Official builds are signed and notarized by
 Apple. Pudding checks for updates in the background; you can also download the latest DMG from the links above.
@@ -117,7 +118,7 @@ This repository is the public distribution hub:
 ---
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9P0T8NV49C51"><strong>Windows · Microsoft Store</strong></a>
+  <a href="https://get.microsoft.com/installer/download/9P0T8NV49C51"><strong>Windows · Download</strong></a>
   · <a href="#download-and-install"><strong>macOS · Download</strong></a>
   · <a href="https://teatak.com/products/pudding/">teatak.com</a>
 </p>

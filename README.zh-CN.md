@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9P0T8NV49C51"><strong>下载 Windows 版</strong></a>
+  <a href="https://get.microsoft.com/installer/download/9P0T8NV49C51"><strong>下载 Windows 版</strong></a>
   · <a href="#下载与安装"><strong>下载 macOS 版</strong></a>
   · <a href="https://teatak.com/products/pudding/">官网</a>
   · <a href="https://github.com/teatak/pudding-core">核心源码</a>
@@ -23,11 +23,11 @@
 
 | 平台 | 系统要求 | 下载 |
 | --- | --- | --- |
-| Windows · x64 和 ARM64 | Windows 10 build 19041 及以上，包括 Windows 11 | [Microsoft Store](https://apps.microsoft.com/detail/9P0T8NV49C51) |
+| Windows · x64 和 ARM64 | Windows 10 build 19041 及以上，包括 Windows 11 | [下载安装程序](https://get.microsoft.com/installer/download/9P0T8NV49C51) |
 | macOS · Apple 芯片 | macOS 14.0 及以上 | [下载 DMG](https://teatak.com/download/pudding/mac-arm64) |
 | macOS · Intel | macOS 15.5 及以上 | [下载 DMG](https://teatak.com/download/pudding/mac-x64) |
 
-**Windows：** 从 Microsoft Store 安装，商店会选择适合设备架构的程序包并负责更新。Windows 版通过商店分发，不在 GitHub 提供安装器。
+**Windows：** 下载微软官方的小安装程序，联网运行后从 Microsoft Store 下载并安装适合设备的当前可用版本，后续更新仍由商店提供。也可以直接从 [Microsoft Store 页面](https://apps.microsoft.com/detail/9P0T8NV49C51)安装。
 
 **macOS：** 打开 DMG，将 **Pudding.app** 拖入“应用程序”。官方版本已签名并通过 Apple 公证。应用会在后台检查更新，也可使用上方链接下载最新 DMG。
 
@@ -106,7 +106,7 @@ Pudding 的本地 Agent 后端以 Apache-2.0 许可开源，位于 [`teatak/pudd
 ---
 
 <p align="center">
-  <a href="https://apps.microsoft.com/detail/9P0T8NV49C51"><strong>Windows · Microsoft Store</strong></a>
+  <a href="https://get.microsoft.com/installer/download/9P0T8NV49C51"><strong>Windows · 下载</strong></a>
   · <a href="#下载与安装"><strong>macOS · 下载</strong></a>
   · <a href="https://teatak.com/products/pudding/">teatak.com</a>
 </p>
