@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.8.2",
+  "tag": "v0.8.2",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.8.2",
+    "commit": "7667d8f144a4d20eac8297d88bce3438e5cd3c88"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "a7bc03ee28349d2d977857c7b416e22daf6628bd"
+  },
+  "releaseNotes": "### Widgets and external agents\n\n- Manage clipboard and system notification permissions separately for each Widget, with clearer permission prompts and settings.\n- Connect external MCP clients to discover and interact with Widgets, and explicitly join activities when requested.\n- Recover external participants after a transport reconnect, display self-reported model information and offline states, and remove or leave participants without discarding activity records.\n- Improve Widget interaction guidance, tool discovery and request cancellation.\n\n### Browser and workspace\n\n- Restore saved browser tabs on demand when selected or operated, reducing unnecessary page loading after a restart.\n- Preserve browser tab metadata and workspace state across complete application restarts.\n- Refine Studio controls and interaction feedback.\n\n### Upgrade notes\n\n- The database schema and platform requirements remain the same as 0.8.1.\n- Windows availability follows Microsoft Store certification and rollout separately from the Mac release.",
+  "assets": [
+    {
+      "name": "Pudding-0.8.2-arm64.dmg",
+      "size": 230665100,
+      "sha256": "1c60e05f64da5c0d506d8157b08cdd577a239e77f7f8dfbd2c2c7f5e99e8a94d"
+    },
+    {
+      "name": "Pudding-0.8.2-arm64.dmg.blockmap",
+      "size": 242862,
+      "sha256": "0174ab465759796d7075fa779129cbcb9f6b94a9ac5291c3b4a364d35f978618"
+    },
+    {
+      "name": "Pudding-0.8.2-arm64.zip",
+      "size": 230177406,
+      "sha256": "c7b732e90a184e610f19740b4e1587e02a4802847cbf19001037ac53ea63f813"
+    },
+    {
+      "name": "Pudding-0.8.2-arm64.zip.blockmap",
+      "size": 242363,
+      "sha256": "a6dae2b91d00ce19ccf88b1dccb6592a5dd0241185689b179336997e49a96898"
+    },
+    {
+      "name": "Pudding-0.8.2-x64.dmg",
+      "size": 234801520,
+      "sha256": "86875d121f97cbfd7947d7259de353ea4a9f65821625852b68d7e4a838c147e8"
+    },
+    {
+      "name": "Pudding-0.8.2-x64.dmg.blockmap",
+      "size": 248174,
+      "sha256": "2f37526cd699f9822a5524b65043c3c81d4a4021b0c90d115228c60bf3745d5c"
+    },
+    {
+      "name": "Pudding-0.8.2-x64.zip",
+      "size": 234381368,
+      "sha256": "077e6e051aa7471f32300d46901b3a43506198906f5455ea0b87d3e628217aa0"
+    },
+    {
+      "name": "Pudding-0.8.2-x64.zip.blockmap",
+      "size": 244654,
+      "sha256": "71192fbc9d8baebd2fcbd58aa0ebf7095393b5d59cc41f6c342d7ab3aa3482e5"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 840,
+      "sha256": "125e2409c6e7f13ff8552277ad002d877b3e83cfc58c14f80261030213f560cd"
+    }
+  ]
+}
