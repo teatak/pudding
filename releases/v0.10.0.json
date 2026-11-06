@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.10.0",
+  "tag": "v0.10.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.10.0",
+    "commit": "227d88d1d353fa3663d1d326d8998a613f6c2818"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "3febf370d64f7bec1f161188ccb5ea9cd847fb7b"
+  },
+  "releaseNotes": "### Conversations and projects\n\n- Browse conversation history with a turn outline, previews, and direct navigation to earlier turns.\n- Manage approved folders per conversation and review changes in a unified diff view.\n\n### Browser and context\n\n- Improve browser navigation and element interaction, including selection from native dropdowns.\n- Improve the handling of images in long conversations and compacted context.\n\n### Upgrade notes\n\n- This release uses Core protocol 63 and upgrades the database to schema 61. Keep the pre-upgrade backup if you need to return to an earlier version.\n- Windows availability follows Microsoft Store certification and rollout.",
+  "assets": [
+    {
+      "name": "Pudding-0.10.0-arm64.dmg",
+      "size": 232525156,
+      "sha256": "49c730b312296507c6077a2bbc5b54e6dbd948921903463d37a5ae9a5e6a2ca5"
+    },
+    {
+      "name": "Pudding-0.10.0-arm64.dmg.blockmap",
+      "size": 245529,
+      "sha256": "60e0972ba7731368a72eb7072c2a11fd8785c23148a0da26549e2d1a6c78f6e0"
+    },
+    {
+      "name": "Pudding-0.10.0-arm64.zip",
+      "size": 231945821,
+      "sha256": "9c8088e9d172e84999d4b6fb4b6dc0714d46ecb6117d797996366d6de3bc03d5"
+    },
+    {
+      "name": "Pudding-0.10.0-arm64.zip.blockmap",
+      "size": 244144,
+      "sha256": "10b473770356420538c53f08e4e25a30f49c1cfb2167e935f74d0163d03f9d53"
+    },
+    {
+      "name": "Pudding-0.10.0-x64.dmg",
+      "size": 236782686,
+      "sha256": "8f2de0639a61bd20380b80e2b2f9d48c5cba6301e4a58f3a18604513f61684ff"
+    },
+    {
+      "name": "Pudding-0.10.0-x64.dmg.blockmap",
+      "size": 249130,
+      "sha256": "c4bb97fded12af515166b7069bb5bbf10087dd4ba57603ed48d8db5b6030e988"
+    },
+    {
+      "name": "Pudding-0.10.0-x64.zip",
+      "size": 236244268,
+      "sha256": "c056b71f77f450cadb58bd221072fa7e890c69c35659f69efb6e352370affd35"
+    },
+    {
+      "name": "Pudding-0.10.0-x64.zip.blockmap",
+      "size": 246161,
+      "sha256": "42af43d715b77397c3f781b7768b638bc7ba037ac86e9971eee24e468d980aa3"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "0084a9a953e2bce5729b4734abc15de6f883a810c06d839705f17f7cd46816e4"
+    }
+  ]
+}
