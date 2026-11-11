@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.11.0",
+  "tag": "v0.11.0",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.11.0",
+    "commit": "a698c155ff5bff8dc92611722a729598f5317932"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "eae1c48f604187441de9606a5ebde41dd2b8051f"
+  },
+  "releaseNotes": "### Built-in browser\n\n- On supported Macs, use Touch ID with passkeys you register in Pudding's built-in browser.\n- Handle web alerts, confirmations, and prompts. Browser actions can target frames and popups, hover over elements, and wait for page changes.\n\n### Conversations and widgets\n\n- Browse conversation activity and earlier turns with a simpler activity rail, improved previews, and smoother scrolling.\n- Develop widgets from a local folder with live reload and keep the last working preview while fixing a source error.\n- See tool output text by default. You can turn it off in settings.",
+  "assets": [
+    {
+      "name": "Pudding-0.11.0-arm64.dmg",
+      "size": 232541923,
+      "sha256": "954c88236af929808d074493a4dc25fcd510d0783cf7fe005f34f56dbda2aa12"
+    },
+    {
+      "name": "Pudding-0.11.0-arm64.dmg.blockmap",
+      "size": 245439,
+      "sha256": "1ed3b2e24479f91225ba067e1fa6fedda4b8f272e0748f782e0178076f70bf99"
+    },
+    {
+      "name": "Pudding-0.11.0-arm64.zip",
+      "size": 231997724,
+      "sha256": "6ea8b2797b3df263d0a393b9160deb06f5b8a0a2f54fe2f1153bd5095053eedd"
+    },
+    {
+      "name": "Pudding-0.11.0-arm64.zip.blockmap",
+      "size": 244195,
+      "sha256": "b88a475beba147731438064ab3ff421a68db225b15c6200ec63349671d434c2a"
+    },
+    {
+      "name": "Pudding-0.11.0-x64.dmg",
+      "size": 236787799,
+      "sha256": "a53b4eccaad732ab049385b744e68f67395774d4d282ade852df65457bf2be6a"
+    },
+    {
+      "name": "Pudding-0.11.0-x64.dmg.blockmap",
+      "size": 249509,
+      "sha256": "809c0a1fa94bb8f94fb53b34b905b487e4cfa391835c71107e30174d67c6f8bb"
+    },
+    {
+      "name": "Pudding-0.11.0-x64.zip",
+      "size": 236302017,
+      "sha256": "6031d60935913dfa1fcacf349d7687357d2b64a062041f3fbc54d1b97e8cf973"
+    },
+    {
+      "name": "Pudding-0.11.0-x64.zip.blockmap",
+      "size": 246501,
+      "sha256": "fb1352879658e27fac65129ff1d1d8a0aaf76de04076f0b5baeb3b2123979039"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "72a594b8697dd68a24a2f5960acf9bb3ff8663a3cd200374a0f6cf06a076f147"
+    }
+  ]
+}
