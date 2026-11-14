@@ -2,17 +2,27 @@
   "version": 1,
   "items": [
     {
-      "id": "camera_canvas_scene",
-      "capabilities": ["camera", "canvas"],
+      "id": "weekly_planner",
+      "capabilities": ["sheet"],
       "labels": {
-        "zh-CN": "拍张照，放到画布上",
-        "zh-TW": "拍張照，放到畫布上",
-        "en": "Take a photo and put it on the canvas"
+        "zh-CN": "创建一周计划表",
+        "zh-TW": "建立一週計畫表",
+        "en": "Create a weekly planner",
+        "ja": "週間予定表を作る",
+        "ko": "주간 계획표 만들기",
+        "es": "Crear un plan semanal",
+        "de": "Einen Wochenplan erstellen",
+        "fr": "Créer un planning hebdomadaire"
       },
       "prompts": {
-        "zh-CN": "调用相机拍一张照片，识别画面里的主要对象和场景，并把照片放到画布上。",
-        "zh-TW": "呼叫相機拍一張照片，識別畫面裡的主要物件和場景，並把照片放到畫布上。",
-        "en": "Take a photo with the camera, identify the main objects and scene, and place the photo on the canvas."
+        "zh-CN": "在 Studio 创建一张名为「一周计划」的可编辑表格，包含「星期」「任务」「备注」三列。为周一到周日各建一行，任务和备注留空。",
+        "zh-TW": "在 Studio 建立一張名為「一週計畫」的可編輯表格，包含「星期」「任務」「備註」三欄。星期一到星期日各建一列，任務和備註留白。",
+        "en": "Create an editable Studio sheet named Weekly Planner with Day, Tasks, and Notes columns. Add one row for each day from Monday to Sunday and leave Tasks and Notes blank.",
+        "ja": "Studio で「週間予定表」という編集可能なシートを作成し、曜日・タスク・メモの3列を用意してください。月曜から日曜まで1行ずつ追加し、タスクとメモは空欄にしてください。",
+        "ko": "Studio에서 요일, 할 일, 메모 열이 있는 편집 가능한 ‘주간 계획표’를 만들어 주세요. 월요일부터 일요일까지 한 행씩 추가하고 할 일과 메모는 비워 두세요.",
+        "es": "Crea una hoja editable en Studio llamada Plan semanal con las columnas Día, Tareas y Notas. Añade una fila por cada día, de lunes a domingo, y deja Tareas y Notas en blanco.",
+        "de": "Erstelle in Studio eine bearbeitbare Tabelle namens Wochenplan mit den Spalten Wochentag, Aufgaben und Notizen. Füge für jeden Tag von Montag bis Sonntag eine Zeile hinzu und lass Aufgaben und Notizen leer.",
+        "fr": "Crée dans Studio un tableau modifiable nommé Planning hebdomadaire, avec les colonnes Jour, Tâches et Notes. Ajoute une ligne par jour, du lundi au dimanche, et laisse les colonnes Tâches et Notes vides."
       }
     },
     {
