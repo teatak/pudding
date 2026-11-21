@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.12.1",
+  "tag": "v0.12.1",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.12.1",
+    "commit": "c27c1363a51aafc65d12d412c190768e42adf509"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "f1d397c3f869b771d17b0ec5df256ce9c0dadb5a"
+  },
+  "releaseNotes": "### Model settings\n\n- Fixed a performance issue that could make Settings unresponsive when adding a custom model provider or editing an existing provider.",
+  "assets": [
+    {
+      "name": "Pudding-0.12.1-arm64.dmg",
+      "size": 229041232,
+      "sha256": "f6ad97d05de7e970a34cfd255da625b4adad88d3adb381a73deb6bba4939e75b"
+    },
+    {
+      "name": "Pudding-0.12.1-arm64.dmg.blockmap",
+      "size": 240613,
+      "sha256": "4332bd568f9d8dd1c2688cb0fc066f0d10ecf757de651018aebfd704b521df1b"
+    },
+    {
+      "name": "Pudding-0.12.1-arm64.zip",
+      "size": 228477239,
+      "sha256": "bd8fa4a2b33c306427a65d99d276b4dd0100a8633818c3592bd48579f6c2baaf"
+    },
+    {
+      "name": "Pudding-0.12.1-arm64.zip.blockmap",
+      "size": 239900,
+      "sha256": "d821b4882714c93acadd23c0b12efa55f5fba97a221eafb3cd0b44454e500660"
+    },
+    {
+      "name": "Pudding-0.12.1-x64.dmg",
+      "size": 240016844,
+      "sha256": "4104f10161bdc48aebc3705027fbac63283e2a5229ce6caa88f9f8cb65393dc4"
+    },
+    {
+      "name": "Pudding-0.12.1-x64.dmg.blockmap",
+      "size": 252494,
+      "sha256": "44769add0d975679fbf2867ac48c0d73981e0ee47346c309ce78f51ed2a02cdb"
+    },
+    {
+      "name": "Pudding-0.12.1-x64.zip",
+      "size": 239509325,
+      "sha256": "d6d4e1a6f6c08c593b7f45b8f0751022327432e8a86c81a6caa1033dda4a41e0"
+    },
+    {
+      "name": "Pudding-0.12.1-x64.zip.blockmap",
+      "size": 249268,
+      "sha256": "4ec48a60a56af62d911f56aada284d7c46466ec13ec6541790397c62ead8afea"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "cec848659c4e0d034648b02c1f85e8130453196313d4d3ebafe8fc11bf39ff41"
+    }
+  ]
+}
