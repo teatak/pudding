@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.13.2",
+  "tag": "v0.13.2",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.13.2",
+    "commit": "5ad4f59c0f5f50ac6b08ac327d82e022d58a538d"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "9716e9d6bfbb48218332104d24d4b09d92e4b8f2"
+  },
+  "releaseNotes": "### External agents\n\n- A setup guide walks you through connecting an external agent to a Pudding conversation. You can hand the conversation to another agent after the current task finishes.\n- Pudding shows when an external agent is working. You can stop it from the conversation.\n- Agents can load widget instructions as needed. In long conversations, Pudding keeps older tool output and screenshots available to retrieve while using shorter references in the model context.\n\n### Long conversations and settings\n\n- Pudding can summarize a long conversation in batches when the history no longer fits in a single summary request.\n- Pudding asks before you leave assistant settings with unsaved changes.",
+  "assets": [
+    {
+      "name": "Pudding-0.13.2-arm64.dmg",
+      "size": 229110999,
+      "sha256": "53d748f35f3af0dff82bb3d5c89c99826d05572231789213ad05e5eb373c2cc7"
+    },
+    {
+      "name": "Pudding-0.13.2-arm64.dmg.blockmap",
+      "size": 241887,
+      "sha256": "a2e26cfb3580c80257f9e8ab7a35594613ec5db64be9cbc0789ff5bc3e970c2c"
+    },
+    {
+      "name": "Pudding-0.13.2-arm64.zip",
+      "size": 228615266,
+      "sha256": "be54f95537cf2a8a5a539588a9bfec40d3be93b64001e89b09c7a7ee798f977c"
+    },
+    {
+      "name": "Pudding-0.13.2-arm64.zip.blockmap",
+      "size": 239904,
+      "sha256": "d04a9cc21787f1224858420708839aacc018d6aebe61548577c144e47db96397"
+    },
+    {
+      "name": "Pudding-0.13.2-x64.dmg",
+      "size": 240169538,
+      "sha256": "2351ee96d6d316e57e31e4352107ad4aaa68abf370e3df0c6d546d400b809ddf"
+    },
+    {
+      "name": "Pudding-0.13.2-x64.dmg.blockmap",
+      "size": 250640,
+      "sha256": "403dea2804df154d89e240f20797ef7ac70f514dbed3aa18001fcc77ba68a892"
+    },
+    {
+      "name": "Pudding-0.13.2-x64.zip",
+      "size": 239659724,
+      "sha256": "93c94582dd66b01e720740be1e0f2b766f49eb5081c89c11df9687353c60ee05"
+    },
+    {
+      "name": "Pudding-0.13.2-x64.zip.blockmap",
+      "size": 248867,
+      "sha256": "7c77e900fea4a69aca6499876cc3a76ca4993d96eef6ed9382d497eacacda8f7"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "ae92ef8ed92106bb9ad2e3393930ca67ad49b6126ec8ae414516c4fef0698bc6"
+    }
+  ]
+}
