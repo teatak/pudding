@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.14.1",
+  "tag": "v0.14.1",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.14.1",
+    "commit": "d86bfcff41d569ba9ba73933dc4642e60980e456"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "be103c1f8c538831912eea65a38b47234c578962"
+  },
+  "releaseNotes": "### Antigravity\n\n- Send follow-up instructions while Antigravity is working. If it is waiting for your approval, the instruction stays queued so you can send it after approving.\n- When you switch to Antigravity, it can pick up recent conversation history automatically. The conversation shows when Antigravity starts a new context.\n- Check your remaining Antigravity quota and reset times in the model picker with a supported CLI version.\n\n### Conversation and coding tools\n\n- Follow active work more easily in the conversation and expand long lists of changed files.\n- See clearer previews of command output and open the right files from project search results.",
+  "assets": [
+    {
+      "name": "Pudding-0.14.1-arm64.dmg",
+      "size": 229346214,
+      "sha256": "3fc0a307a13e205a4cf5255720efb2996ebaaac45c5ef45a2611deae38d1095a"
+    },
+    {
+      "name": "Pudding-0.14.1-arm64.dmg.blockmap",
+      "size": 243325,
+      "sha256": "95731f83fafb45dd686de2a37590b2dbc4a4108934778a187b1f256e2240ad73"
+    },
+    {
+      "name": "Pudding-0.14.1-arm64.zip",
+      "size": 228825821,
+      "sha256": "b9c1ab54eb4e9c612d8e78b826d74b3753c56345106d2e0936113960677de40f"
+    },
+    {
+      "name": "Pudding-0.14.1-arm64.zip.blockmap",
+      "size": 240653,
+      "sha256": "0137df594a21239132e99dc2fb7a1a9e7bed6e90562ceb02ffd863370a89937b"
+    },
+    {
+      "name": "Pudding-0.14.1-x64.dmg",
+      "size": 240360600,
+      "sha256": "969fb91d0eade7650a5d268d305a729ab40c5f3224936c9b8bb8186c641f1ae8"
+    },
+    {
+      "name": "Pudding-0.14.1-x64.dmg.blockmap",
+      "size": 252087,
+      "sha256": "3bb7e58282666d55eff834bad56e26e14ddb8746ab31a8743f859b51955da156"
+    },
+    {
+      "name": "Pudding-0.14.1-x64.zip",
+      "size": 239884397,
+      "sha256": "730a748769445bf26fa478874bda46839c62ba927cbefb84066117cbe8514d3c"
+    },
+    {
+      "name": "Pudding-0.14.1-x64.zip.blockmap",
+      "size": 249547,
+      "sha256": "26ebb245868f6d9788b331596c3e4c28029f3fe1557da099533181d719e7785b"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "a8969a8da759be509e5c1e60475b25faea8ba2c1bce148347a69c3683a0d109f"
+    }
+  ]
+}
