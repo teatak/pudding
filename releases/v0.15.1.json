@@ -1,0 +1,63 @@
+{
+  "formatVersion": 2,
+  "version": "0.15.1",
+  "tag": "v0.15.1",
+  "channel": "stable",
+  "source": {
+    "repository": "teatak/pudding-desktop",
+    "tag": "v0.15.1",
+    "commit": "2e5c648464bd152581f6a3d0da554ad90be36a98"
+  },
+  "core": {
+    "repository": "teatak/pudding-core",
+    "commit": "7502f73846a4f11ba8cad0aab9668143c8aff6c0"
+  },
+  "releaseNotes": "### Remote access\n\n- On a Mac, the LAN pairing QR code can use the computer's local hostname. If your browser cannot resolve the name, switch to the IP address in the pairing dialog.\n- The Remote Access settings show the current LAN address and make it easier to retry failed requests.\n\n### Conversations\n\n- The selected reasoning level appears as a badge in the model picker.\n- Conversation history, archived conversations, and request retry feedback have been refined.",
+  "assets": [
+    {
+      "name": "Pudding-0.15.1-arm64.dmg",
+      "size": 229360984,
+      "sha256": "1e35e10e1987f313e1004fb56d325afd068677ec9d830449e2bc8dc412d83ed6"
+    },
+    {
+      "name": "Pudding-0.15.1-arm64.dmg.blockmap",
+      "size": 242687,
+      "sha256": "e020e1566c36e6869337f553bed491306c74ee223da71f224876dacf37a9f082"
+    },
+    {
+      "name": "Pudding-0.15.1-arm64.zip",
+      "size": 228849755,
+      "sha256": "95a129b5a89838f345ae2845db98595249bd902db2c3a830a2411cea08e4f48a"
+    },
+    {
+      "name": "Pudding-0.15.1-arm64.zip.blockmap",
+      "size": 241084,
+      "sha256": "3f0b6274216dd9da27fd08ab69a67fa0e740efb0ea9bba137b4635b7d8836605"
+    },
+    {
+      "name": "Pudding-0.15.1-x64.dmg",
+      "size": 240431419,
+      "sha256": "bed3c72c80cab23b47421908e3253174ec02ea5df727e6466061fd6721fb51e6"
+    },
+    {
+      "name": "Pudding-0.15.1-x64.dmg.blockmap",
+      "size": 251462,
+      "sha256": "f8c9c14e60154ef33329501a59d6cdd45707775b162875b87609f980eed4e82d"
+    },
+    {
+      "name": "Pudding-0.15.1-x64.zip",
+      "size": 239913564,
+      "sha256": "fa52fba48f59cbfde443589d0e0f1691de0e54e177f28ba3392ed8b14c783331"
+    },
+    {
+      "name": "Pudding-0.15.1-x64.zip.blockmap",
+      "size": 249856,
+      "sha256": "581af465d468ea0042a7a80e598343d10882ebdb9dc0ac32b6c1382c04cc3c8e"
+    },
+    {
+      "name": "latest-mac.yml",
+      "size": 846,
+      "sha256": "996d0d50be1cd5a34f6cb1648c87f88f216b402c47aae3b43121f176650e0b28"
+    }
+  ]
+}
